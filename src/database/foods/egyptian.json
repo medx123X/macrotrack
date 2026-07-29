@@ -688,28 +688,11 @@
     }
   },
   {
-    "id": "qatayef",
-    "name": "Qatayef",
-    "cat": "Egyptian",
-    "emoji": "\ud83e\udd5e",
-    "imageUrl": "",
-    "defaultServingLabel": "2 pieces",
-    "defaultServingGrams": 90,
-    "basePer100g": {
-      "kcal": 289,
-      "protein": 5.6,
-      "carbs": 37.8,
-      "fat": 13.3,
-      "fiber": 1.1,
-      "sugar": 17.8
-    }
-  },
-  {
     "id": "mombar",
     "name": "Mombar (Stuffed Sausage)",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf2d",
-    "imageUrl": "",
+    "imageUrl": "https://i.pinimg.com/736x/ae/c3/ff/aec3ff0e9bbaf2376322073d06f23eea.jpg",
     "defaultServingLabel": "2 pieces",
     "defaultServingGrams": 150,
     "basePer100g": {
@@ -726,7 +709,7 @@
     "name": "Plain White Rice (side)",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf5a",
-    "imageUrl": "",
+    "imageUrl": "https://i.pinimg.com/vwebp/736x/25/88/08/258808d07cb81deb5f3b03e446519af6.webp",
     "defaultServingLabel": "1/2 cup",
     "defaultServingGrams": 90,
     "basePer100g": {
@@ -743,7 +726,7 @@
     "name": "Sudani (Roasted Peanuts) Egyptian style",
     "cat": "Egyptian",
     "emoji": "\ud83e\udd5c",
-    "imageUrl": "",
+    "imageUrl": "https://i.pinimg.com/1200x/29/1b/3e/291b3e21da800eba78eb4430ba108536.jpg",
     "defaultServingLabel": "30g",
     "defaultServingGrams": 30,
     "basePer100g": {
@@ -760,7 +743,7 @@
     "name": "Termes (Lupini Beans)",
     "cat": "Egyptian",
     "emoji": "\ud83e\uded8",
-    "imageUrl": "",
+    "imageUrl": "https://i.pinimg.com/1200x/35/b1/6a/35b16a520f5cb0c68f6eb80b5fdab1ac.jpg",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 150,
     "basePer100g": {
@@ -777,7 +760,7 @@
     "name": "Egyptian Couscous with Vegetables",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf72",
-    "imageUrl": "",
+    "imageUrl": "https://i.pinimg.com/1200x/ae/f5/48/aef548107d66cecc24d89623d7f3d7af.jpg",
     "defaultServingLabel": "1 bowl",
     "defaultServingGrams": 280,
     "basePer100g": {
@@ -794,7 +777,7 @@
     "name": "Konafa bel Gebna",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf70",
-    "imageUrl": "",
+    "imageUrl": "https://i.pinimg.com/736x/99/c1/22/99c1223c4f1404939f59484bed75f7f2.jpg",
     "defaultServingLabel": "1 piece",
     "defaultServingGrams": 110,
     "basePer100g": {
