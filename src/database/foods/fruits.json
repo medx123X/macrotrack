@@ -3,7 +3,7 @@
     "id": "banana",
     "name": "Banana",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf4c",
+    "emoji": "🍌",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 118,
     "basePer100g": {
@@ -13,13 +13,14 @@
       "fat": 0.3,
       "fiber": 2.6,
       "sugar": 11.9
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1587132137056-bfbf0166836e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QmFuYW5hfGVufDB8fHx8MTc4NTMzNzc1MHww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "apple",
     "name": "Apple",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf4e",
+    "emoji": "🍎",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 182,
     "basePer100g": {
@@ -29,13 +30,14 @@
       "fat": 0.2,
       "fiber": 2.4,
       "sugar": 10.4
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1630563451961-ac2ff27616ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QXBwbGV8ZW58MHx8fHwxNzg1MzM3NzUxfDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "orange",
     "name": "Orange",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf4a",
+    "emoji": "🍊",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 131,
     "basePer100g": {
@@ -45,13 +47,14 @@
       "fat": 0.2,
       "fiber": 2.4,
       "sugar": 9.2
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8T3JhbmdlfGVufDB8fHx8MTc4NTMzNzc1Mnww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "mango",
     "name": "Mango",
     "cat": "Fruits",
-    "emoji": "\ud83e\udd6d",
+    "emoji": "🥭",
     "defaultServingLabel": "1 cup sliced",
     "defaultServingGrams": 165,
     "basePer100g": {
@@ -61,13 +64,14 @@
       "fat": 0.4,
       "fiber": 1.6,
       "sugar": 13.9
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1732472581875-89ff83f18439?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TWFuZ298ZW58MHx8fHwxNzg1MzM3NzUzfDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "watermelon",
     "name": "Watermelon",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf49",
+    "emoji": "🍉",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 152,
     "basePer100g": {
@@ -77,13 +81,14 @@
       "fat": 0.1,
       "fiber": 0.4,
       "sugar": 6.2
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8V2F0ZXJtZWxvbnxlbnwwfHx8fDE3ODUzMzc3NTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "guava",
     "name": "Guava",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf48",
+    "emoji": "🍈",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 55,
     "basePer100g": {
@@ -93,13 +98,14 @@
       "fat": 0.9,
       "fiber": 5.5,
       "sugar": 9.1
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1693399991519-bef70bed19a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8R3VhdmF8ZW58MHx8fHwxNzg1MzM3NzU1fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "strawberries",
     "name": "Strawberries",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf53",
+    "emoji": "🍓",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 152,
     "basePer100g": {
@@ -107,15 +113,16 @@
       "protein": 0.7,
       "carbs": 7.9,
       "fat": 0.3,
-      "fiber": 2.0,
+      "fiber": 2,
       "sugar": 4.6
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U3RyYXdiZXJyaWVzfGVufDB8fHx8MTc4NTMzNzc1Nnww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "grapes",
     "name": "Grapes",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf47",
+    "emoji": "🍇",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 151,
     "basePer100g": {
@@ -125,13 +132,14 @@
       "fat": 0.1,
       "fiber": 0.9,
       "sugar": 15.2
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1596363505729-4190a9506133?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8R3JhcGVzfGVufDB8fHx8MTc4NTMzNzc1N3ww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "pear",
     "name": "Pear",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf50",
+    "emoji": "🍐",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 178,
     "basePer100g": {
@@ -141,13 +149,14 @@
       "fat": 0.1,
       "fiber": 3.1,
       "sugar": 9.6
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1615484477778-ca3b77940c25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UGVhcnxlbnwwfHx8fDE3ODUzMzc3NTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "peach",
     "name": "Peach",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf51",
+    "emoji": "🍑",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 150,
     "basePer100g": {
@@ -157,13 +166,14 @@
       "fat": 0.3,
       "fiber": 1.5,
       "sugar": 8.7
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1629828874514-c1e5103f2150?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UGVhY2h8ZW58MHx8fHwxNzg1MzM3NzU5fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "plum",
     "name": "Plum",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf51",
+    "emoji": "🍑",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 66,
     "basePer100g": {
@@ -173,13 +183,14 @@
       "fat": 0.3,
       "fiber": 1.4,
       "sugar": 10.6
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1564750497011-ead0ce4b9448?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UGx1bXxlbnwwfHx8fDE3ODUzMzc3NjB8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "kiwi",
     "name": "Kiwi",
     "cat": "Fruits",
-    "emoji": "\ud83e\udd5d",
+    "emoji": "🥝",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 76,
     "basePer100g": {
@@ -189,13 +200,14 @@
       "fat": 0.5,
       "fiber": 2.8,
       "sugar": 7.9
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1679065103638-7360cb935fac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8S2l3aXxlbnwwfHx8fDE3ODUzMzc3NjF8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "pineapple",
     "name": "Pineapple",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf4d",
+    "emoji": "🍍",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 165,
     "basePer100g": {
@@ -205,29 +217,31 @@
       "fat": 0.1,
       "fiber": 1.4,
       "sugar": 9.7
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1589820296156-2454bb8a6ad1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UGluZWFwcGxlfGVufDB8fHx8MTc4NTMzNzc2M3ww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "figs",
     "name": "Figs",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf48",
+    "emoji": "🍈",
     "defaultServingLabel": "2 medium",
     "defaultServingGrams": 100,
     "basePer100g": {
       "kcal": 74,
       "protein": 0.8,
-      "carbs": 19.0,
+      "carbs": 19,
       "fat": 0.3,
       "fiber": 2.9,
-      "sugar": 16.0
-    }
+      "sugar": 16
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1635341814161-d696d538542c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Rmlnc3xlbnwwfHx8fDE3ODUzMzc3NjN8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "apricot",
     "name": "Apricot",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf51",
+    "emoji": "🍑",
     "defaultServingLabel": "3 medium",
     "defaultServingGrams": 105,
     "basePer100g": {
@@ -235,15 +249,16 @@
       "protein": 1.4,
       "carbs": 11.4,
       "fat": 0.4,
-      "fiber": 2.0,
+      "fiber": 2,
       "sugar": 9.5
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1592681814168-6df0fa93161b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QXByaWNvdHxlbnwwfHx8fDE3ODUzMzc3NjV8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "pomegranate",
     "name": "Pomegranate",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf4e",
+    "emoji": "🍎",
     "defaultServingLabel": "1/2 cup arils",
     "defaultServingGrams": 87,
     "basePer100g": {
@@ -251,31 +266,33 @@
       "protein": 1.7,
       "carbs": 18.4,
       "fat": 1.1,
-      "fiber": 4.0,
+      "fiber": 4,
       "sugar": 13.8
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1574709755254-fcd942d09d5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UG9tZWdyYW5hdGV8ZW58MHx8fHwxNzg1MzM3NzY2fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "cherries",
     "name": "Cherries",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf52",
+    "emoji": "🍒",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 154,
     "basePer100g": {
       "kcal": 63,
-      "protein": 1.0,
+      "protein": 1,
       "carbs": 16.2,
       "fat": 0.2,
       "fiber": 2.1,
-      "sugar": 13.0
-    }
+      "sugar": 13
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1551829142-d9b8cf2c9232?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2hlcnJpZXN8ZW58MHx8fHwxNzg1MzM3NzY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "blueberries",
     "name": "Blueberries",
     "cat": "Fruits",
-    "emoji": "\ud83e\uded0",
+    "emoji": "🫐",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 148,
     "basePer100g": {
@@ -285,13 +302,14 @@
       "fat": 0.3,
       "fiber": 2.4,
       "sugar": 10.1
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1594002348772-bc0cb57ade8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Qmx1ZWJlcnJpZXN8ZW58MHx8fHwxNzg1MzM3NzY4fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "cantaloupe",
     "name": "Cantaloupe",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf48",
+    "emoji": "🍈",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 160,
     "basePer100g": {
@@ -301,77 +319,82 @@
       "fat": 0.2,
       "fiber": 0.9,
       "sugar": 7.5
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1638865553538-2434be4c62bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2FudGFsb3VwZXxlbnwwfHx8fDE3ODUzMzc3Njl8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "lemon",
     "name": "Lemon",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf4b",
+    "emoji": "🍋",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 58,
     "basePer100g": {
       "kcal": 29,
-      "protein": 1.0,
+      "protein": 1,
       "carbs": 9.3,
       "fat": 0.3,
       "fiber": 2.8,
       "sugar": 2.6
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/flagged/photo-1587302164675-820fe61bbd55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TGVtb258ZW58MHx8fHwxNzg1MzM3NzcwfDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "avocado",
     "name": "Avocado",
     "cat": "Fruits",
-    "emoji": "\ud83e\udd51",
+    "emoji": "🥑",
     "defaultServingLabel": "1/2 medium",
     "defaultServingGrams": 100,
     "basePer100g": {
       "kcal": 160,
-      "protein": 2.0,
+      "protein": 2,
       "carbs": 8.5,
-      "fat": 15.0,
+      "fat": 15,
       "fiber": 6.7,
       "sugar": 0.7
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1519162808019-7de1683fa2ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QXZvY2Fkb3xlbnwwfHx8fDE3ODUzMzc3NzF8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "prickly-pear",
     "name": "Prickly Pear (Teen Shoky)",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf35",
+    "emoji": "🌵",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 100,
     "basePer100g": {
       "kcal": 41,
       "protein": 0.7,
-      "carbs": 10.0,
+      "carbs": 10,
       "fat": 0.5,
       "fiber": 3.7,
-      "sugar": 7.0
-    }
+      "sugar": 7
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1670240737084-df8dd280032a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UHJpY2tseSUyMFBlYXJ8ZW58MHx8fHwxNzg1MzM3NzcyfDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "papaya",
     "name": "Papaya",
     "cat": "Fruits",
-    "emoji": "\ud83e\udd6d",
+    "emoji": "🥭",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 145,
     "basePer100g": {
       "kcal": 43,
       "protein": 0.5,
-      "carbs": 11.0,
+      "carbs": 11,
       "fat": 0.3,
       "fiber": 1.7,
       "sugar": 7.6
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1526318472351-c75fcf070305?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UGFwYXlhfGVufDB8fHx8MTc4NTMzNzc3M3ww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "raspberries",
     "name": "Raspberries",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf53",
+    "emoji": "🍓",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 123,
     "basePer100g": {
@@ -381,13 +404,14 @@
       "fat": 0.7,
       "fiber": 6.5,
       "sugar": 4.4
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1577069861033-55d04cec4ef5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UmFzcGJlcnJpZXN8ZW58MHx8fHwxNzg1MzM3Nzc1fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "blackberries",
     "name": "Blackberries",
     "cat": "Fruits",
-    "emoji": "\ud83e\uded0",
+    "emoji": "🫐",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 144,
     "basePer100g": {
@@ -397,13 +421,14 @@
       "fat": 0.3,
       "fiber": 5.3,
       "sugar": 4.9
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1723580892175-2e267106c089?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QmxhY2tiZXJyaWVzfGVufDB8fHx8MTc4NTMzNzc3Nnww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "dragon-fruit",
     "name": "Dragon Fruit",
     "cat": "Fruits",
-    "emoji": "\ud83d\udc09",
+    "emoji": "🐉",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 170,
     "basePer100g": {
@@ -413,13 +438,14 @@
       "fat": 0.3,
       "fiber": 1.8,
       "sugar": 7.6
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1517282009859-f000ec3b26fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RHJhZ29uJTIwRnJ1aXR8ZW58MHx8fHwxNzg1MzM3Nzc3fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "tangerine",
     "name": "Tangerine",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf4a",
+    "emoji": "🍊",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 88,
     "basePer100g": {
@@ -429,13 +455,14 @@
       "fat": 0.2,
       "fiber": 1.8,
       "sugar": 10.7
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8VGFuZ2VyaW5lfGVufDB8fHx8MTc4NTMzNzc3OHww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "dried-apricot",
     "name": "Dried Apricots (6)",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf51",
+    "emoji": "🍑",
     "defaultServingLabel": "6 pieces",
     "defaultServingGrams": 30,
     "basePer100g": {
@@ -445,45 +472,48 @@
       "fat": 0.7,
       "fiber": 8.3,
       "sugar": 56.7
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1595412017587-b7f3117dff54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RHJpZWQlMjBBcHJpY290c3xlbnwwfHx8fDE3ODUzMzc3ODB8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "raisins",
     "name": "Raisins",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf47",
+    "emoji": "🍇",
     "defaultServingLabel": "1/4 cup",
     "defaultServingGrams": 40,
     "basePer100g": {
       "kcal": 300,
       "protein": 3.2,
-      "carbs": 80.0,
+      "carbs": 80,
       "fat": 0.5,
-      "fiber": 4.0,
+      "fiber": 4,
       "sugar": 62.5
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1642102903918-b97c37955bbf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UmFpc2luc3xlbnwwfHx8fDE3ODUzMzc3ODF8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "coconut-fresh",
     "name": "Fresh Coconut Meat",
     "cat": "Fruits",
-    "emoji": "\ud83e\udd65",
+    "emoji": "🥥",
     "defaultServingLabel": "1/2 cup",
     "defaultServingGrams": 40,
     "basePer100g": {
       "kcal": 355,
       "protein": 3.2,
-      "carbs": 15.0,
+      "carbs": 15,
       "fat": 33.5,
       "fiber": 8.8,
       "sugar": 6.2
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1560769680-ba2f3767c785?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RnJlc2glMjBDb2NvbnV0JTIwTWVhdHxlbnwwfHx8fDE3ODUzMzc3ODN8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "starfruit",
     "name": "Starfruit",
     "cat": "Fruits",
-    "emoji": "\u2b50",
+    "emoji": "⭐",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 91,
     "basePer100g": {
@@ -493,13 +523,14 @@
       "fat": 0.3,
       "fiber": 2.7,
       "sugar": 4.3
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1619748062504-44477fb7023f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U3RhcmZydWl0fGVufDB8fHx8MTc4NTMzNzc4NHww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "passionfruit",
     "name": "Passionfruit",
     "cat": "Fruits",
-    "emoji": "\ud83c\udf48",
+    "emoji": "🍈",
     "defaultServingLabel": "2 fruits",
     "defaultServingGrams": 36,
     "basePer100g": {
@@ -509,6 +540,7 @@
       "fat": 0.3,
       "fiber": 10.6,
       "sugar": 11.7
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1604495772376-9657f0035eb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UGFzc2lvbmZydWl0fGVufDB8fHx8MTc4NTMzNzc4Nnww&ixlib=rb-4.1.0&q=80&w=1080"
   }
 ]
