@@ -21,6 +21,7 @@
     "name": "Taameya (Falafel)",
     "cat": "Egyptian",
     "emoji": "\ud83e\uddc6",
+    "imageUrl":"https://i.pinimg.com/736x/9b/6e/0e/9b6e0ee2eb6841a75070ae61d7c7e0e9.jpg",
     "defaultServingLabel": "4 pieces",
     "defaultServingGrams": 120,
     "basePer100g": {
@@ -37,6 +38,7 @@
     "name": "Koshary",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf5d",
+    "imageUrl": "https://i.pinimg.com/1200x/81/63/1f/81631f62740ac71c864519c435b84fca.jpg",
     "defaultServingLabel": "1 bowl",
     "defaultServingGrams": 400,
     "basePer100g": {
@@ -53,6 +55,7 @@
     "name": "Molokhia with Rice",
     "cat": "Egyptian",
     "emoji": "\ud83e\udd6c",
+    "imageUrl": "https://i.pinimg.com/736x/e3/60/8d/e3608dd8a2ae3957f686b1b71596c866.jpg",
     "defaultServingLabel": "1 plate",
     "defaultServingGrams": 350,
     "basePer100g": {
@@ -69,6 +72,7 @@
     "name": "Mahshi (Stuffed Veg)",
     "cat": "Egyptian",
     "emoji": "\ud83e\uded1",
+    "imageUrl": "https://i.pinimg.com/1200x/86/49/4c/86494c9ac23713d7c6f8ca32ab737084.jpg",
     "defaultServingLabel": "4 pieces",
     "defaultServingGrams": 320,
     "basePer100g": {
@@ -85,6 +89,7 @@
     "name": "Kofta",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf62",
+    "imageUrl": "https://i.pinimg.com/736x/97/ba/9a/97ba9ab6c794b0f29da6e5d0618e9442.jpg",
     "defaultServingLabel": "4 pieces (150g)",
     "defaultServingGrams": 150,
     "basePer100g": {
@@ -101,6 +106,7 @@
     "name": "Chicken Shawarma",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf2f",
+    "imageUrl": "https://i.pinimg.com/736x/32/15/c6/3215c623b5d99edd68642a0ead5ddfa3.jpg",
     "defaultServingLabel": "1 sandwich",
     "defaultServingGrams": 280,
     "basePer100g": {
@@ -117,6 +123,7 @@
     "name": "Beef Shawarma",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf2f",
+    "imageUrl": "https://i.pinimg.com/736x/ef/ba/c8/efbac8516c6abf7d184c2035e2ad0398.jpg",
     "defaultServingLabel": "1 sandwich",
     "defaultServingGrams": 280,
     "basePer100g": {
@@ -133,6 +140,7 @@
     "name": "Liver (Kebda) Sandwich",
     "cat": "Egyptian",
     "emoji": "\ud83e\udd6a",
+    "imageUrl": "https://i.pinimg.com/1200x/f9/d9/8e/f9d98e80d153dbeac8c746557f084948.jpg",
     "defaultServingLabel": "1 sandwich",
     "defaultServingGrams": 200,
     "basePer100g": {
@@ -149,6 +157,7 @@
     "name": "Hawawshi",
     "cat": "Egyptian",
     "emoji": "\ud83e\udd59",
+    "imageUrl": "https://i.pinimg.com/1200x/23/2f/ed/232fedcbe79b4432d09280d2fb99b545.jpg",
     "defaultServingLabel": "1 piece",
     "defaultServingGrams": 220,
     "basePer100g": {
@@ -165,6 +174,7 @@
     "name": "Baladi Bread",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf5e",
+    "imageUrl": "https://i.pinimg.com/736x/2e/f6/17/2ef617f1d61be923062f20da78bba114.jpg",
     "defaultServingLabel": "1 loaf",
     "defaultServingGrams": 90,
     "basePer100g": {
@@ -181,6 +191,7 @@
     "name": "Roz (White Rice)",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf5a",
+    "imageUrl": "https://i.pinimg.com/736x/6e/ff/db/6effdb4016deb806f3644f22510cad1d.jpg",
     "defaultServingLabel": "1 cup cooked",
     "defaultServingGrams": 175,
     "basePer100g": {
@@ -197,6 +208,7 @@
     "name": "Macarona Bechamel",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf5d",
+    "imageUrl": "https://i.pinimg.com/1200x/08/ac/79/08ac79a13ce63f1064f8afede77af4d1.jpg",
     "defaultServingLabel": "1 serving",
     "defaultServingGrams": 300,
     "basePer100g": {
@@ -213,6 +225,7 @@
     "name": "Basbousa",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf6e",
+    "imageUrl": "https://i.pinimg.com/736x/22/4d/51/224d5168b0a4c4d6d97da9a60fa5856e.jpg",
     "defaultServingLabel": "1 piece",
     "defaultServingGrams": 80,
     "basePer100g": {
@@ -229,6 +242,7 @@
     "name": "Konafa",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf70",
+    "imageUrl": "https://i.pinimg.com/736x/74/50/7b/74507b887a3d146d935998a2d9b63265.jpg",
     "defaultServingLabel": "1 piece",
     "defaultServingGrams": 100,
     "basePer100g": {
@@ -245,6 +259,7 @@
     "name": "Dates",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf34",
+    "imageUrl": "https://i.pinimg.com/736x/7e/2f/53/7e2f5315ac87de4437fe5b124229a78b.jpg",
     "defaultServingLabel": "5 pieces",
     "defaultServingGrams": 45,
     "basePer100g": {
@@ -261,6 +276,7 @@
     "name": "Lentil Soup (Shorbet Ads)",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf72",
+    "imageUrl": "https://i.pinimg.com/1200x/a0/de/ce/a0dece689e274ac45f592d495cd1f61f.jpg",
     "defaultServingLabel": "1 bowl",
     "defaultServingGrams": 300,
     "basePer100g": {
@@ -277,6 +293,7 @@
     "name": "Ful with Egg",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf73",
+    "imageUrl": "https://img.freepik.com/premium-photo/egg-roast-indian-egg-masala-curry-spicy-red-egg-roast-arranged-white-ceramic-bowl_527904-3909.jpg",
     "defaultServingLabel": "1 bowl",
     "defaultServingGrams": 280,
     "basePer100g": {
