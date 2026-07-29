@@ -1,0 +1,546 @@
+[
+  {
+    "id": "almonds",
+    "name": "Almonds",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf30",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 580,
+      "protein": 21.3,
+      "carbs": 21.7,
+      "fat": 50.0,
+      "fiber": 12.3,
+      "sugar": 4.0
+    }
+  },
+  {
+    "id": "peanutbutter",
+    "name": "Peanut Butter",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83e\udd5c",
+    "defaultServingLabel": "2 tbsp",
+    "defaultServingGrams": 32,
+    "basePer100g": {
+      "kcal": 594,
+      "protein": 25.0,
+      "carbs": 18.8,
+      "fat": 50.0,
+      "fiber": 6.2,
+      "sugar": 9.4
+    }
+  },
+  {
+    "id": "proteinshake",
+    "name": "Protein Shake (w/ milk)",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83e\udd64",
+    "defaultServingLabel": "1 scoop",
+    "defaultServingGrams": 280,
+    "basePer100g": {
+      "kcal": 79,
+      "protein": 10.7,
+      "carbs": 5.0,
+      "fat": 1.8,
+      "fiber": 0.4,
+      "sugar": 3.6
+    }
+  },
+  {
+    "id": "oj",
+    "name": "Orange Juice, Fresh",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83e\uddc3",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 248,
+    "basePer100g": {
+      "kcal": 45,
+      "protein": 0.7,
+      "carbs": 10.5,
+      "fat": 0.2,
+      "fiber": 0.2,
+      "sugar": 8.5
+    }
+  },
+  {
+    "id": "coffee",
+    "name": "Black Coffee",
+    "cat": "Snacks & Drinks",
+    "emoji": "\u2615",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 1,
+      "protein": 0.1,
+      "carbs": 0.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "karkadeh",
+    "name": "Hibiscus Tea (Karkadeh)",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf75",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 3,
+      "protein": 0.0,
+      "carbs": 0.8,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.8
+    }
+  },
+  {
+    "id": "sugarcane",
+    "name": "Sugarcane Juice",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83e\uddc3",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 75,
+      "protein": 0.0,
+      "carbs": 18.8,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 17.5
+    }
+  },
+  {
+    "id": "walnuts",
+    "name": "Walnuts",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf30",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 653,
+      "protein": 15.3,
+      "carbs": 13.7,
+      "fat": 65.3,
+      "fiber": 6.7,
+      "sugar": 2.3
+    }
+  },
+  {
+    "id": "cashews",
+    "name": "Cashews",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf30",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 583,
+      "protein": 17.3,
+      "carbs": 30.7,
+      "fat": 46.7,
+      "fiber": 3.0,
+      "sugar": 5.7
+    }
+  },
+  {
+    "id": "popcorn",
+    "name": "Popcorn, Air-Popped",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf7f",
+    "defaultServingLabel": "3 cups",
+    "defaultServingGrams": 24,
+    "basePer100g": {
+      "kcal": 388,
+      "protein": 12.5,
+      "carbs": 79.2,
+      "fat": 4.6,
+      "fiber": 14.6,
+      "sugar": 0.8
+    }
+  },
+  {
+    "id": "dark-chocolate",
+    "name": "Dark Chocolate (70%)",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf6b",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 567,
+      "protein": 7.3,
+      "carbs": 43.3,
+      "fat": 40.0,
+      "fiber": 10.3,
+      "sugar": 25.0
+    }
+  },
+  {
+    "id": "protein-bar",
+    "name": "Protein Bar",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf6b",
+    "defaultServingLabel": "1 bar",
+    "defaultServingGrams": 60,
+    "basePer100g": {
+      "kcal": 367,
+      "protein": 33.3,
+      "carbs": 36.7,
+      "fat": 13.3,
+      "fiber": 5.0,
+      "sugar": 16.7
+    }
+  },
+  {
+    "id": "rice-cakes",
+    "name": "Rice Cakes (2)",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf58",
+    "defaultServingLabel": "2 pieces",
+    "defaultServingGrams": 18,
+    "basePer100g": {
+      "kcal": 389,
+      "protein": 7.8,
+      "carbs": 83.3,
+      "fat": 1.1,
+      "fiber": 2.2,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "hummus-snack",
+    "name": "Hummus with Veggies",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83e\udd63",
+    "defaultServingLabel": "1 serving",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 120,
+      "protein": 4.7,
+      "carbs": 10.7,
+      "fat": 6.7,
+      "fiber": 3.3,
+      "sugar": 2.0
+    }
+  },
+  {
+    "id": "trail-mix",
+    "name": "Trail Mix",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83e\udd5c",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 467,
+      "protein": 13.3,
+      "carbs": 46.7,
+      "fat": 30.0,
+      "fiber": 6.7,
+      "sugar": 23.3
+    }
+  },
+  {
+    "id": "soda",
+    "name": "Cola Soda",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83e\udd64",
+    "defaultServingLabel": "1 can",
+    "defaultServingGrams": 355,
+    "basePer100g": {
+      "kcal": 42,
+      "protein": 0.0,
+      "carbs": 11.0,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 11.0
+    }
+  },
+  {
+    "id": "diet-soda",
+    "name": "Diet Soda",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83e\udd64",
+    "defaultServingLabel": "1 can",
+    "defaultServingGrams": 355,
+    "basePer100g": {
+      "kcal": 1,
+      "protein": 0.0,
+      "carbs": 0.1,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.1
+    }
+  },
+  {
+    "id": "beer",
+    "name": "Beer",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf7a",
+    "defaultServingLabel": "1 can",
+    "defaultServingGrams": 355,
+    "basePer100g": {
+      "kcal": 42,
+      "protein": 0.5,
+      "carbs": 3.7,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "green-tea",
+    "name": "Green Tea",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf75",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 1,
+      "protein": 0.0,
+      "carbs": 0.2,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "sports-drink",
+    "name": "Sports Drink",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83e\udd64",
+    "defaultServingLabel": "1 bottle",
+    "defaultServingGrams": 500,
+    "basePer100g": {
+      "kcal": 25,
+      "protein": 0.0,
+      "carbs": 6.8,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 6.4
+    }
+  },
+  {
+    "id": "beef-jerky",
+    "name": "Beef Jerky",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83e\udd69",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 367,
+      "protein": 30.0,
+      "carbs": 10.0,
+      "fat": 23.3,
+      "fiber": 1.7,
+      "sugar": 10.0
+    }
+  },
+  {
+    "id": "chia-pudding",
+    "name": "Chia Seed Pudding",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83e\udd63",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 79,
+      "protein": 2.9,
+      "carbs": 7.1,
+      "fat": 4.6,
+      "fiber": 4.2,
+      "sugar": 2.5
+    }
+  },
+  {
+    "id": "smoothie-berry",
+    "name": "Berry Smoothie",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83e\udd64",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 62,
+      "protein": 1.7,
+      "carbs": 13.3,
+      "fat": 0.8,
+      "fiber": 1.7,
+      "sugar": 10.0
+    }
+  },
+  {
+    "id": "crackers",
+    "name": "Whole Wheat Crackers",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf58",
+    "defaultServingLabel": "10 pieces",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 400,
+      "protein": 10.0,
+      "carbs": 66.7,
+      "fat": 10.0,
+      "fiber": 10.0,
+      "sugar": 3.3
+    }
+  },
+  {
+    "id": "pistachios",
+    "name": "Pistachios",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf30",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 530,
+      "protein": 19.0,
+      "carbs": 25.7,
+      "fat": 42.0,
+      "fiber": 10.0,
+      "sugar": 7.3
+    }
+  },
+  {
+    "id": "pretzels",
+    "name": "Pretzels",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83e\udd68",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 367,
+      "protein": 10.0,
+      "carbs": 76.7,
+      "fat": 3.3,
+      "fiber": 3.3,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "hummus-pita",
+    "name": "Hummus & Pita Chips",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83e\udd59",
+    "defaultServingLabel": "1 serving",
+    "defaultServingGrams": 120,
+    "basePer100g": {
+      "kcal": 200,
+      "protein": 5.8,
+      "carbs": 25.0,
+      "fat": 8.3,
+      "fiber": 3.3,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "kombucha",
+    "name": "Kombucha",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf75",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 12,
+      "protein": 0.0,
+      "carbs": 2.9,
+      "fat": 0.0,
+      "fiber": 0.0,
+      "sugar": 2.5
+    }
+  },
+  {
+    "id": "date-bar",
+    "name": "Date & Nut Energy Bar",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf6b",
+    "defaultServingLabel": "1 bar",
+    "defaultServingGrams": 45,
+    "basePer100g": {
+      "kcal": 400,
+      "protein": 8.9,
+      "carbs": 57.8,
+      "fat": 17.8,
+      "fiber": 6.7,
+      "sugar": 40.0
+    }
+  },
+  {
+    "id": "sunflower-seeds",
+    "name": "Sunflower Seeds",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf3b",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 583,
+      "protein": 20.0,
+      "carbs": 20.0,
+      "fat": 50.0,
+      "fiber": 10.0,
+      "sugar": 2.3
+    }
+  },
+  {
+    "id": "pumpkin-seeds",
+    "name": "Pumpkin Seeds",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf83",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 543,
+      "protein": 28.7,
+      "carbs": 14.3,
+      "fat": 46.3,
+      "fiber": 6.0,
+      "sugar": 1.3
+    }
+  },
+  {
+    "id": "yogurt-covered-raisins",
+    "name": "Yogurt Covered Raisins",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf6c",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 400,
+      "protein": 3.3,
+      "carbs": 66.7,
+      "fat": 13.3,
+      "fiber": 1.7,
+      "sugar": 56.7
+    }
+  },
+  {
+    "id": "veggie-chips",
+    "name": "Veggie Chips",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83e\udd54",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 500,
+      "protein": 5.0,
+      "carbs": 56.7,
+      "fat": 30.0,
+      "fiber": 5.0,
+      "sugar": 10.0
+    }
+  },
+  {
+    "id": "protein-cookie",
+    "name": "Protein Cookie",
+    "cat": "Snacks & Drinks",
+    "emoji": "\ud83c\udf6a",
+    "defaultServingLabel": "1 cookie",
+    "defaultServingGrams": 70,
+    "basePer100g": {
+      "kcal": 343,
+      "protein": 21.4,
+      "carbs": 34.3,
+      "fat": 14.3,
+      "fiber": 2.9,
+      "sugar": 14.3
+    }
+  }
+]

@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+/* ============================================================
+   MacroTrack Egypt — Design tokens (from DESIGN.md)
+   Light mode = default (:root). Dark mode = [data-theme="dark"]
+   ============================================================ */
+:root {
+  --color-background: #fcf9f8;
+  --color-surface: #fcf9f8;
+  --color-surface-dim: #dcd9d9;
+  --color-surface-bright: #fcf9f8;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f6f3f2;
+  --color-surface-container: #f0edec;
+  --color-surface-container-high: #ebe7e7;
+  --color-surface-container-highest: #e5e2e1;
+  --color-on-surface: #1c1b1b;
+  --color-on-surface-variant: #3b4a3d;
+  --color-outline: #6b7b6c;
+  --color-outline-variant: #bacbb9;
+
+  --color-primary: #006d35;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #00e676;
+  --color-on-primary-container: #00612e;
+
+  --color-secondary: #0056c5;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #0f6df3;
+
+  --color-tertiary: #8e4e00;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #ffba7d;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+
+  /* functional macro palette — same in both modes */
+  --color-protein: #2979ff;
+  --color-carbs: #ff9100;
+  --color-fat: #f50057;
+  --color-water: #0f6df3;
+
+  /* glass */
+  --glass-bg: rgba(255, 255, 255, 0.70);
+  --glass-border: rgba(28, 27, 27, 0.10);
+  --glass-blur: 20px;
+  --shadow-ambient: 0 20px 60px -20px rgba(0, 109, 53, 0.18);
+
+  color-scheme: light;
+}
+
+[data-theme='dark'] {
+  --color-background: #0f172a;
+  --color-surface: #0f172a;
+  --color-surface-dim: #0b1220;
+  --color-surface-bright: #182338;
+  --color-surface-container-lowest: #0b1220;
+  --color-surface-container-low: #131f35;
+  --color-surface-container: #172642;
+  --color-surface-container-high: #1c2f4f;
+  --color-surface-container-highest: #22385c;
+  --color-on-surface: #f3f0ef;
+  --color-on-surface-variant: #b0c6c2;
+  --color-outline: #4c6360;
+  --color-outline-variant: #2a3d55;
+
+  --color-primary: #00e475;
+  --color-on-primary: #00210b;
+  --color-primary-container: #005226;
+  --color-on-primary-container: #62ff96;
+
+  --color-secondary: #b0c6ff;
+  --color-on-secondary: #00429b;
+  --color-secondary-container: #0056c5;
+
+  --color-tertiary: #ffb778;
+  --color-on-tertiary: #6c3a00;
+  --color-tertiary-container: #8e4e00;
+
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+
+  --color-protein: #5b9bff;
+  --color-carbs: #ffab40;
+  --color-fat: #ff4081;
+  --color-water: #5b9bff;
+
+  --glass-bg: rgba(23, 38, 66, 0.40);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: 20px;
+  --shadow-ambient: 0 20px 60px -20px rgba(0, 228, 117, 0.15);
+
+  color-scheme: dark;
+}
+
+@theme inline {
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-background: var(--color-background);
+  --color-surface: var(--color-surface);
+  --color-surface-dim: var(--color-surface-dim);
+  --color-surface-container-lowest: var(--color-surface-container-lowest);
+  --color-surface-container-low: var(--color-surface-container-low);
+  --color-surface-container: var(--color-surface-container);
+  --color-surface-container-high: var(--color-surface-container-high);
+  --color-surface-container-highest: var(--color-surface-container-highest);
+  --color-on-surface: var(--color-on-surface);
+  --color-on-surface-variant: var(--color-on-surface-variant);
+  --color-outline: var(--color-outline);
+  --color-outline-variant: var(--color-outline-variant);
+
+  --color-primary: var(--color-primary);
+  --color-on-primary: var(--color-on-primary);
+  --color-primary-container: var(--color-primary-container);
+  --color-on-primary-container: var(--color-on-primary-container);
+
+  --color-secondary: var(--color-secondary);
+  --color-on-secondary: var(--color-on-secondary);
+  --color-secondary-container: var(--color-secondary-container);
+
+  --color-tertiary: var(--color-tertiary);
+  --color-on-tertiary: var(--color-on-tertiary);
+  --color-tertiary-container: var(--color-tertiary-container);
+
+  --color-error: var(--color-error);
+  --color-on-error: var(--color-on-error);
+
+  --color-protein: var(--color-protein);
+  --color-carbs: var(--color-carbs);
+  --color-fat: var(--color-fat);
+  --color-water: var(--color-water);
+
+  --radius-sm: 0.25rem;
+  --radius-DEFAULT: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 9999px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-on-surface);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* ---------- Glassmorphism utilities ---------- */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+}
+
+.glass-elevated {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-ambient);
+}
+
+/* Level 3 (Modals/Popovers) — visually distinct from the page/card background,
+   not just "more opaque". Uses a lighter/raised surface + strong shadow so it
+   reads as a floating layer even against an already-dark page. */
+.glass-modal {
+  background: var(--color-surface-container-high);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--color-outline-variant);
+  box-shadow: 0 -8px 40px -4px rgba(0, 0, 0, 0.5), 0 25px 70px -15px rgba(0, 0, 0, 0.45);
+}
+
+[data-theme='dark'] .glass-modal {
+  background: #1e2f4d; /* distinctly lighter than #0f172a page bg */
+}
+
+[data-theme='light'] .glass-modal,
+:root:not([data-theme='dark']) .glass-modal {
+  background: #ffffff;
+}
+
+.modal-overlay {
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.modal-handle {
+  width: 36px;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--color-outline-variant);
+  margin: 0 auto 12px;
+}
+
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-outline-variant);
+  border-radius: 999px;
+}

@@ -1,0 +1,5076 @@
+[
+  {
+    "id": "ice-cream",
+    "name": "Vanilla Ice Cream",
+    "cat": "Desserts",
+    "emoji": "🍨",
+    "defaultServingLabel": "1/2 cup",
+    "defaultServingGrams": 65,
+    "basePer100g": {
+      "kcal": 211,
+      "protein": 3.5,
+      "carbs": 24.6,
+      "fat": 11.2,
+      "fiber": 0,
+      "sugar": 21.5
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1531240062960-4842b265a1ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8VmFuaWxsYSUyMEljZSUyMENyZWFtJTIwZm9vZCUyMGRpc2h8ZW58MHwyfHx8MTc4NTI5NTM5NXww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "cheesecake",
+    "name": "Cheesecake",
+    "cat": "Desserts",
+    "emoji": "🍰",
+    "defaultServingLabel": "1 slice",
+    "defaultServingGrams": 125,
+    "basePer100g": {
+      "kcal": 320,
+      "protein": 5.6,
+      "carbs": 25.6,
+      "fat": 22.4,
+      "fiber": 0.4,
+      "sugar": 20.8
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1704930137927-748f02be57bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2hlZXNlY2FrZSUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTUzOTl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "chocolate-cake",
+    "name": "Chocolate Cake",
+    "cat": "Desserts",
+    "emoji": "🍫",
+    "defaultServingLabel": "1 slice",
+    "defaultServingGrams": 95,
+    "basePer100g": {
+      "kcal": 368,
+      "protein": 4.7,
+      "carbs": 52.6,
+      "fat": 15.8,
+      "fiber": 2.1,
+      "sugar": 33.7
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1565808229224-264b6fcc5052?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2hvY29sYXRlJTIwQ2FrZSUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0MDF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "cookies",
+    "name": "Chocolate Chip Cookies (2)",
+    "cat": "Desserts",
+    "emoji": "🍪",
+    "defaultServingLabel": "2 pieces",
+    "defaultServingGrams": 48,
+    "basePer100g": {
+      "kcal": 500,
+      "protein": 5,
+      "carbs": 66.7,
+      "fat": 25,
+      "fiber": 2.1,
+      "sugar": 41.7
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1532499016263-f2c3e89de9cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2hvY29sYXRlJTIwQ2hpcCUyMENvb2tpZXMlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDAyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "donut",
+    "name": "Glazed Donut",
+    "cat": "Desserts",
+    "emoji": "🍩",
+    "defaultServingLabel": "1 piece",
+    "defaultServingGrams": 60,
+    "basePer100g": {
+      "kcal": 400,
+      "protein": 5,
+      "carbs": 43.3,
+      "fat": 23.3,
+      "fiber": 1.2,
+      "sugar": 20
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1740872569638-0bacd19ed6bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8R2xhemVkJTIwRG9udXQlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDAzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "brownie",
+    "name": "Brownie",
+    "cat": "Desserts",
+    "emoji": "🍫",
+    "defaultServingLabel": "1 piece",
+    "defaultServingGrams": 56,
+    "basePer100g": {
+      "kcal": 429,
+      "protein": 5.4,
+      "carbs": 64.3,
+      "fat": 17.9,
+      "fiber": 2.7,
+      "sugar": 42.9
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1560788843-b93c2f18a3e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QnJvd25pZSUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0MDR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "apple-pie",
+    "name": "Apple Pie",
+    "cat": "Desserts",
+    "emoji": "🥧",
+    "defaultServingLabel": "1 slice",
+    "defaultServingGrams": 125,
+    "basePer100g": {
+      "kcal": 237,
+      "protein": 1.9,
+      "carbs": 33.6,
+      "fat": 11.2,
+      "fiber": 1.6,
+      "sugar": 16
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1572383672419-ab35444a6934?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QXBwbGUlMjBQaWUlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDA1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "tiramisu",
+    "name": "Tiramisu",
+    "cat": "Desserts",
+    "emoji": "🍮",
+    "defaultServingLabel": "1 slice",
+    "defaultServingGrams": 130,
+    "basePer100g": {
+      "kcal": 292,
+      "protein": 4.6,
+      "carbs": 27.7,
+      "fat": 18.5,
+      "fiber": 0.4,
+      "sugar": 20
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1596464372839-fd7b1eaea27e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8VGlyYW1pc3UlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDA3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "baklava",
+    "name": "Baklava",
+    "cat": "Desserts",
+    "emoji": "🥮",
+    "defaultServingLabel": "1 piece",
+    "defaultServingGrams": 40,
+    "basePer100g": {
+      "kcal": 425,
+      "protein": 6.2,
+      "carbs": 42.5,
+      "fat": 27.5,
+      "fiber": 2,
+      "sugar": 25
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1645453014906-7f2874408d8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QmFrbGF2YSUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0MDh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "gelato",
+    "name": "Gelato",
+    "cat": "Desserts",
+    "emoji": "🍨",
+    "defaultServingLabel": "1/2 cup",
+    "defaultServingGrams": 90,
+    "basePer100g": {
+      "kcal": 200,
+      "protein": 3.3,
+      "carbs": 26.7,
+      "fat": 8.9,
+      "fiber": 0,
+      "sugar": 22.2
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1757358938541-c56a0c7c5846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8R2VsYXRvJTIwZm9vZCUyMGRpc2h8ZW58MHwyfHx8MTc4NTI5NTQwOXww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "frozen-yogurt",
+    "name": "Frozen Yogurt",
+    "cat": "Desserts",
+    "emoji": "🍦",
+    "defaultServingLabel": "1/2 cup",
+    "defaultServingGrams": 87,
+    "basePer100g": {
+      "kcal": 126,
+      "protein": 3.4,
+      "carbs": 21.8,
+      "fat": 2.9,
+      "fiber": 0,
+      "sugar": 20.7
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1631718051263-c567dca19362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RnJvemVuJTIwWW9ndXJ0JTIwZm9vZCUyMGRpc2h8ZW58MHwyfHx8MTc4NTI5NTQxMHww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "caramel-pudding",
+    "name": "Caramel Pudding (Crème Caramel)",
+    "cat": "Desserts",
+    "emoji": "🍮",
+    "defaultServingLabel": "1 serving",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 150,
+      "protein": 4,
+      "carbs": 24,
+      "fat": 4,
+      "fiber": 0,
+      "sugar": 22
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1625938147772-bbb03b924106?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2FyYW1lbCUyMFB1ZGRpbmclMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDExfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "rice-pudding",
+    "name": "Rice Pudding",
+    "cat": "Desserts",
+    "emoji": "🍮",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 200,
+    "basePer100g": {
+      "kcal": 110,
+      "protein": 2.5,
+      "carbs": 19,
+      "fat": 2.5,
+      "fiber": 0.2,
+      "sugar": 11
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1665529555367-8a4672d97641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UmljZSUyMFB1ZGRpbmclMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDEyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "fruit-salad",
+    "name": "Fruit Salad (sweetened)",
+    "cat": "Desserts",
+    "emoji": "🍓",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 200,
+    "basePer100g": {
+      "kcal": 70,
+      "protein": 0.8,
+      "carbs": 17,
+      "fat": 0.5,
+      "fiber": 1.5,
+      "sugar": 14
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1631718051263-c567dca19362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RnJ1aXQlMjBTYWxhZCUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0MTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "macarons",
+    "name": "Macarons (2)",
+    "cat": "Desserts",
+    "emoji": "🍬",
+    "defaultServingLabel": "2 pieces",
+    "defaultServingGrams": 50,
+    "basePer100g": {
+      "kcal": 360,
+      "protein": 6,
+      "carbs": 48,
+      "fat": 16,
+      "fiber": 1,
+      "sugar": 40
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1702034519527-b0975c467001?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TWFjYXJvbnMlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDE1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "churros",
+    "name": "Churros (3)",
+    "cat": "Desserts",
+    "emoji": "🥖",
+    "defaultServingLabel": "3 pieces",
+    "defaultServingGrams": 90,
+    "basePer100g": {
+      "kcal": 333,
+      "protein": 4.4,
+      "carbs": 40,
+      "fat": 17.8,
+      "fiber": 1.1,
+      "sugar": 15.6
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1729126042369-a4648cd8c23b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2h1cnJvcyUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "sorbet",
+    "name": "Fruit Sorbet",
+    "cat": "Desserts",
+    "emoji": "🍧",
+    "defaultServingLabel": "1/2 cup",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 120,
+      "protein": 0.3,
+      "carbs": 30,
+      "fat": 0,
+      "fiber": 1,
+      "sugar": 26
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1631718051263-c567dca19362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RnJ1aXQlMjBTb3JiZXQlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDE3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "water",
+    "name": "Water",
+    "cat": "Drinks",
+    "emoji": "💧",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1676471926534-d5c9771909fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8V2F0ZXIlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "sparkling-water",
+    "name": "Sparkling Water",
+    "cat": "Drinks",
+    "emoji": "💧",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1575980541474-bf9e64967d55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U3BhcmtsaW5nJTIwV2F0ZXIlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDIwfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "latte",
+    "name": "Latte (Whole Milk)",
+    "cat": "Drinks",
+    "emoji": "☕",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 62,
+      "protein": 3.3,
+      "carbs": 5,
+      "fat": 3.3,
+      "fiber": 0,
+      "sugar": 5
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TGF0dGUlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDIxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "cappuccino",
+    "name": "Cappuccino",
+    "cat": "Drinks",
+    "emoji": "☕",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 180,
+    "basePer100g": {
+      "kcal": 44,
+      "protein": 2.2,
+      "carbs": 3.9,
+      "fat": 2.2,
+      "fiber": 0,
+      "sugar": 3.3
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2FwcHVjY2lubyUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "mint-tea",
+    "name": "Mint Tea",
+    "cat": "Drinks",
+    "emoji": "🍵",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 8,
+      "protein": 0,
+      "carbs": 2.1,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 1.7
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1574209908880-a2d3caa70f84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TWludCUyMFRlYSUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0MjN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "lemonade",
+    "name": "Lemonade",
+    "cat": "Drinks",
+    "emoji": "🍋",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 50,
+      "protein": 0.1,
+      "carbs": 13.3,
+      "fat": 0.1,
+      "fiber": 0.1,
+      "sugar": 12.5
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1643836791063-18c8a3a3731e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TGVtb25hZGUlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDI0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "mango-juice",
+    "name": "Mango Juice",
+    "cat": "Drinks",
+    "emoji": "🧃",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 54,
+      "protein": 0.2,
+      "carbs": 13.3,
+      "fat": 0.4,
+      "fiber": 0,
+      "sugar": 12.5
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1582655299221-2b6bff351df0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TWFuZ28lMjBKdWljZSUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "iced-tea",
+    "name": "Iced Tea (Sweetened)",
+    "cat": "Drinks",
+    "emoji": "🧊",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 38,
+      "protein": 0,
+      "carbs": 10,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 9.6
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1470752354724-60a1d2b1907f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8SWNlZCUyMFRlYSUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "almond-milk",
+    "name": "Almond Milk, Unsweetened",
+    "cat": "Drinks",
+    "emoji": "🥛",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 17,
+      "protein": 0.6,
+      "carbs": 0.6,
+      "fat": 0.4,
+      "fiber": 0.2,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1602948750761-97ea79ee42ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QWxtb25kJTIwTWlsayUyQyUyMFVuc3dlZXRlbmVkJTIwZm9vZCUyMGRpc2h8ZW58MHwyfHx8MTc4NTI5NTQyOHww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "soy-milk",
+    "name": "Soy Milk",
+    "cat": "Drinks",
+    "emoji": "🥛",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 46,
+      "protein": 2.9,
+      "carbs": 3.8,
+      "fat": 1.9,
+      "fiber": 0.4,
+      "sugar": 2.5
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1766185387810-913a19970398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U295JTIwTWlsayUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "coconut-water",
+    "name": "Coconut Water",
+    "cat": "Drinks",
+    "emoji": "🥥",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 19,
+      "protein": 0.7,
+      "carbs": 3.8,
+      "fat": 1.1,
+      "fiber": 0.5,
+      "sugar": 2.6
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1535922964111-cf1f1e862dcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q29jb251dCUyMFdhdGVyJTIwZm9vZCUyMGRpc2h8ZW58MHwyfHx8MTc4NTI5NTQzMHww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "energy-drink",
+    "name": "Energy Drink",
+    "cat": "Drinks",
+    "emoji": "⚡",
+    "defaultServingLabel": "1 can",
+    "defaultServingGrams": 250,
+    "basePer100g": {
+      "kcal": 44,
+      "protein": 0,
+      "carbs": 11.2,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 10.8
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1633710734156-a33cd91d7ac9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RW5lcmd5JTIwRHJpbmslMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "orange-soda",
+    "name": "Orange Soda",
+    "cat": "Drinks",
+    "emoji": "🥤",
+    "defaultServingLabel": "1 can",
+    "defaultServingGrams": 355,
+    "basePer100g": {
+      "kcal": 48,
+      "protein": 0,
+      "carbs": 12.4,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 12.4
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1613591387739-e2387edeabf9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8T3JhbmdlJTIwU29kYSUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0MzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "matcha-latte",
+    "name": "Matcha Latte",
+    "cat": "Drinks",
+    "emoji": "🍵",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 58,
+      "protein": 2.9,
+      "carbs": 6.7,
+      "fat": 2.5,
+      "fiber": 0,
+      "sugar": 5.8
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1752922151020-ae72047af7ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TWF0Y2hhJTIwTGF0dGUlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDM0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "hot-chocolate",
+    "name": "Hot Chocolate",
+    "cat": "Drinks",
+    "emoji": "☕",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 79,
+      "protein": 3.3,
+      "carbs": 10.8,
+      "fat": 2.9,
+      "fiber": 0.8,
+      "sugar": 8.3
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1590080876209-c70d0f0bf6a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8SG90JTIwQ2hvY29sYXRlJTIwZm9vZCUyMGRpc2h8ZW58MHwyfHx8MTc4NTI5NTQzNXww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "wine-red",
+    "name": "Red Wine",
+    "cat": "Drinks",
+    "emoji": "🍷",
+    "defaultServingLabel": "150ml glass",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 83,
+      "protein": 0.1,
+      "carbs": 2.5,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 0.6
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1422748733255-ee572fddeab0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UmVkJTIwV2luZSUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "whiskey",
+    "name": "Whiskey (Neat)",
+    "cat": "Drinks",
+    "emoji": "🥃",
+    "defaultServingLabel": "44ml shot",
+    "defaultServingGrams": 44,
+    "basePer100g": {
+      "kcal": 220,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1544856890-7fdbecf97726?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8V2hpc2tleSUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "egg-boil",
+    "name": "Boiled Egg",
+    "cat": "Eggs & Dairy",
+    "emoji": "🥚",
+    "defaultServingLabel": "1 large",
+    "defaultServingGrams": 50,
+    "basePer100g": {
+      "kcal": 156,
+      "protein": 12.6,
+      "carbs": 1.2,
+      "fat": 10.6,
+      "fiber": 0,
+      "sugar": 1.2
+    }
+  },
+  {
+    "id": "egg-fry",
+    "name": "Fried Egg",
+    "cat": "Eggs & Dairy",
+    "emoji": "🍳",
+    "defaultServingLabel": "1 large",
+    "defaultServingGrams": 50,
+    "basePer100g": {
+      "kcal": 180,
+      "protein": 12.6,
+      "carbs": 0.8,
+      "fat": 14,
+      "fiber": 0,
+      "sugar": 0.4
+    }
+  },
+  {
+    "id": "egg-scrambled",
+    "name": "Scrambled Eggs (2)",
+    "cat": "Eggs & Dairy",
+    "emoji": "🍳",
+    "defaultServingLabel": "2 eggs",
+    "defaultServingGrams": 120,
+    "basePer100g": {
+      "kcal": 152,
+      "protein": 10.3,
+      "carbs": 1.7,
+      "fat": 11.7,
+      "fiber": 0,
+      "sugar": 1
+    }
+  },
+  {
+    "id": "egg-white",
+    "name": "Egg White",
+    "cat": "Eggs & Dairy",
+    "emoji": "🥚",
+    "defaultServingLabel": "1 large",
+    "defaultServingGrams": 33,
+    "basePer100g": {
+      "kcal": 52,
+      "protein": 10.9,
+      "carbs": 0.6,
+      "fat": 0.3,
+      "fiber": 0,
+      "sugar": 0.6
+    }
+  },
+  {
+    "id": "feta",
+    "name": "Feta Cheese",
+    "cat": "Eggs & Dairy",
+    "emoji": "🧀",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 250,
+      "protein": 13.3,
+      "carbs": 3.3,
+      "fat": 20,
+      "fiber": 0,
+      "sugar": 3.3
+    }
+  },
+  {
+    "id": "halloumi",
+    "name": "Halloumi Cheese",
+    "cat": "Eggs & Dairy",
+    "emoji": "🧀",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 317,
+      "protein": 20,
+      "carbs": 3.3,
+      "fat": 25,
+      "fiber": 0,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "greekyog",
+    "name": "Greek Yogurt",
+    "cat": "Eggs & Dairy",
+    "emoji": "🥣",
+    "defaultServingLabel": "170g",
+    "defaultServingGrams": 170,
+    "basePer100g": {
+      "kcal": 59,
+      "protein": 10,
+      "carbs": 3.5,
+      "fat": 0.3,
+      "fiber": 0,
+      "sugar": 3.5
+    }
+  },
+  {
+    "id": "greekyog-full",
+    "name": "Greek Yogurt (Full Fat)",
+    "cat": "Eggs & Dairy",
+    "emoji": "🥣",
+    "defaultServingLabel": "170g",
+    "defaultServingGrams": 170,
+    "basePer100g": {
+      "kcal": 106,
+      "protein": 7.6,
+      "carbs": 4.7,
+      "fat": 5.9,
+      "fiber": 0,
+      "sugar": 4.7
+    }
+  },
+  {
+    "id": "milk",
+    "name": "Milk, Whole",
+    "cat": "Eggs & Dairy",
+    "emoji": "🥛",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 245,
+    "basePer100g": {
+      "kcal": 61,
+      "protein": 3.3,
+      "carbs": 4.9,
+      "fat": 3.3,
+      "fiber": 0,
+      "sugar": 4.9
+    }
+  },
+  {
+    "id": "milk-skim",
+    "name": "Milk, Skim",
+    "cat": "Eggs & Dairy",
+    "emoji": "🥛",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 245,
+    "basePer100g": {
+      "kcal": 37,
+      "protein": 3.7,
+      "carbs": 5.3,
+      "fat": 0.2,
+      "fiber": 0,
+      "sugar": 5.3
+    }
+  },
+  {
+    "id": "labneh",
+    "name": "Labneh",
+    "cat": "Eggs & Dairy",
+    "emoji": "🥣",
+    "defaultServingLabel": "2 tbsp",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 167,
+      "protein": 6.7,
+      "carbs": 6.7,
+      "fat": 13.3,
+      "fiber": 0,
+      "sugar": 6.7
+    }
+  },
+  {
+    "id": "rumi",
+    "name": "Rumi Cheese",
+    "cat": "Eggs & Dairy",
+    "emoji": "🧀",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 367,
+      "protein": 23.3,
+      "carbs": 3.3,
+      "fat": 30,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "mozzarella",
+    "name": "Mozzarella Cheese",
+    "cat": "Eggs & Dairy",
+    "emoji": "🧀",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 283,
+      "protein": 20,
+      "carbs": 3.3,
+      "fat": 21,
+      "fiber": 0,
+      "sugar": 1
+    }
+  },
+  {
+    "id": "cheddar",
+    "name": "Cheddar Cheese",
+    "cat": "Eggs & Dairy",
+    "emoji": "🧀",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 400,
+      "protein": 23.3,
+      "carbs": 1.3,
+      "fat": 33.3,
+      "fiber": 0,
+      "sugar": 0.3
+    }
+  },
+  {
+    "id": "cottage-cheese",
+    "name": "Cottage Cheese",
+    "cat": "Eggs & Dairy",
+    "emoji": "🥣",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 226,
+    "basePer100g": {
+      "kcal": 80,
+      "protein": 11.1,
+      "carbs": 3.5,
+      "fat": 1.8,
+      "fiber": 0,
+      "sugar": 2.2
+    }
+  },
+  {
+    "id": "cream-cheese",
+    "name": "Cream Cheese",
+    "cat": "Eggs & Dairy",
+    "emoji": "🧀",
+    "defaultServingLabel": "2 tbsp",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 333,
+      "protein": 6.7,
+      "carbs": 3.3,
+      "fat": 33.3,
+      "fiber": 0,
+      "sugar": 3.3
+    }
+  },
+  {
+    "id": "butter",
+    "name": "Butter",
+    "cat": "Eggs & Dairy",
+    "emoji": "🧈",
+    "defaultServingLabel": "1 tbsp",
+    "defaultServingGrams": 14,
+    "basePer100g": {
+      "kcal": 729,
+      "protein": 0.7,
+      "carbs": 0,
+      "fat": 82.1,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "plain-yogurt",
+    "name": "Plain Yogurt",
+    "cat": "Eggs & Dairy",
+    "emoji": "🥣",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 245,
+    "basePer100g": {
+      "kcal": 61,
+      "protein": 3.3,
+      "carbs": 6.9,
+      "fat": 3.3,
+      "fiber": 0,
+      "sugar": 6.9
+    }
+  },
+  {
+    "id": "kashk",
+    "name": "Kashk",
+    "cat": "Eggs & Dairy",
+    "emoji": "🥣",
+    "defaultServingLabel": "2 tbsp",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 150,
+      "protein": 10,
+      "carbs": 13.3,
+      "fat": 6.7,
+      "fiber": 0,
+      "sugar": 6.7
+    }
+  },
+  {
+    "id": "ricotta",
+    "name": "Ricotta Cheese",
+    "cat": "Eggs & Dairy",
+    "emoji": "🧀",
+    "defaultServingLabel": "1/2 cup",
+    "defaultServingGrams": 124,
+    "basePer100g": {
+      "kcal": 173,
+      "protein": 11.3,
+      "carbs": 5.6,
+      "fat": 12.9,
+      "fiber": 0,
+      "sugar": 0.5
+    }
+  },
+  {
+    "id": "egg-poached",
+    "name": "Poached Egg",
+    "cat": "Eggs & Dairy",
+    "emoji": "🍳",
+    "defaultServingLabel": "1 large",
+    "defaultServingGrams": 50,
+    "basePer100g": {
+      "kcal": 144,
+      "protein": 12.6,
+      "carbs": 0.8,
+      "fat": 9.6,
+      "fiber": 0,
+      "sugar": 0.4
+    }
+  },
+  {
+    "id": "egg-omelet-cheese",
+    "name": "Cheese Omelet (2 eggs)",
+    "cat": "Eggs & Dairy",
+    "emoji": "🍳",
+    "defaultServingLabel": "2 eggs + cheese",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 187,
+      "protein": 12,
+      "carbs": 2,
+      "fat": 14.7,
+      "fiber": 0,
+      "sugar": 1.3
+    }
+  },
+  {
+    "id": "buttermilk",
+    "name": "Buttermilk",
+    "cat": "Eggs & Dairy",
+    "emoji": "🥛",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 245,
+    "basePer100g": {
+      "kcal": 41,
+      "protein": 3.3,
+      "carbs": 4.9,
+      "fat": 0.9,
+      "fiber": 0,
+      "sugar": 5.3
+    }
+  },
+  {
+    "id": "string-cheese",
+    "name": "String Cheese",
+    "cat": "Eggs & Dairy",
+    "emoji": "🧀",
+    "defaultServingLabel": "1 stick",
+    "defaultServingGrams": 28,
+    "basePer100g": {
+      "kcal": 286,
+      "protein": 21.4,
+      "carbs": 3.6,
+      "fat": 21.4,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "provolone",
+    "name": "Provolone Cheese",
+    "cat": "Eggs & Dairy",
+    "emoji": "🧀",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 333,
+      "protein": 23.3,
+      "carbs": 2,
+      "fat": 25,
+      "fiber": 0,
+      "sugar": 1
+    }
+  },
+  {
+    "id": "parmesan",
+    "name": "Parmesan Cheese",
+    "cat": "Eggs & Dairy",
+    "emoji": "🧀",
+    "defaultServingLabel": "2 tbsp grated",
+    "defaultServingGrams": 10,
+    "basePer100g": {
+      "kcal": 420,
+      "protein": 38,
+      "carbs": 4,
+      "fat": 28,
+      "fiber": 0,
+      "sugar": 1
+    }
+  },
+  {
+    "id": "skyr",
+    "name": "Skyr",
+    "cat": "Eggs & Dairy",
+    "emoji": "🥣",
+    "defaultServingLabel": "170g",
+    "defaultServingGrams": 170,
+    "basePer100g": {
+      "kcal": 71,
+      "protein": 11.8,
+      "carbs": 4.1,
+      "fat": 0.2,
+      "fiber": 0,
+      "sugar": 3.5
+    }
+  },
+  {
+    "id": "kefir",
+    "name": "Kefir",
+    "cat": "Eggs & Dairy",
+    "emoji": "🥛",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 245,
+    "basePer100g": {
+      "kcal": 45,
+      "protein": 3.7,
+      "carbs": 4.5,
+      "fat": 1,
+      "fiber": 0,
+      "sugar": 3.7
+    }
+  },
+  {
+    "id": "condensed-milk",
+    "name": "Sweetened Condensed Milk",
+    "cat": "Eggs & Dairy",
+    "emoji": "🥫",
+    "defaultServingLabel": "2 tbsp",
+    "defaultServingGrams": 40,
+    "basePer100g": {
+      "kcal": 325,
+      "protein": 7.5,
+      "carbs": 55,
+      "fat": 8.8,
+      "fiber": 0,
+      "sugar": 55
+    }
+  },
+  {
+    "id": "half-half",
+    "name": "Half & Half Creamer",
+    "cat": "Eggs & Dairy",
+    "emoji": "🥛",
+    "defaultServingLabel": "2 tbsp",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 133,
+      "protein": 2.7,
+      "carbs": 4.3,
+      "fat": 11.7,
+      "fiber": 0,
+      "sugar": 4.3
+    }
+  },
+  {
+    "id": "ful",
+    "name": "Ful Medames",
+    "cat": "Egyptian",
+    "emoji": "🫘",
+    "defaultServingLabel": "1 bowl (250g)",
+    "defaultServingGrams": 250,
+    "basePer100g": {
+      "kcal": 136,
+      "protein": 7.2,
+      "carbs": 18,
+      "fat": 4,
+      "fiber": 5.6,
+      "sugar": 1.2
+    }
+  },
+  {
+    "id": "taameya",
+    "name": "Taameya (Falafel)",
+    "cat": "Egyptian",
+    "emoji": "🧆",
+    "defaultServingLabel": "4 pieces",
+    "defaultServingGrams": 120,
+    "basePer100g": {
+      "kcal": 275,
+      "protein": 10,
+      "carbs": 25,
+      "fat": 15,
+      "fiber": 6.7,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "koshary",
+    "name": "Koshary",
+    "cat": "Egyptian",
+    "emoji": "🍝",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 400,
+    "basePer100g": {
+      "kcal": 155,
+      "protein": 4.5,
+      "carbs": 26.2,
+      "fat": 3.5,
+      "fiber": 3,
+      "sugar": 2
+    }
+  },
+  {
+    "id": "molokhia",
+    "name": "Molokhia with Rice",
+    "cat": "Egyptian",
+    "emoji": "🥬",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 350,
+    "basePer100g": {
+      "kcal": 117,
+      "protein": 5.7,
+      "carbs": 13.7,
+      "fat": 4.3,
+      "fiber": 1.7,
+      "sugar": 0.6
+    }
+  },
+  {
+    "id": "mahshi",
+    "name": "Mahshi (Stuffed Veg)",
+    "cat": "Egyptian",
+    "emoji": "🫑",
+    "defaultServingLabel": "4 pieces",
+    "defaultServingGrams": 320,
+    "basePer100g": {
+      "kcal": 119,
+      "protein": 2.5,
+      "carbs": 16.2,
+      "fat": 4.7,
+      "fiber": 2.2,
+      "sugar": 1.9
+    }
+  },
+  {
+    "id": "kofta",
+    "name": "Kofta",
+    "cat": "Egyptian",
+    "emoji": "🍢",
+    "defaultServingLabel": "4 pieces (150g)",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 227,
+      "protein": 18.7,
+      "carbs": 2.7,
+      "fat": 16,
+      "fiber": 0,
+      "sugar": 0.7
+    }
+  },
+  {
+    "id": "shawarma-ch",
+    "name": "Chicken Shawarma",
+    "cat": "Egyptian",
+    "emoji": "🌯",
+    "defaultServingLabel": "1 sandwich",
+    "defaultServingGrams": 280,
+    "basePer100g": {
+      "kcal": 186,
+      "protein": 11.4,
+      "carbs": 17.1,
+      "fat": 7.9,
+      "fiber": 1.1,
+      "sugar": 1.4
+    }
+  },
+  {
+    "id": "shawarma-bf",
+    "name": "Beef Shawarma",
+    "cat": "Egyptian",
+    "emoji": "🌯",
+    "defaultServingLabel": "1 sandwich",
+    "defaultServingGrams": 280,
+    "basePer100g": {
+      "kcal": 207,
+      "protein": 10.7,
+      "carbs": 16.4,
+      "fat": 10.7,
+      "fiber": 1.1,
+      "sugar": 1.4
+    }
+  },
+  {
+    "id": "kebda",
+    "name": "Liver (Kebda) Sandwich",
+    "cat": "Egyptian",
+    "emoji": "🥪",
+    "defaultServingLabel": "1 sandwich",
+    "defaultServingGrams": 200,
+    "basePer100g": {
+      "kcal": 205,
+      "protein": 13,
+      "carbs": 19,
+      "fat": 8.5,
+      "fiber": 1,
+      "sugar": 1
+    }
+  },
+  {
+    "id": "hawawshi",
+    "name": "Hawawshi",
+    "cat": "Egyptian",
+    "emoji": "🥙",
+    "defaultServingLabel": "1 piece",
+    "defaultServingGrams": 220,
+    "basePer100g": {
+      "kcal": 236,
+      "protein": 10.9,
+      "carbs": 19.1,
+      "fat": 12.7,
+      "fiber": 0.9,
+      "sugar": 0.9
+    }
+  },
+  {
+    "id": "baladi",
+    "name": "Baladi Bread",
+    "cat": "Egyptian",
+    "emoji": "🍞",
+    "defaultServingLabel": "1 loaf",
+    "defaultServingGrams": 90,
+    "basePer100g": {
+      "kcal": 267,
+      "protein": 8.9,
+      "carbs": 53.3,
+      "fat": 1.7,
+      "fiber": 3.3,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "roz",
+    "name": "Roz (White Rice)",
+    "cat": "Egyptian",
+    "emoji": "🍚",
+    "defaultServingLabel": "1 cup cooked",
+    "defaultServingGrams": 175,
+    "basePer100g": {
+      "kcal": 117,
+      "protein": 2.3,
+      "carbs": 25.7,
+      "fat": 0.3,
+      "fiber": 0.3,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "macarona",
+    "name": "Macarona Bechamel",
+    "cat": "Egyptian",
+    "emoji": "🍝",
+    "defaultServingLabel": "1 serving",
+    "defaultServingGrams": 300,
+    "basePer100g": {
+      "kcal": 187,
+      "protein": 6.7,
+      "carbs": 19.3,
+      "fat": 8.7,
+      "fiber": 1,
+      "sugar": 2
+    }
+  },
+  {
+    "id": "basbousa",
+    "name": "Basbousa",
+    "cat": "Egyptian",
+    "emoji": "🍮",
+    "defaultServingLabel": "1 piece",
+    "defaultServingGrams": 80,
+    "basePer100g": {
+      "kcal": 375,
+      "protein": 5,
+      "carbs": 52.5,
+      "fat": 16.2,
+      "fiber": 1.2,
+      "sugar": 35
+    }
+  },
+  {
+    "id": "konafa",
+    "name": "Konafa",
+    "cat": "Egyptian",
+    "emoji": "🍰",
+    "defaultServingLabel": "1 piece",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 380,
+      "protein": 6,
+      "carbs": 46,
+      "fat": 19,
+      "fiber": 1,
+      "sugar": 30
+    }
+  },
+  {
+    "id": "dates",
+    "name": "Dates",
+    "cat": "Egyptian",
+    "emoji": "🌴",
+    "defaultServingLabel": "5 pieces",
+    "defaultServingGrams": 45,
+    "basePer100g": {
+      "kcal": 289,
+      "protein": 2.2,
+      "carbs": 75.6,
+      "fat": 0,
+      "fiber": 6.7,
+      "sugar": 64.4
+    }
+  },
+  {
+    "id": "shorbet-ads",
+    "name": "Lentil Soup (Shorbet Ads)",
+    "cat": "Egyptian",
+    "emoji": "🍲",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 300,
+    "basePer100g": {
+      "kcal": 73,
+      "protein": 4,
+      "carbs": 11.3,
+      "fat": 1.3,
+      "fiber": 3,
+      "sugar": 1
+    }
+  },
+  {
+    "id": "ful-baid",
+    "name": "Ful with Egg",
+    "cat": "Egyptian",
+    "emoji": "🍳",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 280,
+    "basePer100g": {
+      "kcal": 150,
+      "protein": 8.6,
+      "carbs": 16.4,
+      "fat": 6.1,
+      "fiber": 5,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "feteer",
+    "name": "Feteer Meshaltet",
+    "cat": "Egyptian",
+    "emoji": "🥐",
+    "defaultServingLabel": "1 slice",
+    "defaultServingGrams": 120,
+    "basePer100g": {
+      "kcal": 358,
+      "protein": 6.7,
+      "carbs": 36.7,
+      "fat": 20.8,
+      "fiber": 0.8,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "sayadeya",
+    "name": "Sayadeya (Fish & Rice)",
+    "cat": "Egyptian",
+    "emoji": "🐟",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 350,
+    "basePer100g": {
+      "kcal": 131,
+      "protein": 9.1,
+      "carbs": 14.9,
+      "fat": 3.4,
+      "fiber": 0.6,
+      "sugar": 0.9
+    }
+  },
+  {
+    "id": "fattah",
+    "name": "Fattah",
+    "cat": "Egyptian",
+    "emoji": "🍚",
+    "defaultServingLabel": "1 serving",
+    "defaultServingGrams": 320,
+    "basePer100g": {
+      "kcal": 169,
+      "protein": 8.1,
+      "carbs": 18.1,
+      "fat": 6.6,
+      "fiber": 0.6,
+      "sugar": 0.6
+    }
+  },
+  {
+    "id": "roz-laban",
+    "name": "Roz bel Laban",
+    "cat": "Egyptian",
+    "emoji": "🍮",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 200,
+    "basePer100g": {
+      "kcal": 130,
+      "protein": 3.5,
+      "carbs": 21,
+      "fat": 3.5,
+      "fiber": 0.2,
+      "sugar": 13
+    }
+  },
+  {
+    "id": "om-ali",
+    "name": "Om Ali",
+    "cat": "Egyptian",
+    "emoji": "🥛",
+    "defaultServingLabel": "1 serving",
+    "defaultServingGrams": 220,
+    "basePer100g": {
+      "kcal": 218,
+      "protein": 4.5,
+      "carbs": 20.9,
+      "fat": 12.7,
+      "fiber": 0.9,
+      "sugar": 13.6
+    }
+  },
+  {
+    "id": "baba-ghanoush",
+    "name": "Baba Ghanoush",
+    "cat": "Egyptian",
+    "emoji": "🍆",
+    "defaultServingLabel": "2 tbsp",
+    "defaultServingGrams": 40,
+    "basePer100g": {
+      "kcal": 150,
+      "protein": 2.5,
+      "carbs": 10,
+      "fat": 12.5,
+      "fiber": 5,
+      "sugar": 2.5
+    }
+  },
+  {
+    "id": "tahini",
+    "name": "Tahini Sauce",
+    "cat": "Egyptian",
+    "emoji": "🥣",
+    "defaultServingLabel": "2 tbsp",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 593,
+      "protein": 16.7,
+      "carbs": 20,
+      "fat": 53.3,
+      "fiber": 10,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "waraenab",
+    "name": "Grape Leaves (Wara' Enab)",
+    "cat": "Egyptian",
+    "emoji": "🍇",
+    "defaultServingLabel": "6 pieces",
+    "defaultServingGrams": 180,
+    "basePer100g": {
+      "kcal": 144,
+      "protein": 2.8,
+      "carbs": 21.1,
+      "fat": 5.6,
+      "fiber": 2.2,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "freekeh",
+    "name": "Freekeh",
+    "cat": "Egyptian",
+    "emoji": "🌾",
+    "defaultServingLabel": "1 cup cooked",
+    "defaultServingGrams": 170,
+    "basePer100g": {
+      "kcal": 129,
+      "protein": 5.3,
+      "carbs": 23.5,
+      "fat": 1.2,
+      "fiber": 4.7,
+      "sugar": 0.6
+    }
+  },
+  {
+    "id": "fattoush",
+    "name": "Fattoush Salad",
+    "cat": "Egyptian",
+    "emoji": "🥗",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 250,
+    "basePer100g": {
+      "kcal": 72,
+      "protein": 1.2,
+      "carbs": 8,
+      "fat": 4,
+      "fiber": 2,
+      "sugar": 2
+    }
+  },
+  {
+    "id": "shakshuka",
+    "name": "Shakshuka",
+    "cat": "Egyptian",
+    "emoji": "🍳",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 300,
+    "basePer100g": {
+      "kcal": 107,
+      "protein": 6,
+      "carbs": 6.7,
+      "fat": 6.7,
+      "fiber": 1.3,
+      "sugar": 2.7
+    }
+  },
+  {
+    "id": "gebna-beida",
+    "name": "Gebna Beida (White Cheese)",
+    "cat": "Egyptian",
+    "emoji": "🧀",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 267,
+      "protein": 16.7,
+      "carbs": 3.3,
+      "fat": 20,
+      "fiber": 0,
+      "sugar": 3.3
+    }
+  },
+  {
+    "id": "gebna-rumi",
+    "name": "Gebna Rumi",
+    "cat": "Egyptian",
+    "emoji": "🧀",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 367,
+      "protein": 23.3,
+      "carbs": 3.3,
+      "fat": 30,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "torshi",
+    "name": "Torshi (Pickled Vegetables)",
+    "cat": "Egyptian",
+    "emoji": "🥒",
+    "defaultServingLabel": "1 small bowl",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 25,
+      "protein": 1,
+      "carbs": 5,
+      "fat": 0.1,
+      "fiber": 1.5,
+      "sugar": 3
+    }
+  },
+  {
+    "id": "balila",
+    "name": "Balila (Boiled Chickpeas)",
+    "cat": "Egyptian",
+    "emoji": "🫘",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 250,
+    "basePer100g": {
+      "kcal": 104,
+      "protein": 5.2,
+      "carbs": 16.8,
+      "fat": 2,
+      "fiber": 4,
+      "sugar": 1.2
+    }
+  },
+  {
+    "id": "hummus-eg",
+    "name": "Hummus",
+    "cat": "Egyptian",
+    "emoji": "🥣",
+    "defaultServingLabel": "3 tbsp",
+    "defaultServingGrams": 60,
+    "basePer100g": {
+      "kcal": 200,
+      "protein": 6.7,
+      "carbs": 16.7,
+      "fat": 11.7,
+      "fiber": 5,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "kabab-halla",
+    "name": "Kabab Halla",
+    "cat": "Egyptian",
+    "emoji": "🍲",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 320,
+    "basePer100g": {
+      "kcal": 131,
+      "protein": 9.4,
+      "carbs": 6.2,
+      "fat": 7.5,
+      "fiber": 0.9,
+      "sugar": 1.2
+    }
+  },
+  {
+    "id": "firakh-mashwiya",
+    "name": "Grilled Whole Chicken (portion)",
+    "cat": "Egyptian",
+    "emoji": "🍗",
+    "defaultServingLabel": "1 quarter",
+    "defaultServingGrams": 200,
+    "basePer100g": {
+      "kcal": 170,
+      "protein": 19,
+      "carbs": 0,
+      "fat": 10,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "ruz-bi-shaghria",
+    "name": "Rice with Vermicelli",
+    "cat": "Egyptian",
+    "emoji": "🍚",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 180,
+    "basePer100g": {
+      "kcal": 128,
+      "protein": 2.2,
+      "carbs": 24.4,
+      "fat": 2.2,
+      "fiber": 0.6,
+      "sugar": 0.6
+    }
+  },
+  {
+    "id": "besara",
+    "name": "Besara",
+    "cat": "Egyptian",
+    "emoji": "🥣",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 250,
+    "basePer100g": {
+      "kcal": 112,
+      "protein": 6,
+      "carbs": 15.2,
+      "fat": 3.6,
+      "fiber": 4,
+      "sugar": 1.2
+    }
+  },
+  {
+    "id": "orz-bel-laham",
+    "name": "Rice with Meat (Layered)",
+    "cat": "Egyptian",
+    "emoji": "🍛",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 350,
+    "basePer100g": {
+      "kcal": 149,
+      "protein": 8,
+      "carbs": 15.7,
+      "fat": 5.7,
+      "fiber": 0.6,
+      "sugar": 0.9
+    }
+  },
+  {
+    "id": "sobia",
+    "name": "Sobia (Coconut Milk Drink)",
+    "cat": "Egyptian",
+    "emoji": "🥥",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 75,
+      "protein": 0.8,
+      "carbs": 13.3,
+      "fat": 2.5,
+      "fiber": 0,
+      "sugar": 10.8
+    }
+  },
+  {
+    "id": "zalabya",
+    "name": "Zalabya (Fried Dough Balls)",
+    "cat": "Egyptian",
+    "emoji": "🍩",
+    "defaultServingLabel": "5 pieces",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 340,
+      "protein": 5,
+      "carbs": 45,
+      "fat": 16,
+      "fiber": 1,
+      "sugar": 20
+    }
+  },
+  {
+    "id": "qatayef",
+    "name": "Qatayef",
+    "cat": "Egyptian",
+    "emoji": "🥞",
+    "defaultServingLabel": "2 pieces",
+    "defaultServingGrams": 90,
+    "basePer100g": {
+      "kcal": 289,
+      "protein": 5.6,
+      "carbs": 37.8,
+      "fat": 13.3,
+      "fiber": 1.1,
+      "sugar": 17.8
+    }
+  },
+  {
+    "id": "mombar",
+    "name": "Mombar (Stuffed Sausage)",
+    "cat": "Egyptian",
+    "emoji": "🌭",
+    "defaultServingLabel": "2 pieces",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 253,
+      "protein": 9.3,
+      "carbs": 20,
+      "fat": 16,
+      "fiber": 1.3,
+      "sugar": 1.3
+    }
+  },
+  {
+    "id": "rezz-abyad-sada",
+    "name": "Plain White Rice (side)",
+    "cat": "Egyptian",
+    "emoji": "🍚",
+    "defaultServingLabel": "1/2 cup",
+    "defaultServingGrams": 90,
+    "basePer100g": {
+      "kcal": 117,
+      "protein": 2.2,
+      "carbs": 25.6,
+      "fat": 0.3,
+      "fiber": 0.3,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "sudani",
+    "name": "Sudani (Roasted Peanuts) Egyptian style",
+    "cat": "Egyptian",
+    "emoji": "🥜",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 567,
+      "protein": 23.3,
+      "carbs": 20,
+      "fat": 50,
+      "fiber": 6.7,
+      "sugar": 3.3
+    }
+  },
+  {
+    "id": "termes",
+    "name": "Termes (Lupini Beans)",
+    "cat": "Egyptian",
+    "emoji": "🫘",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 120,
+      "protein": 10,
+      "carbs": 13.3,
+      "fat": 6,
+      "fiber": 4.7,
+      "sugar": 1.3
+    }
+  },
+  {
+    "id": "cous-cous-eg",
+    "name": "Egyptian Couscous with Vegetables",
+    "cat": "Egyptian",
+    "emoji": "🍲",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 280,
+    "basePer100g": {
+      "kcal": 114,
+      "protein": 3.2,
+      "carbs": 18.6,
+      "fat": 3.2,
+      "fiber": 1.8,
+      "sugar": 2.1
+    }
+  },
+  {
+    "id": "kunafa-cheese",
+    "name": "Konafa bel Gebna",
+    "cat": "Egyptian",
+    "emoji": "🍰",
+    "defaultServingLabel": "1 piece",
+    "defaultServingGrams": 110,
+    "basePer100g": {
+      "kcal": 373,
+      "protein": 8.2,
+      "carbs": 40,
+      "fat": 20,
+      "fiber": 0.9,
+      "sugar": 25.5
+    }
+  },
+  {
+    "id": "sambousek",
+    "name": "Sambousek (Fried, 3)",
+    "cat": "Egyptian",
+    "emoji": "🥟",
+    "defaultServingLabel": "3 pieces",
+    "defaultServingGrams": 120,
+    "basePer100g": {
+      "kcal": 283,
+      "protein": 8.3,
+      "carbs": 26.7,
+      "fat": 15.8,
+      "fiber": 1.7,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "rolled-cabbage",
+    "name": "Mahshi Kromb (Stuffed Cabbage)",
+    "cat": "Egyptian",
+    "emoji": "🥬",
+    "defaultServingLabel": "4 rolls",
+    "defaultServingGrams": 300,
+    "basePer100g": {
+      "kcal": 107,
+      "protein": 2.3,
+      "carbs": 15.3,
+      "fat": 4,
+      "fiber": 2,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "egyptian-liver-alex",
+    "name": "Alexandrian Liver",
+    "cat": "Egyptian",
+    "emoji": "🍖",
+    "defaultServingLabel": "1 sandwich",
+    "defaultServingGrams": 200,
+    "basePer100g": {
+      "kcal": 215,
+      "protein": 12.5,
+      "carbs": 17.5,
+      "fat": 11,
+      "fiber": 1,
+      "sugar": 1
+    }
+  },
+  {
+    "id": "basterma",
+    "name": "Basterma",
+    "cat": "Egyptian",
+    "emoji": "🥩",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 300,
+      "protein": 30,
+      "carbs": 3.3,
+      "fat": 20,
+      "fiber": 0,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "sogo2",
+    "name": "Sogo2 (Egyptian Sausage)",
+    "cat": "Egyptian",
+    "emoji": "🌭",
+    "defaultServingLabel": "2 pieces",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 290,
+      "protein": 13,
+      "carbs": 4,
+      "fat": 25,
+      "fiber": 0,
+      "sugar": 1
+    }
+  },
+  {
+    "id": "gebna-tabaq",
+    "name": "Gebna Tabaq el Ard",
+    "cat": "Egyptian",
+    "emoji": "🧀",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 283,
+      "protein": 16.7,
+      "carbs": 3.3,
+      "fat": 23.3,
+      "fiber": 0,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "ruz-me3amar",
+    "name": "Ruz Me3amar",
+    "cat": "Egyptian",
+    "emoji": "🍚",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 220,
+    "basePer100g": {
+      "kcal": 155,
+      "protein": 2.7,
+      "carbs": 23.6,
+      "fat": 5.5,
+      "fiber": 0.5,
+      "sugar": 8.2
+    }
+  },
+  {
+    "id": "fasoulia",
+    "name": "Fasoulia (White Bean Stew)",
+    "cat": "Egyptian",
+    "emoji": "🫘",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 300,
+    "basePer100g": {
+      "kcal": 103,
+      "protein": 5,
+      "carbs": 13.3,
+      "fat": 3.3,
+      "fiber": 3.3,
+      "sugar": 1.3
+    }
+  },
+  {
+    "id": "bamya",
+    "name": "Bamya (Okra Stew)",
+    "cat": "Egyptian",
+    "emoji": "🍲",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 300,
+    "basePer100g": {
+      "kcal": 73,
+      "protein": 2.7,
+      "carbs": 7.3,
+      "fat": 3.7,
+      "fiber": 2,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "molokhia-chicken",
+    "name": "Molokhia with Chicken",
+    "cat": "Egyptian",
+    "emoji": "🥬",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 400,
+    "basePer100g": {
+      "kcal": 120,
+      "protein": 7.5,
+      "carbs": 10.5,
+      "fat": 5,
+      "fiber": 1.5,
+      "sugar": 0.8
+    }
+  },
+  {
+    "id": "kebda-eskandarani",
+    "name": "Liver Alexandria Style",
+    "cat": "Egyptian",
+    "emoji": "🍖",
+    "defaultServingLabel": "1 serving",
+    "defaultServingGrams": 200,
+    "basePer100g": {
+      "kcal": 200,
+      "protein": 13,
+      "carbs": 10,
+      "fat": 12,
+      "fiber": 1,
+      "sugar": 1.5
+    }
+  },
+  {
+    "id": "ta3meya-sandwich",
+    "name": "Taameya Sandwich",
+    "cat": "Egyptian",
+    "emoji": "🥙",
+    "defaultServingLabel": "1 sandwich",
+    "defaultServingGrams": 200,
+    "basePer100g": {
+      "kcal": 215,
+      "protein": 7,
+      "carbs": 25,
+      "fat": 9,
+      "fiber": 3.5,
+      "sugar": 1.5
+    }
+  },
+  {
+    "id": "koshary-small",
+    "name": "Koshary (Small)",
+    "cat": "Egyptian",
+    "emoji": "🍝",
+    "defaultServingLabel": "1 small bowl",
+    "defaultServingGrams": 250,
+    "basePer100g": {
+      "kcal": 156,
+      "protein": 4.4,
+      "carbs": 26.4,
+      "fat": 3.6,
+      "fiber": 2.8,
+      "sugar": 2
+    }
+  },
+  {
+    "id": "hawawshi-alex",
+    "name": "Hawawshi Alexandria Style",
+    "cat": "Egyptian",
+    "emoji": "🥙",
+    "defaultServingLabel": "1 piece",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 242,
+      "protein": 10.8,
+      "carbs": 18.3,
+      "fat": 14.2,
+      "fiber": 0.8,
+      "sugar": 0.8
+    }
+  },
+  {
+    "id": "egyptian-pancake",
+    "name": "Ataif (Egyptian Pancake, plain)",
+    "cat": "Egyptian",
+    "emoji": "🥞",
+    "defaultServingLabel": "3 pieces",
+    "defaultServingGrams": 90,
+    "basePer100g": {
+      "kcal": 244,
+      "protein": 5.6,
+      "carbs": 42.2,
+      "fat": 6.7,
+      "fiber": 1.1,
+      "sugar": 11.1
+    }
+  },
+  {
+    "id": "laban-rayeb",
+    "name": "Laban Rayeb",
+    "cat": "Egyptian",
+    "emoji": "🥛",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 245,
+    "basePer100g": {
+      "kcal": 61,
+      "protein": 3.3,
+      "carbs": 4.5,
+      "fat": 3.3,
+      "fiber": 0,
+      "sugar": 4.5
+    }
+  },
+  {
+    "id": "khall-w-zeit-salad",
+    "name": "Vinegar & Oil Salad",
+    "cat": "Egyptian",
+    "emoji": "🥗",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 180,
+    "basePer100g": {
+      "kcal": 50,
+      "protein": 1.1,
+      "carbs": 4.4,
+      "fat": 3.3,
+      "fiber": 1.1,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "dukkah",
+    "name": "Dukkah (2 tbsp)",
+    "cat": "Egyptian",
+    "emoji": "🥜",
+    "defaultServingLabel": "2 tbsp",
+    "defaultServingGrams": 20,
+    "basePer100g": {
+      "kcal": 550,
+      "protein": 20,
+      "carbs": 25,
+      "fat": 45,
+      "fiber": 10,
+      "sugar": 5
+    }
+  },
+  {
+    "id": "aish-shami",
+    "name": "Aish Shami",
+    "cat": "Egyptian",
+    "emoji": "🍞",
+    "defaultServingLabel": "1 loaf",
+    "defaultServingGrams": 80,
+    "basePer100g": {
+      "kcal": 262,
+      "protein": 8.8,
+      "carbs": 52.5,
+      "fat": 1.5,
+      "fiber": 3.1,
+      "sugar": 1.2
+    }
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "cat": "Fruits",
+    "emoji": "🍌",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 118,
+    "basePer100g": {
+      "kcal": 89,
+      "protein": 1.1,
+      "carbs": 22.9,
+      "fat": 0.3,
+      "fiber": 2.6,
+      "sugar": 11.9
+    }
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "cat": "Fruits",
+    "emoji": "🍎",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 182,
+    "basePer100g": {
+      "kcal": 52,
+      "protein": 0.3,
+      "carbs": 13.7,
+      "fat": 0.2,
+      "fiber": 2.4,
+      "sugar": 10.4
+    }
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "cat": "Fruits",
+    "emoji": "🍊",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 131,
+    "basePer100g": {
+      "kcal": 47,
+      "protein": 0.9,
+      "carbs": 11.5,
+      "fat": 0.2,
+      "fiber": 2.4,
+      "sugar": 9.2
+    }
+  },
+  {
+    "id": "mango",
+    "name": "Mango",
+    "cat": "Fruits",
+    "emoji": "🥭",
+    "defaultServingLabel": "1 cup sliced",
+    "defaultServingGrams": 165,
+    "basePer100g": {
+      "kcal": 60,
+      "protein": 0.8,
+      "carbs": 15.2,
+      "fat": 0.4,
+      "fiber": 1.6,
+      "sugar": 13.9
+    }
+  },
+  {
+    "id": "watermelon",
+    "name": "Watermelon",
+    "cat": "Fruits",
+    "emoji": "🍉",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 152,
+    "basePer100g": {
+      "kcal": 30,
+      "protein": 0.6,
+      "carbs": 7.6,
+      "fat": 0.1,
+      "fiber": 0.4,
+      "sugar": 6.2
+    }
+  },
+  {
+    "id": "guava",
+    "name": "Guava",
+    "cat": "Fruits",
+    "emoji": "🍈",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 55,
+    "basePer100g": {
+      "kcal": 67,
+      "protein": 2.5,
+      "carbs": 14.5,
+      "fat": 0.9,
+      "fiber": 5.5,
+      "sugar": 9.1
+    }
+  },
+  {
+    "id": "strawberries",
+    "name": "Strawberries",
+    "cat": "Fruits",
+    "emoji": "🍓",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 152,
+    "basePer100g": {
+      "kcal": 32,
+      "protein": 0.7,
+      "carbs": 7.9,
+      "fat": 0.3,
+      "fiber": 2,
+      "sugar": 4.6
+    }
+  },
+  {
+    "id": "grapes",
+    "name": "Grapes",
+    "cat": "Fruits",
+    "emoji": "🍇",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 151,
+    "basePer100g": {
+      "kcal": 69,
+      "protein": 0.7,
+      "carbs": 17.9,
+      "fat": 0.1,
+      "fiber": 0.9,
+      "sugar": 15.2
+    }
+  },
+  {
+    "id": "pear",
+    "name": "Pear",
+    "cat": "Fruits",
+    "emoji": "🍐",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 178,
+    "basePer100g": {
+      "kcal": 57,
+      "protein": 0.3,
+      "carbs": 15.2,
+      "fat": 0.1,
+      "fiber": 3.1,
+      "sugar": 9.6
+    }
+  },
+  {
+    "id": "peach",
+    "name": "Peach",
+    "cat": "Fruits",
+    "emoji": "🍑",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 39,
+      "protein": 0.9,
+      "carbs": 9.3,
+      "fat": 0.3,
+      "fiber": 1.5,
+      "sugar": 8.7
+    }
+  },
+  {
+    "id": "plum",
+    "name": "Plum",
+    "cat": "Fruits",
+    "emoji": "🍑",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 66,
+    "basePer100g": {
+      "kcal": 45,
+      "protein": 0.8,
+      "carbs": 11.4,
+      "fat": 0.3,
+      "fiber": 1.4,
+      "sugar": 10.6
+    }
+  },
+  {
+    "id": "kiwi",
+    "name": "Kiwi",
+    "cat": "Fruits",
+    "emoji": "🥝",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 76,
+    "basePer100g": {
+      "kcal": 55,
+      "protein": 1.1,
+      "carbs": 13.2,
+      "fat": 0.5,
+      "fiber": 2.8,
+      "sugar": 7.9
+    }
+  },
+  {
+    "id": "pineapple",
+    "name": "Pineapple",
+    "cat": "Fruits",
+    "emoji": "🍍",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 165,
+    "basePer100g": {
+      "kcal": 50,
+      "protein": 0.5,
+      "carbs": 13.3,
+      "fat": 0.1,
+      "fiber": 1.4,
+      "sugar": 9.7
+    }
+  },
+  {
+    "id": "figs",
+    "name": "Figs",
+    "cat": "Fruits",
+    "emoji": "🍈",
+    "defaultServingLabel": "2 medium",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 74,
+      "protein": 0.8,
+      "carbs": 19,
+      "fat": 0.3,
+      "fiber": 2.9,
+      "sugar": 16
+    }
+  },
+  {
+    "id": "apricot",
+    "name": "Apricot",
+    "cat": "Fruits",
+    "emoji": "🍑",
+    "defaultServingLabel": "3 medium",
+    "defaultServingGrams": 105,
+    "basePer100g": {
+      "kcal": 48,
+      "protein": 1.4,
+      "carbs": 11.4,
+      "fat": 0.4,
+      "fiber": 2,
+      "sugar": 9.5
+    }
+  },
+  {
+    "id": "pomegranate",
+    "name": "Pomegranate",
+    "cat": "Fruits",
+    "emoji": "🍎",
+    "defaultServingLabel": "1/2 cup arils",
+    "defaultServingGrams": 87,
+    "basePer100g": {
+      "kcal": 83,
+      "protein": 1.7,
+      "carbs": 18.4,
+      "fat": 1.1,
+      "fiber": 4,
+      "sugar": 13.8
+    }
+  },
+  {
+    "id": "cherries",
+    "name": "Cherries",
+    "cat": "Fruits",
+    "emoji": "🍒",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 154,
+    "basePer100g": {
+      "kcal": 63,
+      "protein": 1,
+      "carbs": 16.2,
+      "fat": 0.2,
+      "fiber": 2.1,
+      "sugar": 13
+    }
+  },
+  {
+    "id": "blueberries",
+    "name": "Blueberries",
+    "cat": "Fruits",
+    "emoji": "🫐",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 148,
+    "basePer100g": {
+      "kcal": 57,
+      "protein": 0.7,
+      "carbs": 14.2,
+      "fat": 0.3,
+      "fiber": 2.4,
+      "sugar": 10.1
+    }
+  },
+  {
+    "id": "cantaloupe",
+    "name": "Cantaloupe",
+    "cat": "Fruits",
+    "emoji": "🍈",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 160,
+    "basePer100g": {
+      "kcal": 34,
+      "protein": 0.8,
+      "carbs": 8.1,
+      "fat": 0.2,
+      "fiber": 0.9,
+      "sugar": 7.5
+    }
+  },
+  {
+    "id": "lemon",
+    "name": "Lemon",
+    "cat": "Fruits",
+    "emoji": "🍋",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 58,
+    "basePer100g": {
+      "kcal": 29,
+      "protein": 1,
+      "carbs": 9.3,
+      "fat": 0.3,
+      "fiber": 2.8,
+      "sugar": 2.6
+    }
+  },
+  {
+    "id": "avocado",
+    "name": "Avocado",
+    "cat": "Fruits",
+    "emoji": "🥑",
+    "defaultServingLabel": "1/2 medium",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 160,
+      "protein": 2,
+      "carbs": 8.5,
+      "fat": 15,
+      "fiber": 6.7,
+      "sugar": 0.7
+    }
+  },
+  {
+    "id": "prickly-pear",
+    "name": "Prickly Pear (Teen Shoky)",
+    "cat": "Fruits",
+    "emoji": "🌵",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 41,
+      "protein": 0.7,
+      "carbs": 10,
+      "fat": 0.5,
+      "fiber": 3.7,
+      "sugar": 7
+    }
+  },
+  {
+    "id": "papaya",
+    "name": "Papaya",
+    "cat": "Fruits",
+    "emoji": "🥭",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 145,
+    "basePer100g": {
+      "kcal": 43,
+      "protein": 0.5,
+      "carbs": 11,
+      "fat": 0.3,
+      "fiber": 1.7,
+      "sugar": 7.6
+    }
+  },
+  {
+    "id": "raspberries",
+    "name": "Raspberries",
+    "cat": "Fruits",
+    "emoji": "🍓",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 123,
+    "basePer100g": {
+      "kcal": 52,
+      "protein": 1.2,
+      "carbs": 12.2,
+      "fat": 0.7,
+      "fiber": 6.5,
+      "sugar": 4.4
+    }
+  },
+  {
+    "id": "blackberries",
+    "name": "Blackberries",
+    "cat": "Fruits",
+    "emoji": "🫐",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 144,
+    "basePer100g": {
+      "kcal": 43,
+      "protein": 1.4,
+      "carbs": 9.7,
+      "fat": 0.3,
+      "fiber": 5.3,
+      "sugar": 4.9
+    }
+  },
+  {
+    "id": "dragon-fruit",
+    "name": "Dragon Fruit",
+    "cat": "Fruits",
+    "emoji": "🐉",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 170,
+    "basePer100g": {
+      "kcal": 60,
+      "protein": 1.2,
+      "carbs": 12.9,
+      "fat": 0.3,
+      "fiber": 1.8,
+      "sugar": 7.6
+    }
+  },
+  {
+    "id": "tangerine",
+    "name": "Tangerine",
+    "cat": "Fruits",
+    "emoji": "🍊",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 88,
+    "basePer100g": {
+      "kcal": 53,
+      "protein": 0.8,
+      "carbs": 13.6,
+      "fat": 0.2,
+      "fiber": 1.8,
+      "sugar": 10.7
+    }
+  },
+  {
+    "id": "dried-apricot",
+    "name": "Dried Apricots (6)",
+    "cat": "Fruits",
+    "emoji": "🍑",
+    "defaultServingLabel": "6 pieces",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 260,
+      "protein": 3.7,
+      "carbs": 66.7,
+      "fat": 0.7,
+      "fiber": 8.3,
+      "sugar": 56.7
+    }
+  },
+  {
+    "id": "raisins",
+    "name": "Raisins",
+    "cat": "Fruits",
+    "emoji": "🍇",
+    "defaultServingLabel": "1/4 cup",
+    "defaultServingGrams": 40,
+    "basePer100g": {
+      "kcal": 300,
+      "protein": 3.2,
+      "carbs": 80,
+      "fat": 0.5,
+      "fiber": 4,
+      "sugar": 62.5
+    }
+  },
+  {
+    "id": "coconut-fresh",
+    "name": "Fresh Coconut Meat",
+    "cat": "Fruits",
+    "emoji": "🥥",
+    "defaultServingLabel": "1/2 cup",
+    "defaultServingGrams": 40,
+    "basePer100g": {
+      "kcal": 355,
+      "protein": 3.2,
+      "carbs": 15,
+      "fat": 33.5,
+      "fiber": 8.8,
+      "sugar": 6.2
+    }
+  },
+  {
+    "id": "starfruit",
+    "name": "Starfruit",
+    "cat": "Fruits",
+    "emoji": "⭐",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 91,
+    "basePer100g": {
+      "kcal": 31,
+      "protein": 1.2,
+      "carbs": 6.7,
+      "fat": 0.3,
+      "fiber": 2.7,
+      "sugar": 4.3
+    }
+  },
+  {
+    "id": "passionfruit",
+    "name": "Passionfruit",
+    "cat": "Fruits",
+    "emoji": "🍈",
+    "defaultServingLabel": "2 fruits",
+    "defaultServingGrams": 36,
+    "basePer100g": {
+      "kcal": 94,
+      "protein": 2.2,
+      "carbs": 22.8,
+      "fat": 0.3,
+      "fiber": 10.6,
+      "sugar": 11.7
+    }
+  },
+  {
+    "id": "brown-rice",
+    "name": "Brown Rice",
+    "cat": "Grains & Legumes",
+    "emoji": "🍚",
+    "defaultServingLabel": "1 cup cooked",
+    "defaultServingGrams": 195,
+    "basePer100g": {
+      "kcal": 111,
+      "protein": 2.6,
+      "carbs": 23.1,
+      "fat": 0.9,
+      "fiber": 1.8,
+      "sugar": 0.4
+    }
+  },
+  {
+    "id": "quinoa",
+    "name": "Quinoa",
+    "cat": "Grains & Legumes",
+    "emoji": "🌾",
+    "defaultServingLabel": "1 cup cooked",
+    "defaultServingGrams": 185,
+    "basePer100g": {
+      "kcal": 120,
+      "protein": 4.3,
+      "carbs": 21.1,
+      "fat": 1.9,
+      "fiber": 2.8,
+      "sugar": 0.9
+    }
+  },
+  {
+    "id": "oatmeal",
+    "name": "Oatmeal",
+    "cat": "Grains & Legumes",
+    "emoji": "🥣",
+    "defaultServingLabel": "1 cup cooked",
+    "defaultServingGrams": 234,
+    "basePer100g": {
+      "kcal": 71,
+      "protein": 2.6,
+      "carbs": 12,
+      "fat": 1.5,
+      "fiber": 1.7,
+      "sugar": 0.4
+    }
+  },
+  {
+    "id": "wwbread",
+    "name": "Whole Wheat Bread",
+    "cat": "Grains & Legumes",
+    "emoji": "🍞",
+    "defaultServingLabel": "2 slices",
+    "defaultServingGrams": 56,
+    "basePer100g": {
+      "kcal": 250,
+      "protein": 10.7,
+      "carbs": 42.9,
+      "fat": 3.6,
+      "fiber": 7.1,
+      "sugar": 5.4
+    }
+  },
+  {
+    "id": "chickpeas",
+    "name": "Chickpeas, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🫘",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 164,
+    "basePer100g": {
+      "kcal": 164,
+      "protein": 8.8,
+      "carbs": 27.4,
+      "fat": 2.6,
+      "fiber": 7.6,
+      "sugar": 4.9
+    }
+  },
+  {
+    "id": "blacklentils",
+    "name": "Black Lentils, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🫘",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 198,
+    "basePer100g": {
+      "kcal": 116,
+      "protein": 9.1,
+      "carbs": 20.2,
+      "fat": 0.4,
+      "fiber": 8.1,
+      "sugar": 1
+    }
+  },
+  {
+    "id": "red-lentils",
+    "name": "Red Lentils, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🫘",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 198,
+    "basePer100g": {
+      "kcal": 116,
+      "protein": 9.1,
+      "carbs": 20.2,
+      "fat": 0.4,
+      "fiber": 8.1,
+      "sugar": 1
+    }
+  },
+  {
+    "id": "black-beans",
+    "name": "Black Beans, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🫘",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 172,
+    "basePer100g": {
+      "kcal": 132,
+      "protein": 8.7,
+      "carbs": 23.8,
+      "fat": 0.5,
+      "fiber": 8.7,
+      "sugar": 0.3
+    }
+  },
+  {
+    "id": "kidney-beans",
+    "name": "Kidney Beans, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🫘",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 177,
+    "basePer100g": {
+      "kcal": 127,
+      "protein": 8.5,
+      "carbs": 22.6,
+      "fat": 0.5,
+      "fiber": 6.2,
+      "sugar": 0.3
+    }
+  },
+  {
+    "id": "white-rice-plain",
+    "name": "White Rice, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🍚",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 158,
+    "basePer100g": {
+      "kcal": 130,
+      "protein": 2.7,
+      "carbs": 28.2,
+      "fat": 0.3,
+      "fiber": 0.4,
+      "sugar": 0.1
+    }
+  },
+  {
+    "id": "pasta-plain",
+    "name": "Pasta, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🍝",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 140,
+    "basePer100g": {
+      "kcal": 157,
+      "protein": 5.7,
+      "carbs": 30.7,
+      "fat": 0.9,
+      "fiber": 1.8,
+      "sugar": 0.6
+    }
+  },
+  {
+    "id": "wholewheat-pasta",
+    "name": "Whole Wheat Pasta, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🍝",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 140,
+    "basePer100g": {
+      "kcal": 129,
+      "protein": 5.4,
+      "carbs": 26.4,
+      "fat": 1.1,
+      "fiber": 4.5,
+      "sugar": 0.6
+    }
+  },
+  {
+    "id": "couscous",
+    "name": "Couscous, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🍲",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 157,
+    "basePer100g": {
+      "kcal": 112,
+      "protein": 3.8,
+      "carbs": 23.6,
+      "fat": 0.8,
+      "fiber": 1.4,
+      "sugar": 0.1
+    }
+  },
+  {
+    "id": "barley",
+    "name": "Barley, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🌾",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 157,
+    "basePer100g": {
+      "kcal": 123,
+      "protein": 2.2,
+      "carbs": 28,
+      "fat": 0.4,
+      "fiber": 3.8,
+      "sugar": 0.3
+    }
+  },
+  {
+    "id": "bulgur",
+    "name": "Bulgur Wheat, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🌾",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 182,
+    "basePer100g": {
+      "kcal": 83,
+      "protein": 3.1,
+      "carbs": 18.7,
+      "fat": 0.2,
+      "fiber": 4.5,
+      "sugar": 0.1
+    }
+  },
+  {
+    "id": "split-peas",
+    "name": "Split Peas, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🫘",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 196,
+    "basePer100g": {
+      "kcal": 118,
+      "protein": 8.3,
+      "carbs": 21.1,
+      "fat": 0.4,
+      "fiber": 8.3,
+      "sugar": 2.9
+    }
+  },
+  {
+    "id": "edamame",
+    "name": "Edamame",
+    "cat": "Grains & Legumes",
+    "emoji": "🫛",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 155,
+    "basePer100g": {
+      "kcal": 122,
+      "protein": 10.9,
+      "carbs": 9.9,
+      "fat": 5.2,
+      "fiber": 5.2,
+      "sugar": 2.2
+    }
+  },
+  {
+    "id": "cornflakes",
+    "name": "Corn Flakes",
+    "cat": "Grains & Legumes",
+    "emoji": "🥣",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 28,
+    "basePer100g": {
+      "kcal": 357,
+      "protein": 7.1,
+      "carbs": 85.7,
+      "fat": 0.7,
+      "fiber": 2.5,
+      "sugar": 7.1
+    }
+  },
+  {
+    "id": "granola",
+    "name": "Granola",
+    "cat": "Grains & Legumes",
+    "emoji": "🥣",
+    "defaultServingLabel": "1/2 cup",
+    "defaultServingGrams": 61,
+    "basePer100g": {
+      "kcal": 492,
+      "protein": 11.5,
+      "carbs": 68.9,
+      "fat": 19.7,
+      "fiber": 8.2,
+      "sugar": 16.4
+    }
+  },
+  {
+    "id": "farro",
+    "name": "Farro, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🌾",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 194,
+    "basePer100g": {
+      "kcal": 103,
+      "protein": 3.9,
+      "carbs": 21.6,
+      "fat": 1.8,
+      "fiber": 2.6,
+      "sugar": 0.5
+    }
+  },
+  {
+    "id": "millet",
+    "name": "Millet, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🌾",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 174,
+    "basePer100g": {
+      "kcal": 119,
+      "protein": 3.5,
+      "carbs": 23.6,
+      "fat": 1.3,
+      "fiber": 1.1,
+      "sugar": 0.3
+    }
+  },
+  {
+    "id": "polenta",
+    "name": "Polenta, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🌽",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 245,
+    "basePer100g": {
+      "kcal": 59,
+      "protein": 1.4,
+      "carbs": 12.7,
+      "fat": 0.5,
+      "fiber": 0.5,
+      "sugar": 0.3
+    }
+  },
+  {
+    "id": "wild-rice",
+    "name": "Wild Rice, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🍚",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 164,
+    "basePer100g": {
+      "kcal": 101,
+      "protein": 4,
+      "carbs": 21.3,
+      "fat": 1.8,
+      "fiber": 1,
+      "sugar": 0.7
+    }
+  },
+  {
+    "id": "navy-beans",
+    "name": "Navy Beans, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🫘",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 182,
+    "basePer100g": {
+      "kcal": 140,
+      "protein": 8.2,
+      "carbs": 25.8,
+      "fat": 0.3,
+      "fiber": 10.4,
+      "sugar": 0.4
+    }
+  },
+  {
+    "id": "pinto-beans",
+    "name": "Pinto Beans, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🫘",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 171,
+    "basePer100g": {
+      "kcal": 143,
+      "protein": 9,
+      "carbs": 26.3,
+      "fat": 0.6,
+      "fiber": 9,
+      "sugar": 0.4
+    }
+  },
+  {
+    "id": "fava-beans",
+    "name": "Fava Beans, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🫘",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 170,
+    "basePer100g": {
+      "kcal": 110,
+      "protein": 7.6,
+      "carbs": 19.4,
+      "fat": 0.4,
+      "fiber": 5.4,
+      "sugar": 1.9
+    }
+  },
+  {
+    "id": "lima-beans",
+    "name": "Lima Beans, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🫘",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 188,
+    "basePer100g": {
+      "kcal": 115,
+      "protein": 7.8,
+      "carbs": 20.9,
+      "fat": 0.4,
+      "fiber": 7,
+      "sugar": 2.9
+    }
+  },
+  {
+    "id": "soba-noodles",
+    "name": "Soba Noodles, Cooked",
+    "cat": "Grains & Legumes",
+    "emoji": "🍜",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 114,
+    "basePer100g": {
+      "kcal": 99,
+      "protein": 5.1,
+      "carbs": 21.1,
+      "fat": 0.1,
+      "fiber": 1.1,
+      "sugar": 0.5
+    }
+  },
+  {
+    "id": "rye-bread",
+    "name": "Rye Bread",
+    "cat": "Grains & Legumes",
+    "emoji": "🍞",
+    "defaultServingLabel": "2 slices",
+    "defaultServingGrams": 64,
+    "basePer100g": {
+      "kcal": 259,
+      "protein": 8.6,
+      "carbs": 46.9,
+      "fat": 1.9,
+      "fiber": 5.9,
+      "sugar": 2.5
+    }
+  },
+  {
+    "id": "caesar",
+    "name": "Grilled Chicken Caesar Salad",
+    "cat": "International",
+    "emoji": "🥗",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 350,
+    "basePer100g": {
+      "kcal": 120,
+      "protein": 9.7,
+      "carbs": 4,
+      "fat": 7.4,
+      "fiber": 0.9,
+      "sugar": 0.9
+    }
+  },
+  {
+    "id": "pizza",
+    "name": "Margherita Pizza",
+    "cat": "International",
+    "emoji": "🍕",
+    "defaultServingLabel": "1 slice",
+    "defaultServingGrams": 110,
+    "basePer100g": {
+      "kcal": 245,
+      "protein": 10,
+      "carbs": 30,
+      "fat": 9.1,
+      "fiber": 1.8,
+      "sugar": 2.7
+    }
+  },
+  {
+    "id": "burger",
+    "name": "Beef Burger",
+    "cat": "International",
+    "emoji": "🍔",
+    "defaultServingLabel": "1 sandwich",
+    "defaultServingGrams": 250,
+    "basePer100g": {
+      "kcal": 216,
+      "protein": 11.2,
+      "carbs": 16,
+      "fat": 12,
+      "fiber": 0.8,
+      "sugar": 2.4
+    }
+  },
+  {
+    "id": "sushi",
+    "name": "California Roll",
+    "cat": "International",
+    "emoji": "🍣",
+    "defaultServingLabel": "8 pieces",
+    "defaultServingGrams": 200,
+    "basePer100g": {
+      "kcal": 130,
+      "protein": 4,
+      "carbs": 20,
+      "fat": 3.5,
+      "fiber": 1,
+      "sugar": 3
+    }
+  },
+  {
+    "id": "bolognese",
+    "name": "Spaghetti Bolognese",
+    "cat": "International",
+    "emoji": "🍝",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 380,
+    "basePer100g": {
+      "kcal": 147,
+      "protein": 6.8,
+      "carbs": 17.4,
+      "fat": 5.3,
+      "fiber": 1.1,
+      "sugar": 2.1
+    }
+  },
+  {
+    "id": "greeksalad",
+    "name": "Greek Salad",
+    "cat": "International",
+    "emoji": "🥗",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 250,
+    "basePer100g": {
+      "kcal": 88,
+      "protein": 2.4,
+      "carbs": 4.8,
+      "fat": 6.8,
+      "fiber": 1.2,
+      "sugar": 2.4
+    }
+  },
+  {
+    "id": "pad-thai",
+    "name": "Pad Thai",
+    "cat": "International",
+    "emoji": "🍜",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 350,
+    "basePer100g": {
+      "kcal": 137,
+      "protein": 5.7,
+      "carbs": 17.1,
+      "fat": 5.1,
+      "fiber": 0.9,
+      "sugar": 3.4
+    }
+  },
+  {
+    "id": "fried-rice",
+    "name": "Chicken Fried Rice",
+    "cat": "International",
+    "emoji": "🍚",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 330,
+    "basePer100g": {
+      "kcal": 142,
+      "protein": 6.7,
+      "carbs": 17.6,
+      "fat": 4.8,
+      "fiber": 0.6,
+      "sugar": 0.9
+    }
+  },
+  {
+    "id": "burrito",
+    "name": "Chicken Burrito",
+    "cat": "International",
+    "emoji": "🌯",
+    "defaultServingLabel": "1 wrap",
+    "defaultServingGrams": 350,
+    "basePer100g": {
+      "kcal": 160,
+      "protein": 9.1,
+      "carbs": 16.6,
+      "fat": 6.3,
+      "fiber": 1.7,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "pho",
+    "name": "Beef Pho",
+    "cat": "International",
+    "emoji": "🍜",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 450,
+    "basePer100g": {
+      "kcal": 89,
+      "protein": 6.2,
+      "carbs": 10.7,
+      "fat": 2.2,
+      "fiber": 0.7,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "chicken-tikka",
+    "name": "Chicken Tikka Masala",
+    "cat": "International",
+    "emoji": "🍛",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 350,
+    "basePer100g": {
+      "kcal": 129,
+      "protein": 9.1,
+      "carbs": 5.7,
+      "fat": 7.4,
+      "fiber": 0.9,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "lasagna",
+    "name": "Beef Lasagna",
+    "cat": "International",
+    "emoji": "🍝",
+    "defaultServingLabel": "1 slice",
+    "defaultServingGrams": 280,
+    "basePer100g": {
+      "kcal": 150,
+      "protein": 8.6,
+      "carbs": 11.4,
+      "fat": 7.9,
+      "fiber": 1.1,
+      "sugar": 2.5
+    }
+  },
+  {
+    "id": "pancakes",
+    "name": "Pancakes (3)",
+    "cat": "International",
+    "emoji": "🥞",
+    "defaultServingLabel": "3 pieces",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 227,
+      "protein": 5.3,
+      "carbs": 36,
+      "fat": 6.7,
+      "fiber": 1.3,
+      "sugar": 9.3
+    }
+  },
+  {
+    "id": "waffles",
+    "name": "Waffles (2)",
+    "cat": "International",
+    "emoji": "🧇",
+    "defaultServingLabel": "2 pieces",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 213,
+      "protein": 4.7,
+      "carbs": 28,
+      "fat": 9.3,
+      "fiber": 1.3,
+      "sugar": 6
+    }
+  },
+  {
+    "id": "club-sandwich",
+    "name": "Club Sandwich",
+    "cat": "International",
+    "emoji": "🥪",
+    "defaultServingLabel": "1 sandwich",
+    "defaultServingGrams": 280,
+    "basePer100g": {
+      "kcal": 171,
+      "protein": 9.3,
+      "carbs": 14.3,
+      "fat": 8.6,
+      "fiber": 1.1,
+      "sugar": 1.8
+    }
+  },
+  {
+    "id": "mac-cheese",
+    "name": "Mac and Cheese",
+    "cat": "International",
+    "emoji": "🧀",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 228,
+    "basePer100g": {
+      "kcal": 167,
+      "protein": 6.6,
+      "carbs": 16.7,
+      "fat": 7.9,
+      "fiber": 0.9,
+      "sugar": 2.2
+    }
+  },
+  {
+    "id": "dumplings",
+    "name": "Steamed Dumplings (6)",
+    "cat": "International",
+    "emoji": "🥟",
+    "defaultServingLabel": "6 pieces",
+    "defaultServingGrams": 180,
+    "basePer100g": {
+      "kcal": 167,
+      "protein": 6.7,
+      "carbs": 20,
+      "fat": 5.6,
+      "fiber": 1.1,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "ramen",
+    "name": "Ramen (Pork)",
+    "cat": "International",
+    "emoji": "🍜",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 450,
+    "basePer100g": {
+      "kcal": 116,
+      "protein": 5.3,
+      "carbs": 12.9,
+      "fat": 4.4,
+      "fiber": 0.7,
+      "sugar": 0.9
+    }
+  },
+  {
+    "id": "nachos",
+    "name": "Nachos Supreme",
+    "cat": "International",
+    "emoji": "🧀",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 280,
+    "basePer100g": {
+      "kcal": 200,
+      "protein": 6.4,
+      "carbs": 17.9,
+      "fat": 11.4,
+      "fiber": 1.4,
+      "sugar": 1.4
+    }
+  },
+  {
+    "id": "shrimp-tacos",
+    "name": "Shrimp Tacos (3)",
+    "cat": "International",
+    "emoji": "🌮",
+    "defaultServingLabel": "3 tacos",
+    "defaultServingGrams": 270,
+    "basePer100g": {
+      "kcal": 156,
+      "protein": 9.6,
+      "carbs": 15.6,
+      "fat": 5.9,
+      "fiber": 1.5,
+      "sugar": 1.5
+    }
+  },
+  {
+    "id": "falafel-wrap",
+    "name": "Falafel Wrap (International style)",
+    "cat": "International",
+    "emoji": "🌯",
+    "defaultServingLabel": "1 wrap",
+    "defaultServingGrams": 250,
+    "basePer100g": {
+      "kcal": 192,
+      "protein": 6,
+      "carbs": 23.2,
+      "fat": 8,
+      "fiber": 3.2,
+      "sugar": 1.6
+    }
+  },
+  {
+    "id": "beef-teriyaki",
+    "name": "Beef Teriyaki Bowl",
+    "cat": "International",
+    "emoji": "🍱",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 380,
+    "basePer100g": {
+      "kcal": 137,
+      "protein": 7.9,
+      "carbs": 15.3,
+      "fat": 4.2,
+      "fiber": 0.8,
+      "sugar": 3.7
+    }
+  },
+  {
+    "id": "chicken-satay",
+    "name": "Chicken Satay (4 skewers)",
+    "cat": "International",
+    "emoji": "🍢",
+    "defaultServingLabel": "4 skewers",
+    "defaultServingGrams": 160,
+    "basePer100g": {
+      "kcal": 200,
+      "protein": 17.5,
+      "carbs": 6.2,
+      "fat": 11.2,
+      "fiber": 1.2,
+      "sugar": 3.8
+    }
+  },
+  {
+    "id": "veg-stir-fry",
+    "name": "Vegetable Stir Fry",
+    "cat": "International",
+    "emoji": "🥘",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 300,
+    "basePer100g": {
+      "kcal": 93,
+      "protein": 2.7,
+      "carbs": 12,
+      "fat": 4,
+      "fiber": 2,
+      "sugar": 3.3
+    }
+  },
+  {
+    "id": "shepherds-pie",
+    "name": "Shepherd's Pie",
+    "cat": "International",
+    "emoji": "🥧",
+    "defaultServingLabel": "1 serving",
+    "defaultServingGrams": 320,
+    "basePer100g": {
+      "kcal": 131,
+      "protein": 6.2,
+      "carbs": 11.2,
+      "fat": 6.2,
+      "fiber": 1.2,
+      "sugar": 1.6
+    }
+  },
+  {
+    "id": "moussaka",
+    "name": "Moussaka",
+    "cat": "International",
+    "emoji": "🍆",
+    "defaultServingLabel": "1 serving",
+    "defaultServingGrams": 320,
+    "basePer100g": {
+      "kcal": 138,
+      "protein": 6.2,
+      "carbs": 7.5,
+      "fat": 8.8,
+      "fiber": 1.6,
+      "sugar": 2.2
+    }
+  },
+  {
+    "id": "paella",
+    "name": "Seafood Paella",
+    "cat": "International",
+    "emoji": "🥘",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 350,
+    "basePer100g": {
+      "kcal": 137,
+      "protein": 7.4,
+      "carbs": 16.6,
+      "fat": 4,
+      "fiber": 0.9,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "tom-yum",
+    "name": "Tom Yum Soup",
+    "cat": "International",
+    "emoji": "🍲",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 350,
+    "basePer100g": {
+      "kcal": 51,
+      "protein": 4,
+      "carbs": 3.4,
+      "fat": 2.3,
+      "fiber": 0.6,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "bibimbap",
+    "name": "Bibimbap",
+    "cat": "International",
+    "emoji": "🍚",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 400,
+    "basePer100g": {
+      "kcal": 130,
+      "protein": 5.5,
+      "carbs": 17,
+      "fat": 4,
+      "fiber": 1.2,
+      "sugar": 2
+    }
+  },
+  {
+    "id": "chicken-breast",
+    "name": "Grilled Chicken Breast",
+    "cat": "Protein",
+    "emoji": "🍗",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 165,
+      "protein": 30.7,
+      "carbs": 0,
+      "fat": 3.6,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "kofta-beef",
+    "name": "Grilled Kofta (Beef)",
+    "cat": "Protein",
+    "emoji": "🍖",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 220,
+      "protein": 18,
+      "carbs": 1.3,
+      "fat": 16,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "salmon",
+    "name": "Grilled Salmon",
+    "cat": "Protein",
+    "emoji": "🐟",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 207,
+      "protein": 22.7,
+      "carbs": 0,
+      "fat": 12,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "tuna",
+    "name": "Tuna, Canned",
+    "cat": "Protein",
+    "emoji": "🐟",
+    "defaultServingLabel": "100g",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 130,
+      "protein": 28,
+      "carbs": 0,
+      "fat": 1,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "chicken-thigh",
+    "name": "Chicken Thigh, Grilled",
+    "cat": "Protein",
+    "emoji": "🍗",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 223,
+      "protein": 25.3,
+      "carbs": 0,
+      "fat": 12.7,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "beef-steak",
+    "name": "Lean Beef Steak",
+    "cat": "Protein",
+    "emoji": "🥩",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 223,
+      "protein": 26,
+      "carbs": 0,
+      "fat": 12.7,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "shrimp",
+    "name": "Grilled Shrimp",
+    "cat": "Protein",
+    "emoji": "🦐",
+    "defaultServingLabel": "100g",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 99,
+      "protein": 21,
+      "carbs": 0.2,
+      "fat": 1.1,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "turkey-breast",
+    "name": "Turkey Breast",
+    "cat": "Protein",
+    "emoji": "🦃",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 147,
+      "protein": 28,
+      "carbs": 0,
+      "fat": 2.7,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "beef-mince-lean",
+    "name": "Lean Ground Beef (90/10)",
+    "cat": "Protein",
+    "emoji": "🥩",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 180,
+      "protein": 24,
+      "carbs": 0,
+      "fat": 8.7,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "pork-loin",
+    "name": "Pork Loin (if applicable)",
+    "cat": "Protein",
+    "emoji": "🥓",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 193,
+      "protein": 23.3,
+      "carbs": 0,
+      "fat": 10.7,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "cod",
+    "name": "Cod Fillet, Baked",
+    "cat": "Protein",
+    "emoji": "🐟",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 100,
+      "protein": 22,
+      "carbs": 0,
+      "fat": 0.7,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "tilapia",
+    "name": "Tilapia, Grilled",
+    "cat": "Protein",
+    "emoji": "🐟",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 113,
+      "protein": 23.3,
+      "carbs": 0,
+      "fat": 2,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "egg-whole-protein",
+    "name": "Whole Eggs (3)",
+    "cat": "Protein",
+    "emoji": "🥚",
+    "defaultServingLabel": "3 eggs",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 156,
+      "protein": 12.7,
+      "carbs": 1.2,
+      "fat": 10.7,
+      "fiber": 0,
+      "sugar": 1.2
+    }
+  },
+  {
+    "id": "tofu",
+    "name": "Tofu, Firm",
+    "cat": "Protein",
+    "emoji": "🧈",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 80,
+      "protein": 8.7,
+      "carbs": 2,
+      "fat": 4.7,
+      "fiber": 1.3,
+      "sugar": 0.7
+    }
+  },
+  {
+    "id": "lamb-chop",
+    "name": "Lamb Chop, Grilled",
+    "cat": "Protein",
+    "emoji": "🍖",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 250,
+      "protein": 21.3,
+      "carbs": 0,
+      "fat": 18,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "duck-breast",
+    "name": "Duck Breast, Grilled",
+    "cat": "Protein",
+    "emoji": "🦆",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 193,
+      "protein": 23.3,
+      "carbs": 0,
+      "fat": 10.7,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "whey-isolate",
+    "name": "Whey Protein Isolate",
+    "cat": "Protein",
+    "emoji": "🥤",
+    "defaultServingLabel": "1 scoop (30g)",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 367,
+      "protein": 83.3,
+      "carbs": 3.3,
+      "fat": 1.7,
+      "fiber": 0,
+      "sugar": 3.3
+    }
+  },
+  {
+    "id": "seitan",
+    "name": "Seitan",
+    "cat": "Protein",
+    "emoji": "🌾",
+    "defaultServingLabel": "100g",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 120,
+      "protein": 21,
+      "carbs": 4,
+      "fat": 2,
+      "fiber": 0.5,
+      "sugar": 1
+    }
+  },
+  {
+    "id": "chicken-drumstick",
+    "name": "Chicken Drumstick, Grilled",
+    "cat": "Protein",
+    "emoji": "🍗",
+    "defaultServingLabel": "2 pieces",
+    "defaultServingGrams": 120,
+    "basePer100g": {
+      "kcal": 183,
+      "protein": 21.7,
+      "carbs": 0,
+      "fat": 10.8,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "mackerel",
+    "name": "Grilled Mackerel",
+    "cat": "Protein",
+    "emoji": "🐟",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 227,
+      "protein": 20,
+      "carbs": 0,
+      "fat": 16,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "sardines",
+    "name": "Sardines, Canned",
+    "cat": "Protein",
+    "emoji": "🐟",
+    "defaultServingLabel": "100g",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 208,
+      "protein": 25,
+      "carbs": 0,
+      "fat": 11,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "crab",
+    "name": "Crab Meat",
+    "cat": "Protein",
+    "emoji": "🦀",
+    "defaultServingLabel": "100g",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 97,
+      "protein": 19,
+      "carbs": 0,
+      "fat": 1.5,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "scallops",
+    "name": "Grilled Scallops",
+    "cat": "Protein",
+    "emoji": "🦪",
+    "defaultServingLabel": "100g",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 111,
+      "protein": 20.5,
+      "carbs": 5,
+      "fat": 0.8,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "bison",
+    "name": "Bison Steak",
+    "cat": "Protein",
+    "emoji": "🥩",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 188,
+      "protein": 25.3,
+      "carbs": 0,
+      "fat": 8.7,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "venison",
+    "name": "Venison, Grilled",
+    "cat": "Protein",
+    "emoji": "🦌",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 143,
+      "protein": 25.3,
+      "carbs": 0,
+      "fat": 3.3,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "liver-beef",
+    "name": "Beef Liver, Cooked",
+    "cat": "Protein",
+    "emoji": "🍖",
+    "defaultServingLabel": "100g",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 175,
+      "protein": 26,
+      "carbs": 3.9,
+      "fat": 4.9,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "egg-yolk",
+    "name": "Egg Yolk",
+    "cat": "Protein",
+    "emoji": "🥚",
+    "defaultServingLabel": "1 yolk",
+    "defaultServingGrams": 17,
+    "basePer100g": {
+      "kcal": 324,
+      "protein": 15.9,
+      "carbs": 3.5,
+      "fat": 26.5,
+      "fiber": 0,
+      "sugar": 0.6
+    }
+  },
+  {
+    "id": "casein-protein",
+    "name": "Casein Protein Powder",
+    "cat": "Protein",
+    "emoji": "🥤",
+    "defaultServingLabel": "1 scoop (30g)",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 400,
+      "protein": 80,
+      "carbs": 10,
+      "fat": 3.3,
+      "fiber": 0,
+      "sugar": 3.3
+    }
+  },
+  {
+    "id": "almonds",
+    "name": "Almonds",
+    "cat": "Snacks & Drinks",
+    "emoji": "🌰",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 580,
+      "protein": 21.3,
+      "carbs": 21.7,
+      "fat": 50,
+      "fiber": 12.3,
+      "sugar": 4
+    }
+  },
+  {
+    "id": "peanutbutter",
+    "name": "Peanut Butter",
+    "cat": "Snacks & Drinks",
+    "emoji": "🥜",
+    "defaultServingLabel": "2 tbsp",
+    "defaultServingGrams": 32,
+    "basePer100g": {
+      "kcal": 594,
+      "protein": 25,
+      "carbs": 18.8,
+      "fat": 50,
+      "fiber": 6.2,
+      "sugar": 9.4
+    }
+  },
+  {
+    "id": "proteinshake",
+    "name": "Protein Shake (w/ milk)",
+    "cat": "Snacks & Drinks",
+    "emoji": "🥤",
+    "defaultServingLabel": "1 scoop",
+    "defaultServingGrams": 280,
+    "basePer100g": {
+      "kcal": 79,
+      "protein": 10.7,
+      "carbs": 5,
+      "fat": 1.8,
+      "fiber": 0.4,
+      "sugar": 3.6
+    }
+  },
+  {
+    "id": "oj",
+    "name": "Orange Juice, Fresh",
+    "cat": "Snacks & Drinks",
+    "emoji": "🧃",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 248,
+    "basePer100g": {
+      "kcal": 45,
+      "protein": 0.7,
+      "carbs": 10.5,
+      "fat": 0.2,
+      "fiber": 0.2,
+      "sugar": 8.5
+    }
+  },
+  {
+    "id": "coffee",
+    "name": "Black Coffee",
+    "cat": "Snacks & Drinks",
+    "emoji": "☕",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 1,
+      "protein": 0.1,
+      "carbs": 0,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "karkadeh",
+    "name": "Hibiscus Tea (Karkadeh)",
+    "cat": "Snacks & Drinks",
+    "emoji": "🍵",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 3,
+      "protein": 0,
+      "carbs": 0.8,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 0.8
+    }
+  },
+  {
+    "id": "sugarcane",
+    "name": "Sugarcane Juice",
+    "cat": "Snacks & Drinks",
+    "emoji": "🧃",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 75,
+      "protein": 0,
+      "carbs": 18.8,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 17.5
+    }
+  },
+  {
+    "id": "walnuts",
+    "name": "Walnuts",
+    "cat": "Snacks & Drinks",
+    "emoji": "🌰",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 653,
+      "protein": 15.3,
+      "carbs": 13.7,
+      "fat": 65.3,
+      "fiber": 6.7,
+      "sugar": 2.3
+    }
+  },
+  {
+    "id": "cashews",
+    "name": "Cashews",
+    "cat": "Snacks & Drinks",
+    "emoji": "🌰",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 583,
+      "protein": 17.3,
+      "carbs": 30.7,
+      "fat": 46.7,
+      "fiber": 3,
+      "sugar": 5.7
+    }
+  },
+  {
+    "id": "popcorn",
+    "name": "Popcorn, Air-Popped",
+    "cat": "Snacks & Drinks",
+    "emoji": "🍿",
+    "defaultServingLabel": "3 cups",
+    "defaultServingGrams": 24,
+    "basePer100g": {
+      "kcal": 388,
+      "protein": 12.5,
+      "carbs": 79.2,
+      "fat": 4.6,
+      "fiber": 14.6,
+      "sugar": 0.8
+    }
+  },
+  {
+    "id": "dark-chocolate",
+    "name": "Dark Chocolate (70%)",
+    "cat": "Snacks & Drinks",
+    "emoji": "🍫",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 567,
+      "protein": 7.3,
+      "carbs": 43.3,
+      "fat": 40,
+      "fiber": 10.3,
+      "sugar": 25
+    }
+  },
+  {
+    "id": "protein-bar",
+    "name": "Protein Bar",
+    "cat": "Snacks & Drinks",
+    "emoji": "🍫",
+    "defaultServingLabel": "1 bar",
+    "defaultServingGrams": 60,
+    "basePer100g": {
+      "kcal": 367,
+      "protein": 33.3,
+      "carbs": 36.7,
+      "fat": 13.3,
+      "fiber": 5,
+      "sugar": 16.7
+    }
+  },
+  {
+    "id": "rice-cakes",
+    "name": "Rice Cakes (2)",
+    "cat": "Snacks & Drinks",
+    "emoji": "🍘",
+    "defaultServingLabel": "2 pieces",
+    "defaultServingGrams": 18,
+    "basePer100g": {
+      "kcal": 389,
+      "protein": 7.8,
+      "carbs": 83.3,
+      "fat": 1.1,
+      "fiber": 2.2,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "hummus-snack",
+    "name": "Hummus with Veggies",
+    "cat": "Snacks & Drinks",
+    "emoji": "🥣",
+    "defaultServingLabel": "1 serving",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 120,
+      "protein": 4.7,
+      "carbs": 10.7,
+      "fat": 6.7,
+      "fiber": 3.3,
+      "sugar": 2
+    }
+  },
+  {
+    "id": "trail-mix",
+    "name": "Trail Mix",
+    "cat": "Snacks & Drinks",
+    "emoji": "🥜",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 467,
+      "protein": 13.3,
+      "carbs": 46.7,
+      "fat": 30,
+      "fiber": 6.7,
+      "sugar": 23.3
+    }
+  },
+  {
+    "id": "soda",
+    "name": "Cola Soda",
+    "cat": "Snacks & Drinks",
+    "emoji": "🥤",
+    "defaultServingLabel": "1 can",
+    "defaultServingGrams": 355,
+    "basePer100g": {
+      "kcal": 42,
+      "protein": 0,
+      "carbs": 11,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 11
+    }
+  },
+  {
+    "id": "diet-soda",
+    "name": "Diet Soda",
+    "cat": "Snacks & Drinks",
+    "emoji": "🥤",
+    "defaultServingLabel": "1 can",
+    "defaultServingGrams": 355,
+    "basePer100g": {
+      "kcal": 1,
+      "protein": 0,
+      "carbs": 0.1,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 0.1
+    }
+  },
+  {
+    "id": "beer",
+    "name": "Beer",
+    "cat": "Snacks & Drinks",
+    "emoji": "🍺",
+    "defaultServingLabel": "1 can",
+    "defaultServingGrams": 355,
+    "basePer100g": {
+      "kcal": 42,
+      "protein": 0.5,
+      "carbs": 3.7,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "green-tea",
+    "name": "Green Tea",
+    "cat": "Snacks & Drinks",
+    "emoji": "🍵",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 1,
+      "protein": 0,
+      "carbs": 0.2,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 0
+    }
+  },
+  {
+    "id": "sports-drink",
+    "name": "Sports Drink",
+    "cat": "Snacks & Drinks",
+    "emoji": "🥤",
+    "defaultServingLabel": "1 bottle",
+    "defaultServingGrams": 500,
+    "basePer100g": {
+      "kcal": 25,
+      "protein": 0,
+      "carbs": 6.8,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 6.4
+    }
+  },
+  {
+    "id": "beef-jerky",
+    "name": "Beef Jerky",
+    "cat": "Snacks & Drinks",
+    "emoji": "🥩",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 367,
+      "protein": 30,
+      "carbs": 10,
+      "fat": 23.3,
+      "fiber": 1.7,
+      "sugar": 10
+    }
+  },
+  {
+    "id": "chia-pudding",
+    "name": "Chia Seed Pudding",
+    "cat": "Snacks & Drinks",
+    "emoji": "🥣",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 79,
+      "protein": 2.9,
+      "carbs": 7.1,
+      "fat": 4.6,
+      "fiber": 4.2,
+      "sugar": 2.5
+    }
+  },
+  {
+    "id": "smoothie-berry",
+    "name": "Berry Smoothie",
+    "cat": "Snacks & Drinks",
+    "emoji": "🥤",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 62,
+      "protein": 1.7,
+      "carbs": 13.3,
+      "fat": 0.8,
+      "fiber": 1.7,
+      "sugar": 10
+    }
+  },
+  {
+    "id": "crackers",
+    "name": "Whole Wheat Crackers",
+    "cat": "Snacks & Drinks",
+    "emoji": "🍘",
+    "defaultServingLabel": "10 pieces",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 400,
+      "protein": 10,
+      "carbs": 66.7,
+      "fat": 10,
+      "fiber": 10,
+      "sugar": 3.3
+    }
+  },
+  {
+    "id": "pistachios",
+    "name": "Pistachios",
+    "cat": "Snacks & Drinks",
+    "emoji": "🌰",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 530,
+      "protein": 19,
+      "carbs": 25.7,
+      "fat": 42,
+      "fiber": 10,
+      "sugar": 7.3
+    }
+  },
+  {
+    "id": "pretzels",
+    "name": "Pretzels",
+    "cat": "Snacks & Drinks",
+    "emoji": "🥨",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 367,
+      "protein": 10,
+      "carbs": 76.7,
+      "fat": 3.3,
+      "fiber": 3.3,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "hummus-pita",
+    "name": "Hummus & Pita Chips",
+    "cat": "Snacks & Drinks",
+    "emoji": "🥙",
+    "defaultServingLabel": "1 serving",
+    "defaultServingGrams": 120,
+    "basePer100g": {
+      "kcal": 200,
+      "protein": 5.8,
+      "carbs": 25,
+      "fat": 8.3,
+      "fiber": 3.3,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "kombucha",
+    "name": "Kombucha",
+    "cat": "Snacks & Drinks",
+    "emoji": "🍵",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 240,
+    "basePer100g": {
+      "kcal": 12,
+      "protein": 0,
+      "carbs": 2.9,
+      "fat": 0,
+      "fiber": 0,
+      "sugar": 2.5
+    }
+  },
+  {
+    "id": "date-bar",
+    "name": "Date & Nut Energy Bar",
+    "cat": "Snacks & Drinks",
+    "emoji": "🍫",
+    "defaultServingLabel": "1 bar",
+    "defaultServingGrams": 45,
+    "basePer100g": {
+      "kcal": 400,
+      "protein": 8.9,
+      "carbs": 57.8,
+      "fat": 17.8,
+      "fiber": 6.7,
+      "sugar": 40
+    }
+  },
+  {
+    "id": "sunflower-seeds",
+    "name": "Sunflower Seeds",
+    "cat": "Snacks & Drinks",
+    "emoji": "🌻",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 583,
+      "protein": 20,
+      "carbs": 20,
+      "fat": 50,
+      "fiber": 10,
+      "sugar": 2.3
+    }
+  },
+  {
+    "id": "pumpkin-seeds",
+    "name": "Pumpkin Seeds",
+    "cat": "Snacks & Drinks",
+    "emoji": "🎃",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 543,
+      "protein": 28.7,
+      "carbs": 14.3,
+      "fat": 46.3,
+      "fiber": 6,
+      "sugar": 1.3
+    }
+  },
+  {
+    "id": "yogurt-covered-raisins",
+    "name": "Yogurt Covered Raisins",
+    "cat": "Snacks & Drinks",
+    "emoji": "🍬",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 400,
+      "protein": 3.3,
+      "carbs": 66.7,
+      "fat": 13.3,
+      "fiber": 1.7,
+      "sugar": 56.7
+    }
+  },
+  {
+    "id": "veggie-chips",
+    "name": "Veggie Chips",
+    "cat": "Snacks & Drinks",
+    "emoji": "🥔",
+    "defaultServingLabel": "30g",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 500,
+      "protein": 5,
+      "carbs": 56.7,
+      "fat": 30,
+      "fiber": 5,
+      "sugar": 10
+    }
+  },
+  {
+    "id": "protein-cookie",
+    "name": "Protein Cookie",
+    "cat": "Snacks & Drinks",
+    "emoji": "🍪",
+    "defaultServingLabel": "1 cookie",
+    "defaultServingGrams": 70,
+    "basePer100g": {
+      "kcal": 343,
+      "protein": 21.4,
+      "carbs": 34.3,
+      "fat": 14.3,
+      "fiber": 2.9,
+      "sugar": 14.3
+    }
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber",
+    "cat": "Vegetables",
+    "emoji": "🥒",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 300,
+    "basePer100g": {
+      "kcal": 15,
+      "protein": 0.7,
+      "carbs": 3.7,
+      "fat": 0.1,
+      "fiber": 0.5,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "cat": "Vegetables",
+    "emoji": "🍅",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 123,
+    "basePer100g": {
+      "kcal": 18,
+      "protein": 0.9,
+      "carbs": 3.9,
+      "fat": 0.2,
+      "fiber": 1.2,
+      "sugar": 2.6
+    }
+  },
+  {
+    "id": "mixedsalad",
+    "name": "Mixed Salad",
+    "cat": "Vegetables",
+    "emoji": "🥗",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 200,
+    "basePer100g": {
+      "kcal": 45,
+      "protein": 1,
+      "carbs": 5,
+      "fat": 2.5,
+      "fiber": 2,
+      "sugar": 2
+    }
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "cat": "Vegetables",
+    "emoji": "🥕",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 61,
+    "basePer100g": {
+      "kcal": 41,
+      "protein": 1,
+      "carbs": 9.8,
+      "fat": 0.2,
+      "fiber": 2.8,
+      "sugar": 4.9
+    }
+  },
+  {
+    "id": "broccoli",
+    "name": "Broccoli, Steamed",
+    "cat": "Vegetables",
+    "emoji": "🥦",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 156,
+    "basePer100g": {
+      "kcal": 35,
+      "protein": 2.4,
+      "carbs": 7.1,
+      "fat": 0.4,
+      "fiber": 3.3,
+      "sugar": 1.4
+    }
+  },
+  {
+    "id": "spinach",
+    "name": "Spinach, Cooked",
+    "cat": "Vegetables",
+    "emoji": "🥬",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 180,
+    "basePer100g": {
+      "kcal": 23,
+      "protein": 2.9,
+      "carbs": 3.8,
+      "fat": 0.3,
+      "fiber": 2.4,
+      "sugar": 0.4
+    }
+  },
+  {
+    "id": "bell-pepper",
+    "name": "Bell Pepper",
+    "cat": "Vegetables",
+    "emoji": "🫑",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 119,
+    "basePer100g": {
+      "kcal": 26,
+      "protein": 0.8,
+      "carbs": 5.9,
+      "fat": 0.3,
+      "fiber": 2.1,
+      "sugar": 3.5
+    }
+  },
+  {
+    "id": "eggplant",
+    "name": "Eggplant, Grilled",
+    "cat": "Vegetables",
+    "emoji": "🍆",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 99,
+    "basePer100g": {
+      "kcal": 35,
+      "protein": 0.8,
+      "carbs": 8.7,
+      "fat": 0.2,
+      "fiber": 2.5,
+      "sugar": 3.2
+    }
+  },
+  {
+    "id": "zucchini",
+    "name": "Zucchini",
+    "cat": "Vegetables",
+    "emoji": "🥒",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 180,
+    "basePer100g": {
+      "kcal": 11,
+      "protein": 0.8,
+      "carbs": 2.2,
+      "fat": 0.2,
+      "fiber": 0.7,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "cauliflower",
+    "name": "Cauliflower",
+    "cat": "Vegetables",
+    "emoji": "🥦",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 25,
+      "protein": 2,
+      "carbs": 5,
+      "fat": 0.1,
+      "fiber": 2,
+      "sugar": 2
+    }
+  },
+  {
+    "id": "onion",
+    "name": "Onion",
+    "cat": "Vegetables",
+    "emoji": "🧅",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 110,
+    "basePer100g": {
+      "kcal": 40,
+      "protein": 1.1,
+      "carbs": 9.1,
+      "fat": 0.1,
+      "fiber": 1.7,
+      "sugar": 4.3
+    }
+  },
+  {
+    "id": "garlic",
+    "name": "Garlic",
+    "cat": "Vegetables",
+    "emoji": "🧄",
+    "defaultServingLabel": "3 cloves",
+    "defaultServingGrams": 9,
+    "basePer100g": {
+      "kcal": 144,
+      "protein": 6.7,
+      "carbs": 33.3,
+      "fat": 0,
+      "fiber": 2.2,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "lettuce",
+    "name": "Lettuce",
+    "cat": "Vegetables",
+    "emoji": "🥬",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 56,
+    "basePer100g": {
+      "kcal": 14,
+      "protein": 1.1,
+      "carbs": 2.7,
+      "fat": 0.2,
+      "fiber": 1.1,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "green-beans",
+    "name": "Green Beans",
+    "cat": "Vegetables",
+    "emoji": "🫛",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 125,
+    "basePer100g": {
+      "kcal": 25,
+      "protein": 1.4,
+      "carbs": 5.6,
+      "fat": 0.1,
+      "fiber": 2.7,
+      "sugar": 2.6
+    }
+  },
+  {
+    "id": "mushroom",
+    "name": "Mushroom",
+    "cat": "Vegetables",
+    "emoji": "🍄",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 96,
+    "basePer100g": {
+      "kcal": 16,
+      "protein": 2.3,
+      "carbs": 2.4,
+      "fat": 0.2,
+      "fiber": 0.7,
+      "sugar": 1.2
+    }
+  },
+  {
+    "id": "potato-boiled",
+    "name": "Potato, Boiled",
+    "cat": "Vegetables",
+    "emoji": "🥔",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 170,
+    "basePer100g": {
+      "kcal": 88,
+      "protein": 2.4,
+      "carbs": 20,
+      "fat": 0.1,
+      "fiber": 2.2,
+      "sugar": 0.9
+    }
+  },
+  {
+    "id": "sweet-potato",
+    "name": "Sweet Potato, Baked",
+    "cat": "Vegetables",
+    "emoji": "🍠",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 130,
+    "basePer100g": {
+      "kcal": 86,
+      "protein": 1.5,
+      "carbs": 20,
+      "fat": 0.1,
+      "fiber": 3,
+      "sugar": 5.7
+    }
+  },
+  {
+    "id": "corn",
+    "name": "Corn on the Cob",
+    "cat": "Vegetables",
+    "emoji": "🌽",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 90,
+    "basePer100g": {
+      "kcal": 98,
+      "protein": 3.7,
+      "carbs": 21.1,
+      "fat": 1.6,
+      "fiber": 2.7,
+      "sugar": 7.1
+    }
+  },
+  {
+    "id": "okra",
+    "name": "Okra, Cooked",
+    "cat": "Vegetables",
+    "emoji": "🫛",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 160,
+    "basePer100g": {
+      "kcal": 22,
+      "protein": 1.9,
+      "carbs": 4.7,
+      "fat": 0.1,
+      "fiber": 2,
+      "sugar": 0.9
+    }
+  },
+  {
+    "id": "cabbage",
+    "name": "Cabbage",
+    "cat": "Vegetables",
+    "emoji": "🥬",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 89,
+    "basePer100g": {
+      "kcal": 25,
+      "protein": 1.2,
+      "carbs": 5.6,
+      "fat": 0.1,
+      "fiber": 2.2,
+      "sugar": 3.1
+    }
+  },
+  {
+    "id": "radish",
+    "name": "Radish",
+    "cat": "Vegetables",
+    "emoji": "🥗",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 116,
+    "basePer100g": {
+      "kcal": 16,
+      "protein": 0.7,
+      "carbs": 3.4,
+      "fat": 0.1,
+      "fiber": 1.6,
+      "sugar": 1.9
+    }
+  },
+  {
+    "id": "celery",
+    "name": "Celery",
+    "cat": "Vegetables",
+    "emoji": "🥬",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 101,
+    "basePer100g": {
+      "kcal": 16,
+      "protein": 0.7,
+      "carbs": 3,
+      "fat": 0.2,
+      "fiber": 1.6,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "asparagus",
+    "name": "Asparagus, Steamed",
+    "cat": "Vegetables",
+    "emoji": "🥦",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 180,
+    "basePer100g": {
+      "kcal": 22,
+      "protein": 2.4,
+      "carbs": 4.1,
+      "fat": 0.2,
+      "fiber": 2,
+      "sugar": 1.4
+    }
+  },
+  {
+    "id": "brussels-sprouts",
+    "name": "Brussels Sprouts",
+    "cat": "Vegetables",
+    "emoji": "🥦",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 156,
+    "basePer100g": {
+      "kcal": 36,
+      "protein": 2.6,
+      "carbs": 7.1,
+      "fat": 0.5,
+      "fiber": 2.6,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "beets",
+    "name": "Beets, Cooked",
+    "cat": "Vegetables",
+    "emoji": "🍠",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 170,
+    "basePer100g": {
+      "kcal": 44,
+      "protein": 1.6,
+      "carbs": 10,
+      "fat": 0.1,
+      "fiber": 2,
+      "sugar": 7.9
+    }
+  },
+  {
+    "id": "kale",
+    "name": "Kale, Cooked",
+    "cat": "Vegetables",
+    "emoji": "🥬",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 130,
+    "basePer100g": {
+      "kcal": 28,
+      "protein": 1.9,
+      "carbs": 5.6,
+      "fat": 0.4,
+      "fiber": 2,
+      "sugar": 1.3
+    }
+  },
+  {
+    "id": "green-peas",
+    "name": "Green Peas",
+    "cat": "Vegetables",
+    "emoji": "🟢",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 160,
+    "basePer100g": {
+      "kcal": 84,
+      "protein": 5.4,
+      "carbs": 15.6,
+      "fat": 0.2,
+      "fiber": 5.5,
+      "sugar": 5.8
+    }
+  },
+  {
+    "id": "leeks",
+    "name": "Leeks, Cooked",
+    "cat": "Vegetables",
+    "emoji": "🧅",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 124,
+    "basePer100g": {
+      "kcal": 35,
+      "protein": 0.9,
+      "carbs": 8.1,
+      "fat": 0,
+      "fiber": 1,
+      "sugar": 2.8
+    }
+  },
+  {
+    "id": "artichoke",
+    "name": "Artichoke, Cooked",
+    "cat": "Vegetables",
+    "emoji": "🌿",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 120,
+    "basePer100g": {
+      "kcal": 53,
+      "protein": 2.9,
+      "carbs": 11.7,
+      "fat": 0.2,
+      "fiber": 5.7,
+      "sugar": 1
+    }
+  },
+  {
+    "id": "turnip",
+    "name": "Turnip, Cooked",
+    "cat": "Vegetables",
+    "emoji": "🥔",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 156,
+    "basePer100g": {
+      "kcal": 22,
+      "protein": 0.7,
+      "carbs": 5.1,
+      "fat": 0.1,
+      "fiber": 2,
+      "sugar": 3.1
+    }
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin, Cooked",
+    "cat": "Vegetables",
+    "emoji": "🎃",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 245,
+    "basePer100g": {
+      "kcal": 20,
+      "protein": 0.7,
+      "carbs": 4.9,
+      "fat": 0.1,
+      "fiber": 1.1,
+      "sugar": 2.1
+    }
+  },
+  {
+    "id": "squash-yellow",
+    "name": "Yellow Squash, Cooked",
+    "cat": "Vegetables",
+    "emoji": "🥒",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 180,
+    "basePer100g": {
+      "kcal": 20,
+      "protein": 0.9,
+      "carbs": 4.3,
+      "fat": 0.3,
+      "fiber": 1.4,
+      "sugar": 2.4
+    }
+  }
+]

@@ -1,0 +1,514 @@
+[
+  {
+    "id": "cucumber",
+    "name": "Cucumber",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd52",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 300,
+    "basePer100g": {
+      "kcal": 15,
+      "protein": 0.7,
+      "carbs": 3.7,
+      "fat": 0.1,
+      "fiber": 0.5,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "cat": "Vegetables",
+    "emoji": "\ud83c\udf45",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 123,
+    "basePer100g": {
+      "kcal": 18,
+      "protein": 0.9,
+      "carbs": 3.9,
+      "fat": 0.2,
+      "fiber": 1.2,
+      "sugar": 2.6
+    }
+  },
+  {
+    "id": "mixedsalad",
+    "name": "Mixed Salad",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd57",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 200,
+    "basePer100g": {
+      "kcal": 45,
+      "protein": 1.0,
+      "carbs": 5.0,
+      "fat": 2.5,
+      "fiber": 2.0,
+      "sugar": 2.0
+    }
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd55",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 61,
+    "basePer100g": {
+      "kcal": 41,
+      "protein": 1.0,
+      "carbs": 9.8,
+      "fat": 0.2,
+      "fiber": 2.8,
+      "sugar": 4.9
+    }
+  },
+  {
+    "id": "broccoli",
+    "name": "Broccoli, Steamed",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd66",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 156,
+    "basePer100g": {
+      "kcal": 35,
+      "protein": 2.4,
+      "carbs": 7.1,
+      "fat": 0.4,
+      "fiber": 3.3,
+      "sugar": 1.4
+    }
+  },
+  {
+    "id": "spinach",
+    "name": "Spinach, Cooked",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd6c",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 180,
+    "basePer100g": {
+      "kcal": 23,
+      "protein": 2.9,
+      "carbs": 3.8,
+      "fat": 0.3,
+      "fiber": 2.4,
+      "sugar": 0.4
+    }
+  },
+  {
+    "id": "bell-pepper",
+    "name": "Bell Pepper",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\uded1",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 119,
+    "basePer100g": {
+      "kcal": 26,
+      "protein": 0.8,
+      "carbs": 5.9,
+      "fat": 0.3,
+      "fiber": 2.1,
+      "sugar": 3.5
+    }
+  },
+  {
+    "id": "eggplant",
+    "name": "Eggplant, Grilled",
+    "cat": "Vegetables",
+    "emoji": "\ud83c\udf46",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 99,
+    "basePer100g": {
+      "kcal": 35,
+      "protein": 0.8,
+      "carbs": 8.7,
+      "fat": 0.2,
+      "fiber": 2.5,
+      "sugar": 3.2
+    }
+  },
+  {
+    "id": "zucchini",
+    "name": "Zucchini",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd52",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 180,
+    "basePer100g": {
+      "kcal": 11,
+      "protein": 0.8,
+      "carbs": 2.2,
+      "fat": 0.2,
+      "fiber": 0.7,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "cauliflower",
+    "name": "Cauliflower",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd66",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 25,
+      "protein": 2.0,
+      "carbs": 5.0,
+      "fat": 0.1,
+      "fiber": 2.0,
+      "sugar": 2.0
+    }
+  },
+  {
+    "id": "onion",
+    "name": "Onion",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\uddc5",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 110,
+    "basePer100g": {
+      "kcal": 40,
+      "protein": 1.1,
+      "carbs": 9.1,
+      "fat": 0.1,
+      "fiber": 1.7,
+      "sugar": 4.3
+    }
+  },
+  {
+    "id": "garlic",
+    "name": "Garlic",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\uddc4",
+    "defaultServingLabel": "3 cloves",
+    "defaultServingGrams": 9,
+    "basePer100g": {
+      "kcal": 144,
+      "protein": 6.7,
+      "carbs": 33.3,
+      "fat": 0.0,
+      "fiber": 2.2,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "lettuce",
+    "name": "Lettuce",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd6c",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 56,
+    "basePer100g": {
+      "kcal": 14,
+      "protein": 1.1,
+      "carbs": 2.7,
+      "fat": 0.2,
+      "fiber": 1.1,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "green-beans",
+    "name": "Green Beans",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udedb",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 125,
+    "basePer100g": {
+      "kcal": 25,
+      "protein": 1.4,
+      "carbs": 5.6,
+      "fat": 0.1,
+      "fiber": 2.7,
+      "sugar": 2.6
+    }
+  },
+  {
+    "id": "mushroom",
+    "name": "Mushroom",
+    "cat": "Vegetables",
+    "emoji": "\ud83c\udf44",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 96,
+    "basePer100g": {
+      "kcal": 16,
+      "protein": 2.3,
+      "carbs": 2.4,
+      "fat": 0.2,
+      "fiber": 0.7,
+      "sugar": 1.2
+    }
+  },
+  {
+    "id": "potato-boiled",
+    "name": "Potato, Boiled",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd54",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 170,
+    "basePer100g": {
+      "kcal": 88,
+      "protein": 2.4,
+      "carbs": 20.0,
+      "fat": 0.1,
+      "fiber": 2.2,
+      "sugar": 0.9
+    }
+  },
+  {
+    "id": "sweet-potato",
+    "name": "Sweet Potato, Baked",
+    "cat": "Vegetables",
+    "emoji": "\ud83c\udf60",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 130,
+    "basePer100g": {
+      "kcal": 86,
+      "protein": 1.5,
+      "carbs": 20.0,
+      "fat": 0.1,
+      "fiber": 3.0,
+      "sugar": 5.7
+    }
+  },
+  {
+    "id": "corn",
+    "name": "Corn on the Cob",
+    "cat": "Vegetables",
+    "emoji": "\ud83c\udf3d",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 90,
+    "basePer100g": {
+      "kcal": 98,
+      "protein": 3.7,
+      "carbs": 21.1,
+      "fat": 1.6,
+      "fiber": 2.7,
+      "sugar": 7.1
+    }
+  },
+  {
+    "id": "okra",
+    "name": "Okra, Cooked",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udedb",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 160,
+    "basePer100g": {
+      "kcal": 22,
+      "protein": 1.9,
+      "carbs": 4.7,
+      "fat": 0.1,
+      "fiber": 2.0,
+      "sugar": 0.9
+    }
+  },
+  {
+    "id": "cabbage",
+    "name": "Cabbage",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd6c",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 89,
+    "basePer100g": {
+      "kcal": 25,
+      "protein": 1.2,
+      "carbs": 5.6,
+      "fat": 0.1,
+      "fiber": 2.2,
+      "sugar": 3.1
+    }
+  },
+  {
+    "id": "radish",
+    "name": "Radish",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd57",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 116,
+    "basePer100g": {
+      "kcal": 16,
+      "protein": 0.7,
+      "carbs": 3.4,
+      "fat": 0.1,
+      "fiber": 1.6,
+      "sugar": 1.9
+    }
+  },
+  {
+    "id": "celery",
+    "name": "Celery",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd6c",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 101,
+    "basePer100g": {
+      "kcal": 16,
+      "protein": 0.7,
+      "carbs": 3.0,
+      "fat": 0.2,
+      "fiber": 1.6,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "asparagus",
+    "name": "Asparagus, Steamed",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd66",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 180,
+    "basePer100g": {
+      "kcal": 22,
+      "protein": 2.4,
+      "carbs": 4.1,
+      "fat": 0.2,
+      "fiber": 2.0,
+      "sugar": 1.4
+    }
+  },
+  {
+    "id": "brussels-sprouts",
+    "name": "Brussels Sprouts",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd66",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 156,
+    "basePer100g": {
+      "kcal": 36,
+      "protein": 2.6,
+      "carbs": 7.1,
+      "fat": 0.5,
+      "fiber": 2.6,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "beets",
+    "name": "Beets, Cooked",
+    "cat": "Vegetables",
+    "emoji": "\ud83c\udf60",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 170,
+    "basePer100g": {
+      "kcal": 44,
+      "protein": 1.6,
+      "carbs": 10.0,
+      "fat": 0.1,
+      "fiber": 2.0,
+      "sugar": 7.9
+    }
+  },
+  {
+    "id": "kale",
+    "name": "Kale, Cooked",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd6c",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 130,
+    "basePer100g": {
+      "kcal": 28,
+      "protein": 1.9,
+      "carbs": 5.6,
+      "fat": 0.4,
+      "fiber": 2.0,
+      "sugar": 1.3
+    }
+  },
+  {
+    "id": "green-peas",
+    "name": "Green Peas",
+    "cat": "Vegetables",
+    "emoji": "\ud83d\udfe2",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 160,
+    "basePer100g": {
+      "kcal": 84,
+      "protein": 5.4,
+      "carbs": 15.6,
+      "fat": 0.2,
+      "fiber": 5.5,
+      "sugar": 5.8
+    }
+  },
+  {
+    "id": "leeks",
+    "name": "Leeks, Cooked",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\uddc5",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 124,
+    "basePer100g": {
+      "kcal": 35,
+      "protein": 0.9,
+      "carbs": 8.1,
+      "fat": 0.0,
+      "fiber": 1.0,
+      "sugar": 2.8
+    }
+  },
+  {
+    "id": "artichoke",
+    "name": "Artichoke, Cooked",
+    "cat": "Vegetables",
+    "emoji": "\ud83c\udf3f",
+    "defaultServingLabel": "1 medium",
+    "defaultServingGrams": 120,
+    "basePer100g": {
+      "kcal": 53,
+      "protein": 2.9,
+      "carbs": 11.7,
+      "fat": 0.2,
+      "fiber": 5.7,
+      "sugar": 1.0
+    }
+  },
+  {
+    "id": "turnip",
+    "name": "Turnip, Cooked",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd54",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 156,
+    "basePer100g": {
+      "kcal": 22,
+      "protein": 0.7,
+      "carbs": 5.1,
+      "fat": 0.1,
+      "fiber": 2.0,
+      "sugar": 3.1
+    }
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin, Cooked",
+    "cat": "Vegetables",
+    "emoji": "\ud83c\udf83",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 245,
+    "basePer100g": {
+      "kcal": 20,
+      "protein": 0.7,
+      "carbs": 4.9,
+      "fat": 0.1,
+      "fiber": 1.1,
+      "sugar": 2.1
+    }
+  },
+  {
+    "id": "squash-yellow",
+    "name": "Yellow Squash, Cooked",
+    "cat": "Vegetables",
+    "emoji": "\ud83e\udd52",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 180,
+    "basePer100g": {
+      "kcal": 20,
+      "protein": 0.9,
+      "carbs": 4.3,
+      "fat": 0.3,
+      "fiber": 1.4,
+      "sugar": 2.4
+    }
+  }
+]

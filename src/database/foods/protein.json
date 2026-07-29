@@ -1,0 +1,450 @@
+[
+  {
+    "id": "chicken-breast",
+    "name": "Grilled Chicken Breast",
+    "cat": "Protein",
+    "emoji": "\ud83c\udf57",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 165,
+      "protein": 30.7,
+      "carbs": 0.0,
+      "fat": 3.6,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "kofta-beef",
+    "name": "Grilled Kofta (Beef)",
+    "cat": "Protein",
+    "emoji": "\ud83c\udf56",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 220,
+      "protein": 18.0,
+      "carbs": 1.3,
+      "fat": 16.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "salmon",
+    "name": "Grilled Salmon",
+    "cat": "Protein",
+    "emoji": "\ud83d\udc1f",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 207,
+      "protein": 22.7,
+      "carbs": 0.0,
+      "fat": 12.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "tuna",
+    "name": "Tuna, Canned",
+    "cat": "Protein",
+    "emoji": "\ud83d\udc1f",
+    "defaultServingLabel": "100g",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 130,
+      "protein": 28.0,
+      "carbs": 0.0,
+      "fat": 1.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "chicken-thigh",
+    "name": "Chicken Thigh, Grilled",
+    "cat": "Protein",
+    "emoji": "\ud83c\udf57",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 223,
+      "protein": 25.3,
+      "carbs": 0.0,
+      "fat": 12.7,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "beef-steak",
+    "name": "Lean Beef Steak",
+    "cat": "Protein",
+    "emoji": "\ud83e\udd69",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 223,
+      "protein": 26.0,
+      "carbs": 0.0,
+      "fat": 12.7,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "shrimp",
+    "name": "Grilled Shrimp",
+    "cat": "Protein",
+    "emoji": "\ud83e\udd90",
+    "defaultServingLabel": "100g",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 99,
+      "protein": 21.0,
+      "carbs": 0.2,
+      "fat": 1.1,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "turkey-breast",
+    "name": "Turkey Breast",
+    "cat": "Protein",
+    "emoji": "\ud83e\udd83",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 147,
+      "protein": 28.0,
+      "carbs": 0.0,
+      "fat": 2.7,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "beef-mince-lean",
+    "name": "Lean Ground Beef (90/10)",
+    "cat": "Protein",
+    "emoji": "\ud83e\udd69",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 180,
+      "protein": 24.0,
+      "carbs": 0.0,
+      "fat": 8.7,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "pork-loin",
+    "name": "Pork Loin (if applicable)",
+    "cat": "Protein",
+    "emoji": "\ud83e\udd53",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 193,
+      "protein": 23.3,
+      "carbs": 0.0,
+      "fat": 10.7,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "cod",
+    "name": "Cod Fillet, Baked",
+    "cat": "Protein",
+    "emoji": "\ud83d\udc1f",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 100,
+      "protein": 22.0,
+      "carbs": 0.0,
+      "fat": 0.7,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "tilapia",
+    "name": "Tilapia, Grilled",
+    "cat": "Protein",
+    "emoji": "\ud83d\udc1f",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 113,
+      "protein": 23.3,
+      "carbs": 0.0,
+      "fat": 2.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "egg-whole-protein",
+    "name": "Whole Eggs (3)",
+    "cat": "Protein",
+    "emoji": "\ud83e\udd5a",
+    "defaultServingLabel": "3 eggs",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 156,
+      "protein": 12.7,
+      "carbs": 1.2,
+      "fat": 10.7,
+      "fiber": 0.0,
+      "sugar": 1.2
+    }
+  },
+  {
+    "id": "tofu",
+    "name": "Tofu, Firm",
+    "cat": "Protein",
+    "emoji": "\ud83e\uddc8",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 80,
+      "protein": 8.7,
+      "carbs": 2.0,
+      "fat": 4.7,
+      "fiber": 1.3,
+      "sugar": 0.7
+    }
+  },
+  {
+    "id": "lamb-chop",
+    "name": "Lamb Chop, Grilled",
+    "cat": "Protein",
+    "emoji": "\ud83c\udf56",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 250,
+      "protein": 21.3,
+      "carbs": 0.0,
+      "fat": 18.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "duck-breast",
+    "name": "Duck Breast, Grilled",
+    "cat": "Protein",
+    "emoji": "\ud83e\udd86",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 193,
+      "protein": 23.3,
+      "carbs": 0.0,
+      "fat": 10.7,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "whey-isolate",
+    "name": "Whey Protein Isolate",
+    "cat": "Protein",
+    "emoji": "\ud83e\udd64",
+    "defaultServingLabel": "1 scoop (30g)",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 367,
+      "protein": 83.3,
+      "carbs": 3.3,
+      "fat": 1.7,
+      "fiber": 0.0,
+      "sugar": 3.3
+    }
+  },
+  {
+    "id": "seitan",
+    "name": "Seitan",
+    "cat": "Protein",
+    "emoji": "\ud83c\udf3e",
+    "defaultServingLabel": "100g",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 120,
+      "protein": 21.0,
+      "carbs": 4.0,
+      "fat": 2.0,
+      "fiber": 0.5,
+      "sugar": 1.0
+    }
+  },
+  {
+    "id": "chicken-drumstick",
+    "name": "Chicken Drumstick, Grilled",
+    "cat": "Protein",
+    "emoji": "\ud83c\udf57",
+    "defaultServingLabel": "2 pieces",
+    "defaultServingGrams": 120,
+    "basePer100g": {
+      "kcal": 183,
+      "protein": 21.7,
+      "carbs": 0.0,
+      "fat": 10.8,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "mackerel",
+    "name": "Grilled Mackerel",
+    "cat": "Protein",
+    "emoji": "\ud83d\udc1f",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 227,
+      "protein": 20.0,
+      "carbs": 0.0,
+      "fat": 16.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "sardines",
+    "name": "Sardines, Canned",
+    "cat": "Protein",
+    "emoji": "\ud83d\udc1f",
+    "defaultServingLabel": "100g",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 208,
+      "protein": 25.0,
+      "carbs": 0.0,
+      "fat": 11.0,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "crab",
+    "name": "Crab Meat",
+    "cat": "Protein",
+    "emoji": "\ud83e\udd80",
+    "defaultServingLabel": "100g",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 97,
+      "protein": 19.0,
+      "carbs": 0.0,
+      "fat": 1.5,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "scallops",
+    "name": "Grilled Scallops",
+    "cat": "Protein",
+    "emoji": "\ud83e\uddaa",
+    "defaultServingLabel": "100g",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 111,
+      "protein": 20.5,
+      "carbs": 5.0,
+      "fat": 0.8,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "bison",
+    "name": "Bison Steak",
+    "cat": "Protein",
+    "emoji": "\ud83e\udd69",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 188,
+      "protein": 25.3,
+      "carbs": 0.0,
+      "fat": 8.7,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "venison",
+    "name": "Venison, Grilled",
+    "cat": "Protein",
+    "emoji": "\ud83e\udd8c",
+    "defaultServingLabel": "150g",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 143,
+      "protein": 25.3,
+      "carbs": 0.0,
+      "fat": 3.3,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "liver-beef",
+    "name": "Beef Liver, Cooked",
+    "cat": "Protein",
+    "emoji": "\ud83c\udf56",
+    "defaultServingLabel": "100g",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 175,
+      "protein": 26.0,
+      "carbs": 3.9,
+      "fat": 4.9,
+      "fiber": 0.0,
+      "sugar": 0.0
+    }
+  },
+  {
+    "id": "egg-yolk",
+    "name": "Egg Yolk",
+    "cat": "Protein",
+    "emoji": "\ud83e\udd5a",
+    "defaultServingLabel": "1 yolk",
+    "defaultServingGrams": 17,
+    "basePer100g": {
+      "kcal": 324,
+      "protein": 15.9,
+      "carbs": 3.5,
+      "fat": 26.5,
+      "fiber": 0.0,
+      "sugar": 0.6
+    }
+  },
+  {
+    "id": "casein-protein",
+    "name": "Casein Protein Powder",
+    "cat": "Protein",
+    "emoji": "\ud83e\udd64",
+    "defaultServingLabel": "1 scoop (30g)",
+    "defaultServingGrams": 30,
+    "basePer100g": {
+      "kcal": 400,
+      "protein": 80.0,
+      "carbs": 10.0,
+      "fat": 3.3,
+      "fiber": 0.0,
+      "sugar": 3.3
+    }
+  }
+]

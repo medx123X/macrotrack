@@ -1,0 +1,466 @@
+[
+  {
+    "id": "caesar",
+    "name": "Grilled Chicken Caesar Salad",
+    "cat": "International",
+    "emoji": "\ud83e\udd57",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 350,
+    "basePer100g": {
+      "kcal": 120,
+      "protein": 9.7,
+      "carbs": 4.0,
+      "fat": 7.4,
+      "fiber": 0.9,
+      "sugar": 0.9
+    }
+  },
+  {
+    "id": "pizza",
+    "name": "Margherita Pizza",
+    "cat": "International",
+    "emoji": "\ud83c\udf55",
+    "defaultServingLabel": "1 slice",
+    "defaultServingGrams": 110,
+    "basePer100g": {
+      "kcal": 245,
+      "protein": 10.0,
+      "carbs": 30.0,
+      "fat": 9.1,
+      "fiber": 1.8,
+      "sugar": 2.7
+    }
+  },
+  {
+    "id": "burger",
+    "name": "Beef Burger",
+    "cat": "International",
+    "emoji": "\ud83c\udf54",
+    "defaultServingLabel": "1 sandwich",
+    "defaultServingGrams": 250,
+    "basePer100g": {
+      "kcal": 216,
+      "protein": 11.2,
+      "carbs": 16.0,
+      "fat": 12.0,
+      "fiber": 0.8,
+      "sugar": 2.4
+    }
+  },
+  {
+    "id": "sushi",
+    "name": "California Roll",
+    "cat": "International",
+    "emoji": "\ud83c\udf63",
+    "defaultServingLabel": "8 pieces",
+    "defaultServingGrams": 200,
+    "basePer100g": {
+      "kcal": 130,
+      "protein": 4.0,
+      "carbs": 20.0,
+      "fat": 3.5,
+      "fiber": 1.0,
+      "sugar": 3.0
+    }
+  },
+  {
+    "id": "bolognese",
+    "name": "Spaghetti Bolognese",
+    "cat": "International",
+    "emoji": "\ud83c\udf5d",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 380,
+    "basePer100g": {
+      "kcal": 147,
+      "protein": 6.8,
+      "carbs": 17.4,
+      "fat": 5.3,
+      "fiber": 1.1,
+      "sugar": 2.1
+    }
+  },
+  {
+    "id": "greeksalad",
+    "name": "Greek Salad",
+    "cat": "International",
+    "emoji": "\ud83e\udd57",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 250,
+    "basePer100g": {
+      "kcal": 88,
+      "protein": 2.4,
+      "carbs": 4.8,
+      "fat": 6.8,
+      "fiber": 1.2,
+      "sugar": 2.4
+    }
+  },
+  {
+    "id": "pad-thai",
+    "name": "Pad Thai",
+    "cat": "International",
+    "emoji": "\ud83c\udf5c",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 350,
+    "basePer100g": {
+      "kcal": 137,
+      "protein": 5.7,
+      "carbs": 17.1,
+      "fat": 5.1,
+      "fiber": 0.9,
+      "sugar": 3.4
+    }
+  },
+  {
+    "id": "fried-rice",
+    "name": "Chicken Fried Rice",
+    "cat": "International",
+    "emoji": "\ud83c\udf5a",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 330,
+    "basePer100g": {
+      "kcal": 142,
+      "protein": 6.7,
+      "carbs": 17.6,
+      "fat": 4.8,
+      "fiber": 0.6,
+      "sugar": 0.9
+    }
+  },
+  {
+    "id": "burrito",
+    "name": "Chicken Burrito",
+    "cat": "International",
+    "emoji": "\ud83c\udf2f",
+    "defaultServingLabel": "1 wrap",
+    "defaultServingGrams": 350,
+    "basePer100g": {
+      "kcal": 160,
+      "protein": 9.1,
+      "carbs": 16.6,
+      "fat": 6.3,
+      "fiber": 1.7,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "pho",
+    "name": "Beef Pho",
+    "cat": "International",
+    "emoji": "\ud83c\udf5c",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 450,
+    "basePer100g": {
+      "kcal": 89,
+      "protein": 6.2,
+      "carbs": 10.7,
+      "fat": 2.2,
+      "fiber": 0.7,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "chicken-tikka",
+    "name": "Chicken Tikka Masala",
+    "cat": "International",
+    "emoji": "\ud83c\udf5b",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 350,
+    "basePer100g": {
+      "kcal": 129,
+      "protein": 9.1,
+      "carbs": 5.7,
+      "fat": 7.4,
+      "fiber": 0.9,
+      "sugar": 1.7
+    }
+  },
+  {
+    "id": "lasagna",
+    "name": "Beef Lasagna",
+    "cat": "International",
+    "emoji": "\ud83c\udf5d",
+    "defaultServingLabel": "1 slice",
+    "defaultServingGrams": 280,
+    "basePer100g": {
+      "kcal": 150,
+      "protein": 8.6,
+      "carbs": 11.4,
+      "fat": 7.9,
+      "fiber": 1.1,
+      "sugar": 2.5
+    }
+  },
+  {
+    "id": "pancakes",
+    "name": "Pancakes (3)",
+    "cat": "International",
+    "emoji": "\ud83e\udd5e",
+    "defaultServingLabel": "3 pieces",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 227,
+      "protein": 5.3,
+      "carbs": 36.0,
+      "fat": 6.7,
+      "fiber": 1.3,
+      "sugar": 9.3
+    }
+  },
+  {
+    "id": "waffles",
+    "name": "Waffles (2)",
+    "cat": "International",
+    "emoji": "\ud83e\uddc7",
+    "defaultServingLabel": "2 pieces",
+    "defaultServingGrams": 150,
+    "basePer100g": {
+      "kcal": 213,
+      "protein": 4.7,
+      "carbs": 28.0,
+      "fat": 9.3,
+      "fiber": 1.3,
+      "sugar": 6.0
+    }
+  },
+  {
+    "id": "club-sandwich",
+    "name": "Club Sandwich",
+    "cat": "International",
+    "emoji": "\ud83e\udd6a",
+    "defaultServingLabel": "1 sandwich",
+    "defaultServingGrams": 280,
+    "basePer100g": {
+      "kcal": 171,
+      "protein": 9.3,
+      "carbs": 14.3,
+      "fat": 8.6,
+      "fiber": 1.1,
+      "sugar": 1.8
+    }
+  },
+  {
+    "id": "mac-cheese",
+    "name": "Mac and Cheese",
+    "cat": "International",
+    "emoji": "\ud83e\uddc0",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 228,
+    "basePer100g": {
+      "kcal": 167,
+      "protein": 6.6,
+      "carbs": 16.7,
+      "fat": 7.9,
+      "fiber": 0.9,
+      "sugar": 2.2
+    }
+  },
+  {
+    "id": "dumplings",
+    "name": "Steamed Dumplings (6)",
+    "cat": "International",
+    "emoji": "\ud83e\udd5f",
+    "defaultServingLabel": "6 pieces",
+    "defaultServingGrams": 180,
+    "basePer100g": {
+      "kcal": 167,
+      "protein": 6.7,
+      "carbs": 20.0,
+      "fat": 5.6,
+      "fiber": 1.1,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "ramen",
+    "name": "Ramen (Pork)",
+    "cat": "International",
+    "emoji": "\ud83c\udf5c",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 450,
+    "basePer100g": {
+      "kcal": 116,
+      "protein": 5.3,
+      "carbs": 12.9,
+      "fat": 4.4,
+      "fiber": 0.7,
+      "sugar": 0.9
+    }
+  },
+  {
+    "id": "nachos",
+    "name": "Nachos Supreme",
+    "cat": "International",
+    "emoji": "\ud83e\uddc0",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 280,
+    "basePer100g": {
+      "kcal": 200,
+      "protein": 6.4,
+      "carbs": 17.9,
+      "fat": 11.4,
+      "fiber": 1.4,
+      "sugar": 1.4
+    }
+  },
+  {
+    "id": "shrimp-tacos",
+    "name": "Shrimp Tacos (3)",
+    "cat": "International",
+    "emoji": "\ud83c\udf2e",
+    "defaultServingLabel": "3 tacos",
+    "defaultServingGrams": 270,
+    "basePer100g": {
+      "kcal": 156,
+      "protein": 9.6,
+      "carbs": 15.6,
+      "fat": 5.9,
+      "fiber": 1.5,
+      "sugar": 1.5
+    }
+  },
+  {
+    "id": "falafel-wrap",
+    "name": "Falafel Wrap (International style)",
+    "cat": "International",
+    "emoji": "\ud83c\udf2f",
+    "defaultServingLabel": "1 wrap",
+    "defaultServingGrams": 250,
+    "basePer100g": {
+      "kcal": 192,
+      "protein": 6.0,
+      "carbs": 23.2,
+      "fat": 8.0,
+      "fiber": 3.2,
+      "sugar": 1.6
+    }
+  },
+  {
+    "id": "beef-teriyaki",
+    "name": "Beef Teriyaki Bowl",
+    "cat": "International",
+    "emoji": "\ud83c\udf71",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 380,
+    "basePer100g": {
+      "kcal": 137,
+      "protein": 7.9,
+      "carbs": 15.3,
+      "fat": 4.2,
+      "fiber": 0.8,
+      "sugar": 3.7
+    }
+  },
+  {
+    "id": "chicken-satay",
+    "name": "Chicken Satay (4 skewers)",
+    "cat": "International",
+    "emoji": "\ud83c\udf62",
+    "defaultServingLabel": "4 skewers",
+    "defaultServingGrams": 160,
+    "basePer100g": {
+      "kcal": 200,
+      "protein": 17.5,
+      "carbs": 6.2,
+      "fat": 11.2,
+      "fiber": 1.2,
+      "sugar": 3.8
+    }
+  },
+  {
+    "id": "veg-stir-fry",
+    "name": "Vegetable Stir Fry",
+    "cat": "International",
+    "emoji": "\ud83e\udd58",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 300,
+    "basePer100g": {
+      "kcal": 93,
+      "protein": 2.7,
+      "carbs": 12.0,
+      "fat": 4.0,
+      "fiber": 2.0,
+      "sugar": 3.3
+    }
+  },
+  {
+    "id": "shepherds-pie",
+    "name": "Shepherd's Pie",
+    "cat": "International",
+    "emoji": "\ud83e\udd67",
+    "defaultServingLabel": "1 serving",
+    "defaultServingGrams": 320,
+    "basePer100g": {
+      "kcal": 131,
+      "protein": 6.2,
+      "carbs": 11.2,
+      "fat": 6.2,
+      "fiber": 1.2,
+      "sugar": 1.6
+    }
+  },
+  {
+    "id": "moussaka",
+    "name": "Moussaka",
+    "cat": "International",
+    "emoji": "\ud83c\udf46",
+    "defaultServingLabel": "1 serving",
+    "defaultServingGrams": 320,
+    "basePer100g": {
+      "kcal": 138,
+      "protein": 6.2,
+      "carbs": 7.5,
+      "fat": 8.8,
+      "fiber": 1.6,
+      "sugar": 2.2
+    }
+  },
+  {
+    "id": "paella",
+    "name": "Seafood Paella",
+    "cat": "International",
+    "emoji": "\ud83e\udd58",
+    "defaultServingLabel": "1 plate",
+    "defaultServingGrams": 350,
+    "basePer100g": {
+      "kcal": 137,
+      "protein": 7.4,
+      "carbs": 16.6,
+      "fat": 4.0,
+      "fiber": 0.9,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "tom-yum",
+    "name": "Tom Yum Soup",
+    "cat": "International",
+    "emoji": "\ud83c\udf72",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 350,
+    "basePer100g": {
+      "kcal": 51,
+      "protein": 4.0,
+      "carbs": 3.4,
+      "fat": 2.3,
+      "fiber": 0.6,
+      "sugar": 1.1
+    }
+  },
+  {
+    "id": "bibimbap",
+    "name": "Bibimbap",
+    "cat": "International",
+    "emoji": "\ud83c\udf5a",
+    "defaultServingLabel": "1 bowl",
+    "defaultServingGrams": 400,
+    "basePer100g": {
+      "kcal": 130,
+      "protein": 5.5,
+      "carbs": 17.0,
+      "fat": 4.0,
+      "fiber": 1.2,
+      "sugar": 2.0
+    }
+  }
+]

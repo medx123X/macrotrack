@@ -1,0 +1,291 @@
+[
+  {
+    "id": "ice-cream",
+    "name": "Vanilla Ice Cream",
+    "cat": "Desserts",
+    "emoji": "🍨",
+    "defaultServingLabel": "1/2 cup",
+    "defaultServingGrams": 65,
+    "basePer100g": {
+      "kcal": 211,
+      "protein": 3.5,
+      "carbs": 24.6,
+      "fat": 11.2,
+      "fiber": 0,
+      "sugar": 21.5
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1531240062960-4842b265a1ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8VmFuaWxsYSUyMEljZSUyMENyZWFtJTIwZm9vZCUyMGRpc2h8ZW58MHwyfHx8MTc4NTI5NTM5NXww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "cheesecake",
+    "name": "Cheesecake",
+    "cat": "Desserts",
+    "emoji": "🍰",
+    "defaultServingLabel": "1 slice",
+    "defaultServingGrams": 125,
+    "basePer100g": {
+      "kcal": 320,
+      "protein": 5.6,
+      "carbs": 25.6,
+      "fat": 22.4,
+      "fiber": 0.4,
+      "sugar": 20.8
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1704930137927-748f02be57bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2hlZXNlY2FrZSUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTUzOTl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "chocolate-cake",
+    "name": "Chocolate Cake",
+    "cat": "Desserts",
+    "emoji": "🍫",
+    "defaultServingLabel": "1 slice",
+    "defaultServingGrams": 95,
+    "basePer100g": {
+      "kcal": 368,
+      "protein": 4.7,
+      "carbs": 52.6,
+      "fat": 15.8,
+      "fiber": 2.1,
+      "sugar": 33.7
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1565808229224-264b6fcc5052?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2hvY29sYXRlJTIwQ2FrZSUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0MDF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "cookies",
+    "name": "Chocolate Chip Cookies (2)",
+    "cat": "Desserts",
+    "emoji": "🍪",
+    "defaultServingLabel": "2 pieces",
+    "defaultServingGrams": 48,
+    "basePer100g": {
+      "kcal": 500,
+      "protein": 5,
+      "carbs": 66.7,
+      "fat": 25,
+      "fiber": 2.1,
+      "sugar": 41.7
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1532499016263-f2c3e89de9cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2hvY29sYXRlJTIwQ2hpcCUyMENvb2tpZXMlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDAyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "donut",
+    "name": "Glazed Donut",
+    "cat": "Desserts",
+    "emoji": "🍩",
+    "defaultServingLabel": "1 piece",
+    "defaultServingGrams": 60,
+    "basePer100g": {
+      "kcal": 400,
+      "protein": 5,
+      "carbs": 43.3,
+      "fat": 23.3,
+      "fiber": 1.2,
+      "sugar": 20
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1740872569638-0bacd19ed6bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8R2xhemVkJTIwRG9udXQlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDAzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "brownie",
+    "name": "Brownie",
+    "cat": "Desserts",
+    "emoji": "🍫",
+    "defaultServingLabel": "1 piece",
+    "defaultServingGrams": 56,
+    "basePer100g": {
+      "kcal": 429,
+      "protein": 5.4,
+      "carbs": 64.3,
+      "fat": 17.9,
+      "fiber": 2.7,
+      "sugar": 42.9
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1560788843-b93c2f18a3e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QnJvd25pZSUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0MDR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "apple-pie",
+    "name": "Apple Pie",
+    "cat": "Desserts",
+    "emoji": "🥧",
+    "defaultServingLabel": "1 slice",
+    "defaultServingGrams": 125,
+    "basePer100g": {
+      "kcal": 237,
+      "protein": 1.9,
+      "carbs": 33.6,
+      "fat": 11.2,
+      "fiber": 1.6,
+      "sugar": 16
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1572383672419-ab35444a6934?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QXBwbGUlMjBQaWUlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDA1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "tiramisu",
+    "name": "Tiramisu",
+    "cat": "Desserts",
+    "emoji": "🍮",
+    "defaultServingLabel": "1 slice",
+    "defaultServingGrams": 130,
+    "basePer100g": {
+      "kcal": 292,
+      "protein": 4.6,
+      "carbs": 27.7,
+      "fat": 18.5,
+      "fiber": 0.4,
+      "sugar": 20
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1596464372839-fd7b1eaea27e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8VGlyYW1pc3UlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDA3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "baklava",
+    "name": "Baklava",
+    "cat": "Desserts",
+    "emoji": "🥮",
+    "defaultServingLabel": "1 piece",
+    "defaultServingGrams": 40,
+    "basePer100g": {
+      "kcal": 425,
+      "protein": 6.2,
+      "carbs": 42.5,
+      "fat": 27.5,
+      "fiber": 2,
+      "sugar": 25
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1645453014906-7f2874408d8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QmFrbGF2YSUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0MDh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "gelato",
+    "name": "Gelato",
+    "cat": "Desserts",
+    "emoji": "🍨",
+    "defaultServingLabel": "1/2 cup",
+    "defaultServingGrams": 90,
+    "basePer100g": {
+      "kcal": 200,
+      "protein": 3.3,
+      "carbs": 26.7,
+      "fat": 8.9,
+      "fiber": 0,
+      "sugar": 22.2
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1757358938541-c56a0c7c5846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8R2VsYXRvJTIwZm9vZCUyMGRpc2h8ZW58MHwyfHx8MTc4NTI5NTQwOXww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "frozen-yogurt",
+    "name": "Frozen Yogurt",
+    "cat": "Desserts",
+    "emoji": "🍦",
+    "defaultServingLabel": "1/2 cup",
+    "defaultServingGrams": 87,
+    "basePer100g": {
+      "kcal": 126,
+      "protein": 3.4,
+      "carbs": 21.8,
+      "fat": 2.9,
+      "fiber": 0,
+      "sugar": 20.7
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1631718051263-c567dca19362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RnJvemVuJTIwWW9ndXJ0JTIwZm9vZCUyMGRpc2h8ZW58MHwyfHx8MTc4NTI5NTQxMHww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "caramel-pudding",
+    "name": "Caramel Pudding (Crème Caramel)",
+    "cat": "Desserts",
+    "emoji": "🍮",
+    "defaultServingLabel": "1 serving",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 150,
+      "protein": 4,
+      "carbs": 24,
+      "fat": 4,
+      "fiber": 0,
+      "sugar": 22
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1625938147772-bbb03b924106?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2FyYW1lbCUyMFB1ZGRpbmclMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDExfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "rice-pudding",
+    "name": "Rice Pudding",
+    "cat": "Desserts",
+    "emoji": "🍮",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 200,
+    "basePer100g": {
+      "kcal": 110,
+      "protein": 2.5,
+      "carbs": 19,
+      "fat": 2.5,
+      "fiber": 0.2,
+      "sugar": 11
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1665529555367-8a4672d97641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UmljZSUyMFB1ZGRpbmclMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDEyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "fruit-salad",
+    "name": "Fruit Salad (sweetened)",
+    "cat": "Desserts",
+    "emoji": "🍓",
+    "defaultServingLabel": "1 cup",
+    "defaultServingGrams": 200,
+    "basePer100g": {
+      "kcal": 70,
+      "protein": 0.8,
+      "carbs": 17,
+      "fat": 0.5,
+      "fiber": 1.5,
+      "sugar": 14
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1631718051263-c567dca19362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RnJ1aXQlMjBTYWxhZCUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0MTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "macarons",
+    "name": "Macarons (2)",
+    "cat": "Desserts",
+    "emoji": "🍬",
+    "defaultServingLabel": "2 pieces",
+    "defaultServingGrams": 50,
+    "basePer100g": {
+      "kcal": 360,
+      "protein": 6,
+      "carbs": 48,
+      "fat": 16,
+      "fiber": 1,
+      "sugar": 40
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1702034519527-b0975c467001?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TWFjYXJvbnMlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDE1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "churros",
+    "name": "Churros (3)",
+    "cat": "Desserts",
+    "emoji": "🥖",
+    "defaultServingLabel": "3 pieces",
+    "defaultServingGrams": 90,
+    "basePer100g": {
+      "kcal": 333,
+      "protein": 4.4,
+      "carbs": 40,
+      "fat": 17.8,
+      "fiber": 1.1,
+      "sugar": 15.6
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1729126042369-a4648cd8c23b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2h1cnJvcyUyMGZvb2QlMjBkaXNofGVufDB8Mnx8fDE3ODUyOTU0MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "sorbet",
+    "name": "Fruit Sorbet",
+    "cat": "Desserts",
+    "emoji": "🍧",
+    "defaultServingLabel": "1/2 cup",
+    "defaultServingGrams": 100,
+    "basePer100g": {
+      "kcal": 120,
+      "protein": 0.3,
+      "carbs": 30,
+      "fat": 0,
+      "fiber": 1,
+      "sugar": 26
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1631718051263-c567dca19362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RnJ1aXQlMjBTb3JiZXQlMjBmb29kJTIwZGlzaHxlbnwwfDJ8fHwxNzg1Mjk1NDE3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  }
+]
