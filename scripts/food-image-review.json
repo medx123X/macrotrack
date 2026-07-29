@@ -4,5 +4,71 @@
     "name": "Halloumi Cheese",
     "cat": "Eggs & Dairy",
     "totalResults": 0
+  },
+  {
+    "id": "skyr",
+    "name": "Skyr",
+    "cat": "Eggs & Dairy",
+    "totalResults": 0
+  },
+  {
+    "id": "ful",
+    "name": "Ful Medames",
+    "cat": "Egyptian",
+    "totalResults": 0
+  },
+  {
+    "id": "taameya",
+    "name": "Taameya (Falafel)",
+    "cat": "Egyptian",
+    "totalResults": 0
+  },
+  {
+    "id": "koshary",
+    "name": "Koshary",
+    "cat": "Egyptian",
+    "totalResults": 0
+  },
+  {
+    "id": "mahshi",
+    "name": "Mahshi (Stuffed Veg)",
+    "cat": "Egyptian",
+    "totalResults": 0
+  },
+  {
+    "id": "kofta",
+    "name": "Kofta",
+    "cat": "Egyptian",
+    "totalResults": 0
+  },
+  {
+    "id": "hawawshi",
+    "name": "Hawawshi",
+    "cat": "Egyptian",
+    "totalResults": 0
+  },
+  {
+    "id": "baladi",
+    "name": "Baladi Bread",
+    "cat": "Egyptian",
+    "totalResults": 0
+  },
+  {
+    "id": "roz",
+    "name": "Roz (White Rice)",
+    "cat": "Egyptian",
+    "totalResults": 0
+  },
+  {
+    "id": "macarona",
+    "name": "Macarona Bechamel",
+    "cat": "Egyptian",
+    "totalResults": 0
+  },
+  {
+    "id": "konafa",
+    "name": "Konafa",
+    "cat": "Egyptian",
+    "totalResults": 0
   }
 ]
