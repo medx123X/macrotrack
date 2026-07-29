@@ -55,15 +55,33 @@ function parseArgs() {
   return { limit, force, category };
 }
 
-/** Strips parenthetical translations ("Taameya (Falafel)" -> "Taameya") and
- *  appends "food" so results skew toward dishes rather than unrelated photos. */
-function toQuery(name: string): string {
-  const clean = name.replace(/\(.*?\)/g, '').trim();
-  return `${clean} food dish`;
+/** Strips parenthetical translations ("Taameya (Falafel)" -> "Taameya"). */
+function cleanName(name: string): string {
+  return name.replace(/\(.*?\)/g, '').trim();
+}
+
+/**
+ * Tries the plain food name first — for specific dishes ("Koshary", "Ful
+ * Medames"), appending extra words like "food dish" over-constrains
+ * Unsplash's tag-based search and returns zero results even when good
+ * photos exist. Only widens the query if the plain name comes up empty.
+ */
+async function searchUnsplashWithFallback(
+  name: string,
+  accessKey: string
+): Promise<UnsplashResult & { queryUsed: string }> {
+  const plain = cleanName(name);
+  const first = await searchUnsplash(plain, accessKey);
+  if (first.total > 0) return { ...first, queryUsed: plain };
+
+  await sleep(600);
+  const broad = `${plain} food`;
+  const second = await searchUnsplash(broad, accessKey);
+  return { ...second, queryUsed: broad };
 }
 
 async function searchUnsplash(query: string, accessKey: string): Promise<UnsplashResult> {
-  const url = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=1&orientation=squarish`;
+  const url = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=1`;
   const res = await fetch(url, {
     headers: { Authorization: `Client-ID ${accessKey}` },
   });
@@ -112,7 +130,8 @@ async function main() {
         skipped++;
         continue;
       }
-      if (requestsUsed >= limit) {
+      // reserve room for a possible 2nd (fallback) request this food might use
+      if (requestsUsed >= limit - 1) {
         console.log(`\nHit --limit=${limit} requests for this run. Stopping here.`);
         console.log('Re-run the same command in ~1 hour to continue with the remaining foods.');
         writeReview(needsReview);
@@ -121,17 +140,16 @@ async function main() {
       }
 
       try {
-        const query = toQuery(food.name);
-        const result = await searchUnsplash(query, accessKey);
-        requestsUsed++;
+        const result = await searchUnsplashWithFallback(food.name, accessKey);
+        requestsUsed += result.queryUsed === cleanName(food.name) ? 1 : 2;
 
         if (result.url) {
           food.imageUrl = result.url;
           fileChanged = true;
           updated++;
-          console.log(`✓ ${food.name} (${food.cat}) — ${result.total} results`);
+          console.log(`✓ ${food.name} (${food.cat}) — ${result.total} results [query: "${result.queryUsed}"]`);
         } else {
-          console.log(`✗ ${food.name} (${food.cat}) — no results, leaving emoji fallback`);
+          console.log(`✗ ${food.name} (${food.cat}) — no results even after fallback, leaving emoji`);
         }
 
         if (result.total < 3) {
