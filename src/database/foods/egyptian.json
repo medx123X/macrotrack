@@ -933,6 +933,7 @@
     "name": "Liver Alexandria Style",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf56",
+    "imageUrl": "https://i.pinimg.com/736x/2b/6e/44/2b6e443a99ca1f3ad7f87d7b4a073a71.jpg",
     "defaultServingLabel": "1 serving",
     "defaultServingGrams": 200,
     "basePer100g": {
@@ -949,6 +950,7 @@
     "name": "Taameya Sandwich",
     "cat": "Egyptian",
     "emoji": "\ud83e\udd59",
+    "imageUrl": "https://i.pinimg.com/236x/c2/75/df/c275dfeb9d01918583393e7d45ed8f50.jpg",
     "defaultServingLabel": "1 sandwich",
     "defaultServingGrams": 200,
     "basePer100g": {
@@ -965,6 +967,7 @@
     "name": "Koshary (Small)",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf5d",
+    "imageUrl": "https://i.pinimg.com/736x/90/f0/74/90f07428cfdd5d94c892aa0ef4cb6236.jpg",
     "defaultServingLabel": "1 small bowl",
     "defaultServingGrams": 250,
     "basePer100g": {
@@ -981,6 +984,7 @@
     "name": "Hawawshi Alexandria Style",
     "cat": "Egyptian",
     "emoji": "\ud83e\udd59",
+    "imageUrl": "https://i.pinimg.com/1200x/a1/14/c3/a114c3d8ca5e99e1e8d3825bbc05a277.jpg",
     "defaultServingLabel": "1 piece",
     "defaultServingGrams": 240,
     "basePer100g": {
@@ -997,6 +1001,7 @@
     "name": "Ataif (Egyptian Pancake, plain)",
     "cat": "Egyptian",
     "emoji": "\ud83e\udd5e",
+    "imageUrl": "https://i.pinimg.com/736x/0d/da/cb/0ddacbae913cf539e8b57bf113a1bbd9.jpg",
     "defaultServingLabel": "3 pieces",
     "defaultServingGrams": 90,
     "basePer100g": {
@@ -1013,6 +1018,7 @@
     "name": "Laban Rayeb",
     "cat": "Egyptian",
     "emoji": "\ud83e\udd5b",
+    "imageUrl": "https://i.pinimg.com/736x/c3/1e/92/c31e9241bd82a665fcdcb32011502dda.jpg",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 245,
     "basePer100g": {
@@ -1029,6 +1035,7 @@
     "name": "Vinegar & Oil Salad",
     "cat": "Egyptian",
     "emoji": "\ud83e\udd57",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/f4/57/e6/chicken-salad.jpg?w=1200&h=-1&s=1",
     "defaultServingLabel": "1 bowl",
     "defaultServingGrams": 180,
     "basePer100g": {
@@ -1045,6 +1052,7 @@
     "name": "Dukkah (2 tbsp)",
     "cat": "Egyptian",
     "emoji": "\ud83e\udd5c",
+    "imageUrl": "https://tse2.mm.bing.net/th/id/OIP.ORcl_hIAwOBRNHAApoHY1wHaE6?r=0&pid=Api&h=220&P=0",
     "defaultServingLabel": "2 tbsp",
     "defaultServingGrams": 20,
     "basePer100g": {
@@ -1061,6 +1069,7 @@
     "name": "Aish Shami",
     "cat": "Egyptian",
     "emoji": "\ud83c\udf5e",
+    "imageUrl": "https://i.pinimg.com/1200x/92/e0/b9/92e0b92a20e2c71ad1f54f0e8f3acd19.jpg",
     "defaultServingLabel": "1 loaf",
     "defaultServingGrams": 80,
     "basePer100g": {
