@@ -14,6 +14,11 @@ export interface Profile {
   id: string;
   name: string;
   pin?: string;
+  /** Data URL (base64) of a resized/compressed profile photo. Optional — falls
+   *  back to initials avatar wherever it's missing. Kept small (resized client-
+   *  side to ~256px, JPEG ~0.85 quality) since it's stored directly in IndexedDB
+   *  and included in the JSON export/import. */
+  photoUrl?: string;
   age: number;
   gender: Gender;
   heightCm: number;

@@ -1,8 +1,10 @@
 import logo from '@/assets/logo.png';
+import type { Profile } from '@/types';
+import { Avatar } from '@/components/ui';
 import { ThemeToggle } from './ThemeToggle';
 import { TopNav, type TabKey } from './Nav';
 
-export function AppHeader({ tab, setTab, name }: { tab: TabKey; setTab: (t: TabKey) => void; name?: string }) {
+export function AppHeader({ tab, setTab, profile }: { tab: TabKey; setTab: (t: TabKey) => void; profile?: Profile }) {
   return (
     <header className="sticky top-0 z-10 glass-elevated border-b border-[var(--glass-border)]">
       <div className="max-w-6xl mx-auto flex items-center justify-between gap-4 px-5 py-3">
@@ -12,7 +14,12 @@ export function AppHeader({ tab, setTab, name }: { tab: TabKey; setTab: (t: TabK
         </div>
         <TopNav tab={tab} setTab={setTab} />
         <div className="flex items-center gap-3">
-          {name && <span className="hidden md:block text-sm font-semibold text-[var(--color-on-surface-variant)]">{name}</span>}
+          {profile && (
+            <div className="hidden md:flex items-center gap-2">
+              <span className="text-sm font-semibold text-[var(--color-on-surface-variant)]">{profile.name}</span>
+              <Avatar profile={profile} size="sm" />
+            </div>
+          )}
           <ThemeToggle />
         </div>
       </div>

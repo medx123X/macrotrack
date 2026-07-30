@@ -117,7 +117,7 @@ export default function App() {
   return (
     <MotionConfig reducedMotion="user">
       <div className="min-h-screen">
-        <AppHeader tab={tab} setTab={setTab} name={profile.name} />
+        <AppHeader tab={tab} setTab={setTab} profile={profile} />
         <AnimatePresence mode="wait">
           <motion.div
             key={tab}

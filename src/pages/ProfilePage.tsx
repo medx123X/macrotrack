@@ -1,13 +1,36 @@
-import { useRef } from 'react';
-import { Sun, Moon, Monitor, Download, Upload, Trash2 } from 'lucide-react';
+import { useRef, useState } from 'react';
+import { Sun, Moon, Monitor, Download, Upload, Trash2, Camera } from 'lucide-react';
 import type { Profile } from '@/types';
-import { Card, Button, Pill } from '@/components/ui';
+import { Card, Button, Pill, Avatar } from '@/components/ui';
 import { useSettingsStore } from '@/store/useSettingsStore';
+import { useProfileStore } from '@/store/useProfileStore';
 import { settingsRepository } from '@/repositories';
+import { fileToResizedDataUrl } from '@/utils/image';
 
 export function ProfilePage({ profile }: { profile: Profile }) {
   const { settings, update, resetAllData } = useSettingsStore();
+  const createOrUpdateProfile = useProfileStore((s) => s.createOrUpdateProfile);
   const fileInput = useRef<HTMLInputElement>(null);
+  const photoInput = useRef<HTMLInputElement>(null);
+  const [photoError, setPhotoError] = useState<string | null>(null);
+  const [photoBusy, setPhotoBusy] = useState(false);
+
+  const handlePhotoChange = async (file: File) => {
+    setPhotoError(null);
+    setPhotoBusy(true);
+    try {
+      const photoUrl = await fileToResizedDataUrl(file);
+      await createOrUpdateProfile({ ...profile, photoUrl, updatedAt: new Date().toISOString() });
+    } catch (err) {
+      setPhotoError(err instanceof Error ? err.message : 'Could not set that photo.');
+    } finally {
+      setPhotoBusy(false);
+    }
+  };
+
+  const removePhoto = async () => {
+    await createOrUpdateProfile({ ...profile, photoUrl: undefined, updatedAt: new Date().toISOString() });
+  };
 
   const exportData = async () => {
     const data = await settingsRepository.exportAll();
@@ -38,12 +61,37 @@ export function ProfilePage({ profile }: { profile: Profile }) {
       <h1 className="text-2xl font-extrabold mb-6" style={{ color: 'var(--color-primary)' }}>Profile & Settings</h1>
 
       <Card padding="lg" className="mb-4 flex items-center gap-4">
-        <div className="w-14 h-14 rounded-full flex items-center justify-center text-xl font-bold" style={{ background: 'var(--color-primary-container)', color: 'var(--color-on-primary-container)' }}>
-          {profile.name.charAt(0).toUpperCase()}
+        <div className="relative shrink-0">
+          <Avatar profile={profile} size="lg" />
+          <button
+            onClick={() => photoInput.current?.click()}
+            disabled={photoBusy}
+            aria-label="Change profile photo"
+            className="absolute -bottom-1 -right-1 w-7 h-7 rounded-full flex items-center justify-center cursor-pointer disabled:opacity-60"
+            style={{ background: 'var(--color-primary)', color: 'var(--color-on-primary)', border: '2px solid var(--color-surface)' }}
+          >
+            <Camera size={13} />
+          </button>
+          <input
+            ref={photoInput}
+            type="file"
+            accept="image/*"
+            hidden
+            onChange={(e) => e.target.files?.[0] && handlePhotoChange(e.target.files[0])}
+          />
         </div>
-        <div>
+        <div className="flex-1 min-w-0">
           <div className="font-bold">{profile.name}</div>
           <div className="text-xs text-[var(--color-on-surface-variant)]">{profile.age} yrs • {profile.heightCm}cm • {profile.weightKg}kg</div>
+          <div className="flex items-center gap-2 mt-1.5">
+            <button onClick={() => photoInput.current?.click()} className="text-xs font-semibold cursor-pointer" style={{ color: 'var(--color-primary)' }}>
+              {photoBusy ? 'Uploading…' : profile.photoUrl ? 'Change photo' : 'Add photo'}
+            </button>
+            {profile.photoUrl && (
+              <button onClick={removePhoto} className="text-xs font-semibold cursor-pointer text-[var(--color-outline)]">Remove</button>
+            )}
+          </div>
+          {photoError && <div className="text-xs mt-1" style={{ color: 'var(--color-error)' }}>{photoError}</div>}
         </div>
       </Card>
 
