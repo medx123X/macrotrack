@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 import { X } from 'lucide-react';
 import { Button, Card, Field, Input } from '@/components/ui';
 import type { WeighIn } from '@/types';
@@ -32,8 +33,21 @@ export function WeeklyCheckInModal({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end md:items-center justify-center modal-overlay p-4" onClick={onClose}>
-      <Card modal padding="lg" className="w-full max-w-sm" style={{ marginBottom: 'max(1rem, env(safe-area-inset-bottom))' }} onClick={(e) => e.stopPropagation()}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.2 }}
+      className="fixed inset-0 z-50 flex items-end md:items-center justify-center modal-overlay p-4"
+      onClick={onClose}
+    >
+      <motion.div
+        initial={{ opacity: 0, y: 24, scale: 0.98 }}
+        animate={{ opacity: 1, y: 0, scale: 1 }}
+        transition={{ duration: 0.25, ease: [0.4, 0, 0.2, 1] }}
+        className="w-full max-w-sm"
+        onClick={(e) => e.stopPropagation()}
+      >
+      <Card modal padding="lg" className="w-full" style={{ marginBottom: 'max(1rem, env(safe-area-inset-bottom))' }}>
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-lg font-bold">Weekly Check-In</h3>
           <button onClick={onClose} className="cursor-pointer text-[var(--color-outline)]"><X size={20} /></button>
@@ -49,6 +63,7 @@ export function WeeklyCheckInModal({
         </p>
         <Button size="lg" className="w-full" onClick={save}>Save Check-In</Button>
       </Card>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }

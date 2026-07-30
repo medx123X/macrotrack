@@ -1,4 +1,5 @@
 import type { LucideIcon } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 interface MacroBarProps {
   label: string;
@@ -24,9 +25,12 @@ export function MacroBar({ label, value, target, unit, color, icon: Icon }: Macr
         </span>
       </div>
       <div className="h-1.5 rounded-full bg-[var(--color-surface-container-high)] overflow-hidden">
-        <div
-          className="h-full rounded-full transition-[width] duration-500 ease-out"
-          style={{ width: `${pct * 100}%`, background: color }}
+        <motion.div
+          className="h-full rounded-full"
+          style={{ background: color }}
+          initial={false}
+          animate={{ width: `${pct * 100}%` }}
+          transition={{ duration: 0.5, ease: 'easeOut' }}
         />
       </div>
     </div>

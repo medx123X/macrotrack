@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion';
+
 interface ProgressRingProps {
   size?: number;
   stroke?: number;
@@ -13,7 +15,7 @@ export function ProgressRing({ size = 64, stroke = 7, progress, color, track = '
   return (
     <svg width={size} height={size} style={{ transform: 'rotate(-90deg)' }}>
       <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke={track} strokeWidth={stroke} opacity={0.35} />
-      <circle
+      <motion.circle
         cx={size / 2}
         cy={size / 2}
         r={r}
@@ -21,9 +23,10 @@ export function ProgressRing({ size = 64, stroke = 7, progress, color, track = '
         stroke={color}
         strokeWidth={stroke}
         strokeDasharray={c}
-        strokeDashoffset={c - c * pct}
         strokeLinecap="round"
-        style={{ transition: 'stroke-dashoffset 0.6s cubic-bezier(.4,0,.2,1)' }}
+        initial={false}
+        animate={{ strokeDashoffset: c - c * pct }}
+        transition={{ duration: 0.7, ease: [0.4, 0, 0.2, 1] }}
       />
     </svg>
   );

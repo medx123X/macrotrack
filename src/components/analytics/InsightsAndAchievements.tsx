@@ -1,4 +1,5 @@
 import { Sparkles, TrendingUp, Droplet, Info } from 'lucide-react';
+import { motion } from 'framer-motion';
 import type { DailyLog, Food, NutritionPlan } from '@/types';
 import { Card } from '@/components/ui';
 import { dayTotals } from '@/utils/nutritionTotals';
@@ -94,7 +95,13 @@ export function AchievementsList({ currentStreak, longestStreak, daysLogged, pro
               <span className="font-mono-num font-bold">{a.value}</span>
             </div>
             <div className="h-1.5 rounded-full bg-[var(--color-surface-container-high)] overflow-hidden">
-              <div className="h-full rounded-full" style={{ width: `${a.pct}%`, background: a.color }} />
+              <motion.div
+                className="h-full rounded-full"
+                style={{ background: a.color }}
+                initial={false}
+                animate={{ width: `${a.pct}%` }}
+                transition={{ duration: 0.5, ease: 'easeOut' }}
+              />
             </div>
           </div>
         ))}

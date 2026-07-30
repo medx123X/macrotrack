@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 import { X } from 'lucide-react';
 import type { Food, MealKey } from '@/types';
 import { Button, Card, Pill } from '@/components/ui';
@@ -30,13 +31,25 @@ export function FoodDetailModal({
   const nutrition = mode === 'serving' ? scaleFoodToServings(food, qty) : scaleFoodToGrams(food, grams);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end md:items-center justify-center modal-overlay p-0 md:p-4" onClick={onClose}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.2 }}
+      className="fixed inset-0 z-50 flex items-end md:items-center justify-center modal-overlay p-0 md:p-4"
+      onClick={onClose}
+    >
+      <motion.div
+        initial={{ opacity: 0, y: 24, scale: 0.98 }}
+        animate={{ opacity: 1, y: 0, scale: 1 }}
+        transition={{ duration: 0.25, ease: [0.4, 0, 0.2, 1] }}
+        className="w-full max-w-md"
+        onClick={(e) => e.stopPropagation()}
+      >
       <Card
         modal
         padding="lg"
-        className="w-full max-w-md max-h-[85vh] overflow-y-auto rounded-b-none md:rounded-b-xl"
+        className="w-full max-h-[85vh] overflow-y-auto rounded-b-none md:rounded-b-xl"
         style={{ paddingBottom: 'max(2rem, env(safe-area-inset-bottom))' }}
-        onClick={(e) => e.stopPropagation()}
       >
         <div className="modal-handle md:hidden" />
         <div className="flex items-start justify-between mb-2">
@@ -102,6 +115,7 @@ export function FoodDetailModal({
 
         <Button size="lg" className="w-full" onClick={() => onAdd(mealKey, actualGrams)}>Add Entry</Button>
       </Card>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }
