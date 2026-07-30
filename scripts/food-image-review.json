@@ -12,21 +12,15 @@
     "totalResults": 0
   },
   {
-    "id": "turkey-breast",
-    "name": "Turkey Breast",
-    "cat": "Protein",
-    "totalResults": 2
-  },
-  {
     "id": "whey-isolate",
     "name": "Whey Protein Isolate",
     "cat": "Protein",
     "totalResults": 0
   },
   {
-    "id": "venison",
-    "name": "Venison, Grilled",
-    "cat": "Protein",
+    "id": "date-bar",
+    "name": "Date & Nut Energy Bar",
+    "cat": "Snacks & Drinks",
     "totalResults": 1
   }
 ]
