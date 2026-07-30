@@ -3,199 +3,211 @@
     "id": "chicken-breast",
     "name": "Grilled Chicken Breast",
     "cat": "Protein",
-    "emoji": "\ud83c\udf57",
+    "emoji": "🍗",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 165,
       "protein": 30.7,
-      "carbs": 0.0,
+      "carbs": 0,
       "fat": 3.6,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1670398564097-0762e1b30b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8R3JpbGxlZCUyMENoaWNrZW4lMjBCcmVhc3R8ZW58MHx8fHwxNzg1MzkyMjAyfDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "kofta-beef",
     "name": "Grilled Kofta (Beef)",
     "cat": "Protein",
-    "emoji": "\ud83c\udf56",
+    "emoji": "🍖",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 220,
-      "protein": 18.0,
+      "protein": 18,
       "carbs": 1.3,
-      "fat": 16.0,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fat": 16,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8R3JpbGxlZCUyMEtvZnRhfGVufDB8fHx8MTc4NTM5MjIwM3ww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "salmon",
     "name": "Grilled Salmon",
     "cat": "Protein",
-    "emoji": "\ud83d\udc1f",
+    "emoji": "🐟",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 207,
       "protein": 22.7,
-      "carbs": 0.0,
-      "fat": 12.0,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "carbs": 0,
+      "fat": 12,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8R3JpbGxlZCUyMFNhbG1vbnxlbnwwfHx8fDE3ODUzOTIyMDR8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "tuna",
     "name": "Tuna, Canned",
     "cat": "Protein",
-    "emoji": "\ud83d\udc1f",
+    "emoji": "🐟",
     "defaultServingLabel": "100g",
     "defaultServingGrams": 100,
     "basePer100g": {
       "kcal": 130,
-      "protein": 28.0,
-      "carbs": 0.0,
-      "fat": 1.0,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "protein": 28,
+      "carbs": 0,
+      "fat": 1,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1593969430155-d2b315c03c6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8VHVuYSUyQyUyMENhbm5lZHxlbnwwfHx8fDE3ODUzOTIyMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "chicken-thigh",
     "name": "Chicken Thigh, Grilled",
     "cat": "Protein",
-    "emoji": "\ud83c\udf57",
+    "emoji": "🍗",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 223,
       "protein": 25.3,
-      "carbs": 0.0,
+      "carbs": 0,
       "fat": 12.7,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2hpY2tlbiUyMFRoaWdoJTJDJTIwR3JpbGxlZHxlbnwwfHx8fDE3ODUzOTIyMDd8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "beef-steak",
     "name": "Lean Beef Steak",
     "cat": "Protein",
-    "emoji": "\ud83e\udd69",
+    "emoji": "🥩",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 223,
-      "protein": 26.0,
-      "carbs": 0.0,
+      "protein": 26,
+      "carbs": 0,
       "fat": 12.7,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TGVhbiUyMEJlZWYlMjBTdGVha3xlbnwwfHx8fDE3ODUzOTIyMDh8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "shrimp",
     "name": "Grilled Shrimp",
     "cat": "Protein",
-    "emoji": "\ud83e\udd90",
+    "emoji": "🦐",
     "defaultServingLabel": "100g",
     "defaultServingGrams": 100,
     "basePer100g": {
       "kcal": 99,
-      "protein": 21.0,
+      "protein": 21,
       "carbs": 0.2,
       "fat": 1.1,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1723325697529-6e2679650b39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8R3JpbGxlZCUyMFNocmltcHxlbnwwfHx8fDE3ODUzOTIyMTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "turkey-breast",
     "name": "Turkey Breast",
     "cat": "Protein",
-    "emoji": "\ud83e\udd83",
+    "emoji": "🦃",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 147,
-      "protein": 28.0,
-      "carbs": 0.0,
+      "protein": 28,
+      "carbs": 0,
       "fat": 2.7,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8VHVya2V5JTIwQnJlYXN0fGVufDB8fHx8MTc4NTM5MjIxMXww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "beef-mince-lean",
     "name": "Lean Ground Beef (90/10)",
     "cat": "Protein",
-    "emoji": "\ud83e\udd69",
+    "emoji": "🥩",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 180,
-      "protein": 24.0,
-      "carbs": 0.0,
+      "protein": 24,
+      "carbs": 0,
       "fat": 8.7,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1612078894671-f11ba41d713e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TGVhbiUyMEdyb3VuZCUyMEJlZWZ8ZW58MHx8fHwxNzg1MzkyMjEzfDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "pork-loin",
     "name": "Pork Loin (if applicable)",
     "cat": "Protein",
-    "emoji": "\ud83e\udd53",
+    "emoji": "🥓",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 193,
       "protein": 23.3,
-      "carbs": 0.0,
+      "carbs": 0,
       "fat": 10.7,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1628268909376-e8c44bb3153f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UG9yayUyMExvaW58ZW58MHx8fHwxNzg1MzkyMjE0fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "cod",
     "name": "Cod Fillet, Baked",
     "cat": "Protein",
-    "emoji": "\ud83d\udc1f",
+    "emoji": "🐟",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 100,
-      "protein": 22.0,
-      "carbs": 0.0,
+      "protein": 22,
+      "carbs": 0,
       "fat": 0.7,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1644784643137-b9073dd262f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q29kJTIwRmlsbGV0JTJDJTIwQmFrZWR8ZW58MHx8fHwxNzg1MzkyMjE1fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "tilapia",
     "name": "Tilapia, Grilled",
     "cat": "Protein",
-    "emoji": "\ud83d\udc1f",
+    "emoji": "🐟",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 113,
       "protein": 23.3,
-      "carbs": 0.0,
-      "fat": 2.0,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "carbs": 0,
+      "fat": 2,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1585688964690-97f5853eb141?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8VGlsYXBpYSUyQyUyMEdyaWxsZWR8ZW58MHx8fHwxNzg1MzkyMjE2fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "egg-whole-protein",
     "name": "Whole Eggs (3)",
     "cat": "Protein",
-    "emoji": "\ud83e\udd5a",
+    "emoji": "🥚",
     "defaultServingLabel": "3 eggs",
     "defaultServingGrams": 150,
     "basePer100g": {
@@ -203,63 +215,67 @@
       "protein": 12.7,
       "carbs": 1.2,
       "fat": 10.7,
-      "fiber": 0.0,
+      "fiber": 0,
       "sugar": 1.2
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1639194335563-d56b83f0060c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8V2hvbGUlMjBFZ2dzfGVufDB8fHx8MTc4NTM5NDg3NXww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "tofu",
     "name": "Tofu, Firm",
     "cat": "Protein",
-    "emoji": "\ud83e\uddc8",
+    "emoji": "🧈",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 80,
       "protein": 8.7,
-      "carbs": 2.0,
+      "carbs": 2,
       "fat": 4.7,
       "fiber": 1.3,
       "sugar": 0.7
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1722635940350-d1b2e5129379?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8VG9mdSUyQyUyMEZpcm0lMjBmb29kfGVufDB8fHx8MTc4NTM5NDg3OHww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "lamb-chop",
     "name": "Lamb Chop, Grilled",
     "cat": "Protein",
-    "emoji": "\ud83c\udf56",
+    "emoji": "🍖",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 250,
       "protein": 21.3,
-      "carbs": 0.0,
-      "fat": 18.0,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "carbs": 0,
+      "fat": 18,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1692106914421-e04e1066bd62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TGFtYiUyMENob3AlMkMlMjBHcmlsbGVkfGVufDB8fHx8MTc4NTM5NDg4MHww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "duck-breast",
     "name": "Duck Breast, Grilled",
     "cat": "Protein",
-    "emoji": "\ud83e\udd86",
+    "emoji": "🦆",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 193,
       "protein": 23.3,
-      "carbs": 0.0,
+      "carbs": 0,
       "fat": 10.7,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1580554530778-ca36943938b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RHVjayUyMEJyZWFzdCUyQyUyMEdyaWxsZWR8ZW58MHx8fHwxNzg1Mzk0ODgxfDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "whey-isolate",
     "name": "Whey Protein Isolate",
     "cat": "Protein",
-    "emoji": "\ud83e\udd64",
+    "emoji": "🥤",
     "defaultServingLabel": "1 scoop (30g)",
     "defaultServingGrams": 30,
     "basePer100g": {
@@ -267,7 +283,7 @@
       "protein": 83.3,
       "carbs": 3.3,
       "fat": 1.7,
-      "fiber": 0.0,
+      "fiber": 0,
       "sugar": 3.3
     }
   },
@@ -275,151 +291,160 @@
     "id": "seitan",
     "name": "Seitan",
     "cat": "Protein",
-    "emoji": "\ud83c\udf3e",
+    "emoji": "🌾",
     "defaultServingLabel": "100g",
     "defaultServingGrams": 100,
     "basePer100g": {
       "kcal": 120,
-      "protein": 21.0,
-      "carbs": 4.0,
-      "fat": 2.0,
+      "protein": 21,
+      "carbs": 4,
+      "fat": 2,
       "fiber": 0.5,
-      "sugar": 1.0
-    }
+      "sugar": 1
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1626772479918-7b0e72d27954?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U2VpdGFufGVufDB8fHx8MTc4NTM5NDg4NXww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "chicken-drumstick",
     "name": "Chicken Drumstick, Grilled",
     "cat": "Protein",
-    "emoji": "\ud83c\udf57",
+    "emoji": "🍗",
     "defaultServingLabel": "2 pieces",
     "defaultServingGrams": 120,
     "basePer100g": {
       "kcal": 183,
       "protein": 21.7,
-      "carbs": 0.0,
+      "carbs": 0,
       "fat": 10.8,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1638439430466-b2bb7fdc1d67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2hpY2tlbiUyMERydW1zdGljayUyQyUyMEdyaWxsZWR8ZW58MHx8fHwxNzg1Mzk0ODg2fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "mackerel",
     "name": "Grilled Mackerel",
     "cat": "Protein",
-    "emoji": "\ud83d\udc1f",
+    "emoji": "🐟",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 227,
-      "protein": 20.0,
-      "carbs": 0.0,
-      "fat": 16.0,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "protein": 20,
+      "carbs": 0,
+      "fat": 16,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1556814901-18c866c057da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8R3JpbGxlZCUyME1hY2tlcmVsfGVufDB8fHx8MTc4NTM5NDg4OHww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "sardines",
     "name": "Sardines, Canned",
     "cat": "Protein",
-    "emoji": "\ud83d\udc1f",
+    "emoji": "🐟",
     "defaultServingLabel": "100g",
     "defaultServingGrams": 100,
     "basePer100g": {
       "kcal": 208,
-      "protein": 25.0,
-      "carbs": 0.0,
-      "fat": 11.0,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "protein": 25,
+      "carbs": 0,
+      "fat": 11,
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1585769448445-efca2df879e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U2FyZGluZXMlMkMlMjBDYW5uZWR8ZW58MHx8fHwxNzg1Mzk0ODg5fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "crab",
     "name": "Crab Meat",
     "cat": "Protein",
-    "emoji": "\ud83e\udd80",
+    "emoji": "🦀",
     "defaultServingLabel": "100g",
     "defaultServingGrams": 100,
     "basePer100g": {
       "kcal": 97,
-      "protein": 19.0,
-      "carbs": 0.0,
+      "protein": 19,
+      "carbs": 0,
       "fat": 1.5,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1511543865714-5a5a5ce51a94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q3JhYiUyME1lYXR8ZW58MHx8fHwxNzg1Mzk0ODkwfDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "scallops",
     "name": "Grilled Scallops",
     "cat": "Protein",
-    "emoji": "\ud83e\uddaa",
+    "emoji": "🦪",
     "defaultServingLabel": "100g",
     "defaultServingGrams": 100,
     "basePer100g": {
       "kcal": 111,
       "protein": 20.5,
-      "carbs": 5.0,
+      "carbs": 5,
       "fat": 0.8,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1605759758891-430e7885631b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8R3JpbGxlZCUyMFNjYWxsb3BzfGVufDB8fHx8MTc4NTM5NDg5Mnww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "bison",
     "name": "Bison Steak",
     "cat": "Protein",
-    "emoji": "\ud83e\udd69",
+    "emoji": "🥩",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 188,
       "protein": 25.3,
-      "carbs": 0.0,
+      "carbs": 0,
       "fat": 8.7,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Qmlzb24lMjBTdGVha3xlbnwwfHx8fDE3ODUzOTQ4OTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "venison",
     "name": "Venison, Grilled",
     "cat": "Protein",
-    "emoji": "\ud83e\udd8c",
+    "emoji": "🦌",
     "defaultServingLabel": "150g",
     "defaultServingGrams": 150,
     "basePer100g": {
       "kcal": 143,
       "protein": 25.3,
-      "carbs": 0.0,
+      "carbs": 0,
       "fat": 3.3,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1624290799129-60740e0ffec6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8VmVuaXNvbiUyQyUyMEdyaWxsZWR8ZW58MHx8fHwxNzg1Mzk0ODk1fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "liver-beef",
     "name": "Beef Liver, Cooked",
     "cat": "Protein",
-    "emoji": "\ud83c\udf56",
+    "emoji": "🍖",
     "defaultServingLabel": "100g",
     "defaultServingGrams": 100,
     "basePer100g": {
       "kcal": 175,
-      "protein": 26.0,
+      "protein": 26,
       "carbs": 3.9,
       "fat": 4.9,
-      "fiber": 0.0,
-      "sugar": 0.0
-    }
+      "fiber": 0,
+      "sugar": 0
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1678684279246-96e6afb970f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QmVlZiUyMExpdmVyJTJDJTIwQ29va2VkfGVufDB8fHx8MTc4NTM5NDg5N3ww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "egg-yolk",
     "name": "Egg Yolk",
     "cat": "Protein",
-    "emoji": "\ud83e\udd5a",
+    "emoji": "🥚",
     "defaultServingLabel": "1 yolk",
     "defaultServingGrams": 17,
     "basePer100g": {
@@ -427,24 +452,26 @@
       "protein": 15.9,
       "carbs": 3.5,
       "fat": 26.5,
-      "fiber": 0.0,
+      "fiber": 0,
       "sugar": 0.6
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1607690424395-6660d838d818?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RWdnJTIwWW9sa3xlbnwwfHx8fDE3ODUzOTQ4OTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "casein-protein",
     "name": "Casein Protein Powder",
     "cat": "Protein",
-    "emoji": "\ud83e\udd64",
+    "emoji": "🥤",
     "defaultServingLabel": "1 scoop (30g)",
     "defaultServingGrams": 30,
     "basePer100g": {
       "kcal": 400,
-      "protein": 80.0,
-      "carbs": 10.0,
+      "protein": 80,
+      "carbs": 10,
       "fat": 3.3,
-      "fiber": 0.0,
+      "fiber": 0,
       "sugar": 3.3
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1693996046865-19217d179161?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2FzZWluJTIwUHJvdGVpbiUyMFBvd2RlcnxlbnwwfHx8fDE3ODUzOTQ5MDB8MA&ixlib=rb-4.1.0&q=80&w=1080"
   }
 ]

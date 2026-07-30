@@ -3,7 +3,7 @@
     "id": "cucumber",
     "name": "Cucumber",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd52",
+    "emoji": "🥒",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 300,
     "basePer100g": {
@@ -13,13 +13,14 @@
       "fat": 0.1,
       "fiber": 0.5,
       "sugar": 1.7
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q3VjdW1iZXJ8ZW58MHx8fHwxNzg1Mzk5NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "tomato",
     "name": "Tomato",
     "cat": "Vegetables",
-    "emoji": "\ud83c\udf45",
+    "emoji": "🍅",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 123,
     "basePer100g": {
@@ -29,45 +30,48 @@
       "fat": 0.2,
       "fiber": 1.2,
       "sugar": 2.6
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1607305387299-a3d9611cd469?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8VG9tYXRvfGVufDB8fHx8MTc4NTM5OTY2N3ww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "mixedsalad",
     "name": "Mixed Salad",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd57",
+    "emoji": "🥗",
     "defaultServingLabel": "1 bowl",
     "defaultServingGrams": 200,
     "basePer100g": {
       "kcal": 45,
-      "protein": 1.0,
-      "carbs": 5.0,
+      "protein": 1,
+      "carbs": 5,
       "fat": 2.5,
-      "fiber": 2.0,
-      "sugar": 2.0
-    }
+      "fiber": 2,
+      "sugar": 2
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1607532941433-304659e8198a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TWl4ZWQlMjBTYWxhZHxlbnwwfHx8fDE3ODUzOTk2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "carrot",
     "name": "Carrot",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd55",
+    "emoji": "🥕",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 61,
     "basePer100g": {
       "kcal": 41,
-      "protein": 1.0,
+      "protein": 1,
       "carbs": 9.8,
       "fat": 0.2,
       "fiber": 2.8,
       "sugar": 4.9
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2Fycm90fGVufDB8fHx8MTc4NTM5OTY2OXww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "broccoli",
     "name": "Broccoli, Steamed",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd66",
+    "emoji": "🥦",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 156,
     "basePer100g": {
@@ -77,13 +81,14 @@
       "fat": 0.4,
       "fiber": 3.3,
       "sugar": 1.4
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1583663848850-46af132dc08e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QnJvY2NvbGklMkMlMjBTdGVhbWVkfGVufDB8fHx8MTc4NTQwMjk3MHww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "spinach",
     "name": "Spinach, Cooked",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd6c",
+    "emoji": "🥬",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 180,
     "basePer100g": {
@@ -93,13 +98,14 @@
       "fat": 0.3,
       "fiber": 2.4,
       "sugar": 0.4
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1515363578674-99f41329ab4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U3BpbmFjaCUyQyUyMENvb2tlZHxlbnwwfHx8fDE3ODU0MDI5NzF8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "bell-pepper",
     "name": "Bell Pepper",
     "cat": "Vegetables",
-    "emoji": "\ud83e\uded1",
+    "emoji": "🫑",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 119,
     "basePer100g": {
@@ -109,13 +115,14 @@
       "fat": 0.3,
       "fiber": 2.1,
       "sugar": 3.5
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1601648764658-cf37e8c89b70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QmVsbCUyMFBlcHBlcnxlbnwwfHx8fDE3ODU0MDI5NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "eggplant",
     "name": "Eggplant, Grilled",
     "cat": "Vegetables",
-    "emoji": "\ud83c\udf46",
+    "emoji": "🍆",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 99,
     "basePer100g": {
@@ -125,13 +132,14 @@
       "fat": 0.2,
       "fiber": 2.5,
       "sugar": 3.2
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1625944227313-4f7f68e6b3fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RWdncGxhbnQlMkMlMjBHcmlsbGVkfGVufDB8fHx8MTc4NTQwMjk3NHww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "zucchini",
     "name": "Zucchini",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd52",
+    "emoji": "🥒",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 180,
     "basePer100g": {
@@ -141,29 +149,31 @@
       "fat": 0.2,
       "fiber": 0.7,
       "sugar": 1.7
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1691480291894-75229c2bfd44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8WnVjY2hpbml8ZW58MHx8fHwxNzg1NDAyOTc1fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "cauliflower",
     "name": "Cauliflower",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd66",
+    "emoji": "🥦",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 100,
     "basePer100g": {
       "kcal": 25,
-      "protein": 2.0,
-      "carbs": 5.0,
+      "protein": 2,
+      "carbs": 5,
       "fat": 0.1,
-      "fiber": 2.0,
-      "sugar": 2.0
-    }
+      "fiber": 2,
+      "sugar": 2
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1566842600175-97dca489844f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2F1bGlmbG93ZXJ8ZW58MHx8fHwxNzg1NDAyOTc2fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "onion",
     "name": "Onion",
     "cat": "Vegetables",
-    "emoji": "\ud83e\uddc5",
+    "emoji": "🧅",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 110,
     "basePer100g": {
@@ -173,29 +183,31 @@
       "fat": 0.1,
       "fiber": 1.7,
       "sugar": 4.3
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8T25pb258ZW58MHx8fHwxNzg1NDAyOTc3fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "garlic",
     "name": "Garlic",
     "cat": "Vegetables",
-    "emoji": "\ud83e\uddc4",
+    "emoji": "🧄",
     "defaultServingLabel": "3 cloves",
     "defaultServingGrams": 9,
     "basePer100g": {
       "kcal": 144,
       "protein": 6.7,
       "carbs": 33.3,
-      "fat": 0.0,
+      "fat": 0,
       "fiber": 2.2,
       "sugar": 1.1
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1636210589096-a53d5dacd702?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8R2FybGljfGVufDB8fHx8MTc4NTQwMjk3OHww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "lettuce",
     "name": "Lettuce",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd6c",
+    "emoji": "🥬",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 56,
     "basePer100g": {
@@ -205,13 +217,14 @@
       "fat": 0.2,
       "fiber": 1.1,
       "sugar": 1.1
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1640958904159-51ae08bd3412?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TGV0dHVjZXxlbnwwfHx8fDE3ODU0MDI5ODB8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "green-beans",
     "name": "Green Beans",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udedb",
+    "emoji": "🫛",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 125,
     "basePer100g": {
@@ -221,13 +234,14 @@
       "fat": 0.1,
       "fiber": 2.7,
       "sugar": 2.6
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1574963835594-61eede2070dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8R3JlZW4lMjBCZWFuc3xlbnwwfHx8fDE3ODU0MDI5ODF8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "mushroom",
     "name": "Mushroom",
     "cat": "Vegetables",
-    "emoji": "\ud83c\udf44",
+    "emoji": "🍄",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 96,
     "basePer100g": {
@@ -237,45 +251,48 @@
       "fat": 0.2,
       "fiber": 0.7,
       "sugar": 1.2
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1571074635691-b910c7a5cdbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TXVzaHJvb218ZW58MHx8fHwxNzg1NDAyOTgyfDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "potato-boiled",
     "name": "Potato, Boiled",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd54",
+    "emoji": "🥔",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 170,
     "basePer100g": {
       "kcal": 88,
       "protein": 2.4,
-      "carbs": 20.0,
+      "carbs": 20,
       "fat": 0.1,
       "fiber": 2.2,
       "sugar": 0.9
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UG90YXRvJTJDJTIwQm9pbGVkfGVufDB8fHx8MTc4NTQwMjk4NHww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "sweet-potato",
     "name": "Sweet Potato, Baked",
     "cat": "Vegetables",
-    "emoji": "\ud83c\udf60",
+    "emoji": "🍠",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 130,
     "basePer100g": {
       "kcal": 86,
       "protein": 1.5,
-      "carbs": 20.0,
+      "carbs": 20,
       "fat": 0.1,
-      "fiber": 3.0,
+      "fiber": 3,
       "sugar": 5.7
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1596097635121-14b63b7a0c23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U3dlZXQlMjBQb3RhdG8lMkMlMjBCYWtlZHxlbnwwfHx8fDE3ODU0MDI5ODV8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "corn",
     "name": "Corn on the Cob",
     "cat": "Vegetables",
-    "emoji": "\ud83c\udf3d",
+    "emoji": "🌽",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 90,
     "basePer100g": {
@@ -285,13 +302,14 @@
       "fat": 1.6,
       "fiber": 2.7,
       "sugar": 7.1
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1634467524884-897d0af5e104?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q29ybiUyMG9uJTIwdGhlJTIwQ29ifGVufDB8fHx8MTc4NTQwMjk4N3ww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "okra",
     "name": "Okra, Cooked",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udedb",
+    "emoji": "🫛",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 160,
     "basePer100g": {
@@ -299,15 +317,16 @@
       "protein": 1.9,
       "carbs": 4.7,
       "fat": 0.1,
-      "fiber": 2.0,
+      "fiber": 2,
       "sugar": 0.9
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1777691643116-9d8b72e67a3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8T2tyYSUyQyUyMENvb2tlZHxlbnwwfHx8fDE3ODU0MDI5ODh8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "cabbage",
     "name": "Cabbage",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd6c",
+    "emoji": "🥬",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 89,
     "basePer100g": {
@@ -317,13 +336,14 @@
       "fat": 0.1,
       "fiber": 2.2,
       "sugar": 3.1
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2FiYmFnZXxlbnwwfHx8fDE3ODU0MDI5ODl8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "radish",
     "name": "Radish",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd57",
+    "emoji": "🥗",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 116,
     "basePer100g": {
@@ -333,29 +353,31 @@
       "fat": 0.1,
       "fiber": 1.6,
       "sugar": 1.9
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1585369496178-144fd937f249?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UmFkaXNofGVufDB8fHx8MTc4NTQwMjk5MHww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "celery",
     "name": "Celery",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd6c",
+    "emoji": "🥬",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 101,
     "basePer100g": {
       "kcal": 16,
       "protein": 0.7,
-      "carbs": 3.0,
+      "carbs": 3,
       "fat": 0.2,
       "fiber": 1.6,
       "sugar": 1.7
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1582372288206-a88db541f0e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2VsZXJ5fGVufDB8fHx8MTc4NTQwMjk5MXww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "asparagus",
     "name": "Asparagus, Steamed",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd66",
+    "emoji": "🥦",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 180,
     "basePer100g": {
@@ -363,15 +385,16 @@
       "protein": 2.4,
       "carbs": 4.1,
       "fat": 0.2,
-      "fiber": 2.0,
+      "fiber": 2,
       "sugar": 1.4
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1595855759920-86582396756a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QXNwYXJhZ3VzJTJDJTIwU3RlYW1lZHxlbnwwfHx8fDE3ODU0MDI5OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "brussels-sprouts",
     "name": "Brussels Sprouts",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd66",
+    "emoji": "🥦",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 156,
     "basePer100g": {
@@ -381,29 +404,31 @@
       "fat": 0.5,
       "fiber": 2.6,
       "sugar": 1.7
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1576749872435-ff88a71c1ae2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QnJ1c3NlbHMlMjBTcHJvdXRzfGVufDB8fHx8MTc4NTQwMjk5M3ww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "beets",
     "name": "Beets, Cooked",
     "cat": "Vegetables",
-    "emoji": "\ud83c\udf60",
+    "emoji": "🍠",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 170,
     "basePer100g": {
       "kcal": 44,
       "protein": 1.6,
-      "carbs": 10.0,
+      "carbs": 10,
       "fat": 0.1,
-      "fiber": 2.0,
+      "fiber": 2,
       "sugar": 7.9
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1744028982670-67ca067bedfa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QmVldHMlMkMlMjBDb29rZWR8ZW58MHx8fHwxNzg1NDAyOTk1fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "kale",
     "name": "Kale, Cooked",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd6c",
+    "emoji": "🥬",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 130,
     "basePer100g": {
@@ -411,15 +436,16 @@
       "protein": 1.9,
       "carbs": 5.6,
       "fat": 0.4,
-      "fiber": 2.0,
+      "fiber": 2,
       "sugar": 1.3
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1580554530778-ca36943938b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8S2FsZSUyQyUyMENvb2tlZHxlbnwwfHx8fDE3ODU0MDI5OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "green-peas",
     "name": "Green Peas",
     "cat": "Vegetables",
-    "emoji": "\ud83d\udfe2",
+    "emoji": "🟢",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 160,
     "basePer100g": {
@@ -429,29 +455,31 @@
       "fat": 0.2,
       "fiber": 5.5,
       "sugar": 5.8
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1592394533824-9440e5d68530?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8R3JlZW4lMjBQZWFzfGVufDB8fHx8MTc4NTQwMjk5N3ww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "leeks",
     "name": "Leeks, Cooked",
     "cat": "Vegetables",
-    "emoji": "\ud83e\uddc5",
+    "emoji": "🧅",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 124,
     "basePer100g": {
       "kcal": 35,
       "protein": 0.9,
       "carbs": 8.1,
-      "fat": 0.0,
-      "fiber": 1.0,
+      "fat": 0,
+      "fiber": 1,
       "sugar": 2.8
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1739963093349-faca4f154655?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TGVla3MlMkMlMjBDb29rZWR8ZW58MHx8fHwxNzg1NDAyOTk5fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "artichoke",
     "name": "Artichoke, Cooked",
     "cat": "Vegetables",
-    "emoji": "\ud83c\udf3f",
+    "emoji": "🌿",
     "defaultServingLabel": "1 medium",
     "defaultServingGrams": 120,
     "basePer100g": {
@@ -460,14 +488,15 @@
       "carbs": 11.7,
       "fat": 0.2,
       "fiber": 5.7,
-      "sugar": 1.0
-    }
+      "sugar": 1
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1559852925-44ce7f97bc36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QXJ0aWNob2tlJTJDJTIwQ29va2VkfGVufDB8fHx8MTc4NTQwMzAwMHww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "turnip",
     "name": "Turnip, Cooked",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd54",
+    "emoji": "🥔",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 156,
     "basePer100g": {
@@ -475,15 +504,16 @@
       "protein": 0.7,
       "carbs": 5.1,
       "fat": 0.1,
-      "fiber": 2.0,
+      "fiber": 2,
       "sugar": 3.1
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1606791422814-b32c705e3e2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8VHVybmlwJTJDJTIwQ29va2VkfGVufDB8fHx8MTc4NTQwMzAwMnww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "pumpkin",
     "name": "Pumpkin, Cooked",
     "cat": "Vegetables",
-    "emoji": "\ud83c\udf83",
+    "emoji": "🎃",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 245,
     "basePer100g": {
@@ -493,13 +523,14 @@
       "fat": 0.1,
       "fiber": 1.1,
       "sugar": 2.1
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1548357209-6eb9f60efe87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UHVtcGtpbiUyQyUyMENvb2tlZHxlbnwwfHx8fDE3ODU0MDMwMDN8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "squash-yellow",
     "name": "Yellow Squash, Cooked",
     "cat": "Vegetables",
-    "emoji": "\ud83e\udd52",
+    "emoji": "🥒",
     "defaultServingLabel": "1 cup",
     "defaultServingGrams": 180,
     "basePer100g": {
@@ -509,6 +540,7 @@
       "fat": 0.3,
       "fiber": 1.4,
       "sugar": 2.4
-    }
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1603052864227-4af6238dc5f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8WWVsbG93JTIwU3F1YXNoJTJDJTIwQ29va2VkfGVufDB8fHx8MTc4NTQwMzAwNHww&ixlib=rb-4.1.0&q=80&w=1080"
   }
 ]

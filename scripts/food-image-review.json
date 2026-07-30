@@ -4,5 +4,17 @@
     "name": "Skyr",
     "cat": "Eggs & Dairy",
     "totalResults": 0
+  },
+  {
+    "id": "nachos",
+    "name": "Nachos Supreme",
+    "cat": "International",
+    "totalResults": 0
+  },
+  {
+    "id": "whey-isolate",
+    "name": "Whey Protein Isolate",
+    "cat": "Protein",
+    "totalResults": 0
   }
 ]
