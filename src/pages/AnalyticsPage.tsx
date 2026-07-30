@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
-import { Download } from 'lucide-react';
+import { Download, TrendingUp } from 'lucide-react';
 import type { NutritionPlan, Profile, WeighIn } from '@/types';
 import { WeeklyCaloriesChart, MacroDonutChart, ProteinConsistencyChart, WeightTrajectoryChart } from '@/components/analytics/AnalyticsCharts';
 import { AIInsightsList, AchievementsList } from '@/components/analytics/InsightsAndAchievements';
 import { useHistory } from '@/hooks/useHistory';
 import { useDayStore } from '@/store/useDayStore';
-import { Button } from '@/components/ui';
+import { Button, EmptyState } from '@/components/ui';
 import { computeStreaks, computeProteinGoalStreak } from '@/utils/streaks';
 import { dayTotals } from '@/utils/nutritionTotals';
 import { logRepository } from '@/repositories';
@@ -25,6 +25,7 @@ export function AnalyticsPage({ profile, plan, weighIns }: { profile: Profile; p
 
   const streaks = computeStreaks(allLogs);
   const proteinStreak = computeProteinGoalStreak(allLogs, plan.protein, (l) => dayTotals(l, foodsById));
+  const hasAnyData = allLogs.some((l) => Object.values(l.meals).some((m) => m.length > 0));
 
   return (
     <div className="max-w-6xl mx-auto p-4 md:p-6 pb-24 md:pb-8">
@@ -36,25 +37,35 @@ export function AnalyticsPage({ profile, plan, weighIns }: { profile: Profile; p
         <Button variant="secondary" size="sm"><Download size={14} /> Export PDF</Button>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-4 mb-4">
-        <WeeklyCaloriesChart logs={logs} foodsById={foodsById} />
-        <MacroDonutChart totals={totals()} />
-      </div>
-
-      <div className="grid md:grid-cols-2 gap-4 mb-4">
-        <ProteinConsistencyChart logs={logs} foodsById={foodsById} target={plan.protein} />
-        <WeightTrajectoryChart weighIns={weighIns} />
-      </div>
-
-      <div className="grid md:grid-cols-2 gap-4">
-        <AIInsightsList logs={logs} foodsById={foodsById} plan={plan} />
-        <AchievementsList
-          currentStreak={streaks.currentStreak}
-          longestStreak={streaks.longestStreak}
-          daysLogged={streaks.daysLogged}
-          proteinStreak={proteinStreak}
+      {!hasAnyData ? (
+        <EmptyState
+          icon={TrendingUp}
+          title="Nothing to analyze yet"
+          message="Log a few meals in the Tracker tab and your calorie trends, macro breakdown, and weight trajectory will show up here."
         />
-      </div>
+      ) : (
+        <>
+          <div className="grid md:grid-cols-2 gap-4 mb-4">
+            <WeeklyCaloriesChart logs={logs} foodsById={foodsById} />
+            <MacroDonutChart totals={totals()} />
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-4 mb-4">
+            <ProteinConsistencyChart logs={logs} foodsById={foodsById} target={plan.protein} />
+            <WeightTrajectoryChart weighIns={weighIns} />
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-4">
+            <AIInsightsList logs={logs} foodsById={foodsById} plan={plan} />
+            <AchievementsList
+              currentStreak={streaks.currentStreak}
+              longestStreak={streaks.longestStreak}
+              daysLogged={streaks.daysLogged}
+              proteinStreak={proteinStreak}
+            />
+          </div>
+        </>
+      )}
     </div>
   );
 }

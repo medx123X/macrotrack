@@ -66,7 +66,12 @@ export function ProfilePage({ profile }: { profile: Profile }) {
 
       <Card padding="lg" className="mb-4">
         <h3 className="font-bold text-sm mb-1">Adaptive Calories</h3>
-        <p className="text-xs text-[var(--color-on-surface-variant)] mb-3">Automatically adjust your daily target based on real weigh-in progress.</p>
+        <p className="text-xs text-[var(--color-on-surface-variant)] mb-3">
+          Your starting target is a formula-based estimate. Once you've logged a couple of weekly
+          weigh-ins, we compare your actual weight trend against your goal and nudge your daily
+          calorie target up or down by ~100 kcal if you're off pace — so your plan gets more
+          accurate the longer you use it, instead of relying on the day-1 estimate forever.
+        </p>
         <div className="flex gap-2">
           <Pill active={settings.adaptiveCalories} onClick={() => update({ adaptiveCalories: true })}>On</Pill>
           <Pill active={!settings.adaptiveCalories} onClick={() => update({ adaptiveCalories: false })}>Off</Pill>

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, CalendarDays } from 'lucide-react';
 import type { DailyLog, Food, Profile } from '@/types';
-import { Card } from '@/components/ui';
+import { Card, EmptyState } from '@/components/ui';
 import { logRepository, foodRepository } from '@/repositories';
 import { daysInMonth, toDateStr } from '@/utils/date';
 import { dayTotals } from '@/utils/nutritionTotals';
@@ -34,6 +34,7 @@ export function CalendarPage({ profile }: { profile: Profile }) {
 
   const selectedLog = selected ? logsByDate.get(selected) : undefined;
   const selectedTotals = selectedLog ? dayTotals(selectedLog, foodsById) : null;
+  const hasAnyLogs = Array.from(logsByDate.values()).some((l) => Object.values(l.meals).some((m) => m.length > 0));
 
   return (
     <div className="max-w-3xl mx-auto p-4 md:p-6 pb-24 md:pb-8">
@@ -93,6 +94,14 @@ export function CalendarPage({ profile }: { profile: Profile }) {
             </div>
           )}
         </Card>
+      )}
+
+      {!selected && !hasAnyLogs && (
+        <EmptyState
+          icon={CalendarDays}
+          title="No history yet"
+          message="Once you log a few days in the Tracker tab, tap any date above to see what you ate that day."
+        />
       )}
     </div>
   );
