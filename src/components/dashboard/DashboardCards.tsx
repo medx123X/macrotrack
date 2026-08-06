@@ -2,24 +2,40 @@ import { Beef, Wheat, Droplet, GlassWater, Lightbulb } from 'lucide-react';
 import type { DailyTotals, NutritionPlan } from '@/types';
 import { Card, ProgressRing, StatCard } from '@/components/ui';
 
-export function CalorieRingCard({ totals, plan }: { totals: DailyTotals; plan: NutritionPlan }) {
-  const remaining = plan.targetCalories - totals.kcal;
-  const pctReached = plan.targetCalories > 0 ? Math.round((totals.kcal / plan.targetCalories) * 100) : 0;
+export function CalorieRingCard({
+  totals,
+  plan,
+  exerciseCaloriesBurned,
+  exerciseAffectsGoal,
+}: {
+  totals: DailyTotals;
+  plan: NutritionPlan;
+  exerciseCaloriesBurned: number;
+  exerciseAffectsGoal: boolean;
+}) {
+  const effectiveTarget = exerciseAffectsGoal ? plan.targetCalories + exerciseCaloriesBurned : plan.targetCalories;
+  const remaining = effectiveTarget - totals.kcal;
+  const pctReached = effectiveTarget > 0 ? Math.round((totals.kcal / effectiveTarget) * 100) : 0;
   return (
     <Card padding="lg" className="flex flex-col items-center text-center">
       <div className="self-start font-bold text-sm mb-1">Daily Calories</div>
       <div className="relative flex items-center justify-center my-2">
-        <ProgressRing size={180} stroke={14} progress={totals.kcal / Math.max(1, plan.targetCalories)} color="var(--color-primary)" />
+        <ProgressRing size={180} stroke={14} progress={totals.kcal / Math.max(1, effectiveTarget)} color="var(--color-primary)" />
         <div className="absolute flex flex-col items-center">
           <span className="font-mono-num text-4xl font-extrabold">{totals.kcal.toLocaleString()}</span>
-          <span className="text-[11px] uppercase tracking-wide text-[var(--color-outline)]">of {plan.targetCalories.toLocaleString()} kcal</span>
+          <span className="text-[11px] uppercase tracking-wide text-[var(--color-outline)]">of {effectiveTarget.toLocaleString()} kcal</span>
         </div>
       </div>
-      <div className="flex gap-2 mt-2">
+      <div className="flex gap-2 mt-2 flex-wrap justify-center">
         <span className="text-xs font-semibold px-3 py-1 rounded-full glass">{pctReached}% Reached</span>
         <span className="text-xs font-semibold px-3 py-1 rounded-full glass">
           {remaining >= 0 ? `${remaining} kcal left` : `${Math.abs(remaining)} kcal over`}
         </span>
+        {exerciseAffectsGoal && exerciseCaloriesBurned > 0 && (
+          <span className="text-xs font-semibold px-3 py-1 rounded-full glass" style={{ color: 'var(--color-fat)' }}>
+            +{exerciseCaloriesBurned} from exercise
+          </span>
+        )}
       </div>
     </Card>
   );

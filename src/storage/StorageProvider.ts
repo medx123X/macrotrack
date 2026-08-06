@@ -1,4 +1,4 @@
-import type { DailyLog, Food, MealTemplate, Profile, Settings, WeighIn } from '@/types';
+import type { DailyLog, ExerciseDailyLog, Food, MealTemplate, Profile, Settings, WeighIn } from '@/types';
 
 /**
  * Contract every storage backend must implement. Today only Dexie (IndexedDB)
@@ -34,6 +34,11 @@ export interface StorageProvider {
   getMealTemplates(profileId: string): Promise<MealTemplate[]>;
   saveMealTemplate(template: MealTemplate): Promise<void>;
   deleteMealTemplate(id: string): Promise<void>;
+
+  // exercise logs (catalog is static JSON via ExerciseRepository, same pattern as foods)
+  getExerciseDay(profileId: string, date: string): Promise<ExerciseDailyLog | undefined>;
+  getAllExerciseLogs(profileId: string): Promise<ExerciseDailyLog[]>;
+  saveExerciseDay(log: ExerciseDailyLog): Promise<void>;
 
   // settings
   getSettings(): Promise<Settings>;

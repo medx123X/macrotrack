@@ -1,14 +1,16 @@
-import { Home, UtensilsCrossed, BarChart3, Calendar, User } from 'lucide-react';
+import { Home, UtensilsCrossed, Dumbbell, BarChart3, Calendar } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
-export type TabKey = 'dashboard' | 'tracker' | 'analytics' | 'calendar' | 'profile';
+export type TabKey = 'dashboard' | 'tracker' | 'exercise' | 'analytics' | 'calendar' | 'profile';
 
+/** Profile is intentionally excluded here — it's reachable only via the avatar
+ *  menu now, not as a permanent bottom-nav tab (see Update 1: Navigation & Profile Access). */
 const TABS: { key: TabKey; label: string; icon: LucideIcon }[] = [
   { key: 'dashboard', label: 'Dashboard', icon: Home },
-  { key: 'tracker', label: 'Tracker', icon: UtensilsCrossed },
+  { key: 'tracker', label: 'Food', icon: UtensilsCrossed },
+  { key: 'exercise', label: 'Exercise', icon: Dumbbell },
   { key: 'analytics', label: 'Analytics', icon: BarChart3 },
   { key: 'calendar', label: 'Calendar', icon: Calendar },
-  { key: 'profile', label: 'Profile', icon: User },
 ];
 
 interface NavProps {

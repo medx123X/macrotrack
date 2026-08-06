@@ -1,5 +1,5 @@
 import Dexie, { type Table } from 'dexie';
-import type { DailyLog, Food, MealTemplate, Profile, WeighIn } from '@/types';
+import type { DailyLog, ExerciseDailyLog, Food, MealTemplate, Profile, WeighIn } from '@/types';
 
 export interface KVRow {
   key: string;
@@ -13,6 +13,7 @@ export class MacroTrackDB extends Dexie {
   customFoods!: Table<Food, string>;
   mealTemplates!: Table<MealTemplate, string>;
   kv!: Table<KVRow, string>; // settings, favorites, recent, active profile pointer
+  exerciseLogs!: Table<ExerciseDailyLog, [string, string]>; // compound key [profileId, date]
 
   constructor() {
     super('macrotrack-egypt');
@@ -23,6 +24,17 @@ export class MacroTrackDB extends Dexie {
       customFoods: 'id, name, isCustom',
       mealTemplates: 'id, profileId, mealKey',
       kv: 'key',
+    });
+    // v2 adds exercise logging — all v1 tables repeated unchanged, per Dexie's
+    // requirement that each version() call fully redeclares the schema.
+    this.version(2).stores({
+      profiles: 'id, name, createdAt',
+      weighIns: 'id, profileId, date',
+      dailyLogs: '[profileId+date], profileId, date',
+      customFoods: 'id, name, isCustom',
+      mealTemplates: 'id, profileId, mealKey',
+      kv: 'key',
+      exerciseLogs: '[profileId+date], profileId, date',
     });
   }
 }

@@ -26,5 +26,8 @@ export function migrateSettings(raw: unknown): Settings {
     return { ...defaultSettings(), ...settings, version: CURRENT_SETTINGS_VERSION } as unknown as Settings;
   }
 
-  return settings as unknown as Settings;
+  // Merge with defaults even on a version match, so fields added to SettingsV1
+  // after a user's settings were first saved (e.g. exerciseAffectsGoal) still
+  // get a real default value instead of silently being `undefined`.
+  return { ...defaultSettings(), ...settings } as unknown as Settings;
 }

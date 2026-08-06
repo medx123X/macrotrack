@@ -10,6 +10,7 @@
     "build": "tsc -b && vite build",
     "build:foods": "tsx scripts/build-foods.ts",
     "fetch:images": "tsx scripts/fetch-food-images.ts",
+    "fetch:exercise-images": "tsx scripts/fetch-exercise-images.ts",
     "lint": "oxlint",
     "preview": "vite preview"
   },

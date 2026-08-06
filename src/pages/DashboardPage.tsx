@@ -4,7 +4,7 @@ import type { Profile, NutritionPlan, WeighIn, DailyTotals } from '@/types';
 import { CalorieRingCard, MacroRingsGrid, MetabolicStatsCard } from '@/components/dashboard/DashboardCards';
 import { WeightJourneyChart } from '@/components/dashboard/WeightJourneyChart';
 import { WeeklyCheckInModal } from '@/components/checkin/WeeklyCheckInModal';
-import { Button } from '@/components/ui';
+import { Button, StatCard } from '@/components/ui';
 import { useProfileStore } from '@/store/useProfileStore';
 
 export function DashboardPage({
@@ -12,11 +12,17 @@ export function DashboardPage({
   plan,
   weighIns,
   totals,
+  exerciseCaloriesBurned,
+  exerciseMinutes,
+  exerciseAffectsGoal,
 }: {
   profile: Profile;
   plan: NutritionPlan;
   weighIns: WeighIn[];
   totals: DailyTotals;
+  exerciseCaloriesBurned: number;
+  exerciseMinutes: number;
+  exerciseAffectsGoal: boolean;
 }) {
   const [checkInOpen, setCheckInOpen] = useState(false);
   const addWeighIn = useProfileStore((s) => s.addWeighIn);
@@ -31,9 +37,18 @@ export function DashboardPage({
       </div>
 
       <div className="grid md:grid-cols-[1.1fr_1fr_1fr] gap-4 mb-4">
-        <CalorieRingCard totals={totals} plan={plan} />
+        <CalorieRingCard totals={totals} plan={plan} exerciseCaloriesBurned={exerciseCaloriesBurned} exerciseAffectsGoal={exerciseAffectsGoal} />
         <MacroRingsGrid totals={totals} plan={plan} />
         <MetabolicStatsCard plan={plan} />
+      </div>
+
+      <div className="grid sm:grid-cols-2 gap-3 mb-4">
+        <StatCard label="Exercise Calories Burned" value={exerciseCaloriesBurned} color="var(--color-fat)" sub={`${exerciseMinutes} min logged today`} />
+        <StatCard
+          label="Net Calories"
+          value={exerciseAffectsGoal ? totals.kcal - exerciseCaloriesBurned : totals.kcal}
+          sub={exerciseAffectsGoal ? 'Food − exercise' : 'Exercise not affecting goal'}
+        />
       </div>
 
       <div className="relative">

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "barbell-row",
+    "name": "Barbell Row",
+    "category": "Gym",
+    "totalResults": 1
+  },
+  {
+    "id": "burpees",
+    "name": "Burpees",
+    "category": "Home Workouts",
+    "totalResults": 2
+  },
+  {
+    "id": "glute-bridge",
+    "name": "Glute Bridge",
+    "category": "Home Workouts",
+    "totalResults": 0
+  }
+]

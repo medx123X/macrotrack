@@ -1,0 +1,1386 @@
+[
+  {
+    "id": "bench-press",
+    "name": "Bench Press",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 6,
+    "description": "Barbell chest press performed lying on a flat bench.",
+    "difficulty": "intermediate",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Chest"
+    ],
+    "secondaryMuscles": [
+      "Triceps",
+      "Shoulders"
+    ],
+    "equipment": [
+      "Barbell",
+      "Bench"
+    ],
+    "recommendedDurationMin": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1690731033723-ad718c6e585a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QmVuY2glMjBQcmVzc3xlbnwwfHx8fDE3ODYwNTQ1MTN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "squat",
+    "name": "Squat",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 6,
+    "description": "Barbell back squat, a compound lower-body movement.",
+    "difficulty": "intermediate",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "secondaryMuscles": [
+      "Hamstrings",
+      "Core"
+    ],
+    "equipment": [
+      "Barbell",
+      "Squat Rack"
+    ],
+    "recommendedDurationMin": 35,
+    "imageUrl": "https://images.unsplash.com/photo-1649887974297-4be052375a67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U3F1YXR8ZW58MHx8fHwxNzg2MDU0NTE0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "deadlift",
+    "name": "Deadlift",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 6,
+    "description": "Barbell hip-hinge lift from the floor, a full posterior-chain movement.",
+    "difficulty": "advanced",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Hamstrings",
+      "Glutes",
+      "Back"
+    ],
+    "secondaryMuscles": [
+      "Core",
+      "Forearms"
+    ],
+    "equipment": [
+      "Barbell"
+    ],
+    "recommendedDurationMin": 35,
+    "imageUrl": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RGVhZGxpZnR8ZW58MHx8fHwxNzg2MDU0NTE2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "pull-up-gym",
+    "name": "Pull-Up",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 8,
+    "description": "Bodyweight vertical pull using an overhead bar.",
+    "difficulty": "intermediate",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Back",
+      "Lats"
+    ],
+    "secondaryMuscles": [
+      "Biceps"
+    ],
+    "equipment": [
+      "Pull-Up Bar"
+    ],
+    "recommendedDurationMin": 20,
+    "imageUrl": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UHVsbC1VcHxlbnwwfHx8fDE3ODYwNTQ1MTd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "lat-pulldown",
+    "name": "Lat Pulldown",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 5,
+    "description": "Cable machine pull targeting the lats.",
+    "difficulty": "beginner",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Back",
+      "Lats"
+    ],
+    "secondaryMuscles": [
+      "Biceps"
+    ],
+    "equipment": [
+      "Cable Machine"
+    ],
+    "recommendedDurationMin": 25,
+    "imageUrl": "https://images.unsplash.com/photo-1534872850130-5355701fcc89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TGF0JTIwUHVsbGRvd258ZW58MHx8fHwxNzg2MDU0NTE4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "barbell-row",
+    "name": "Barbell Row",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 6,
+    "description": "Bent-over row targeting the mid-back.",
+    "difficulty": "intermediate",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Back"
+    ],
+    "secondaryMuscles": [
+      "Biceps",
+      "Core"
+    ],
+    "equipment": [
+      "Barbell"
+    ],
+    "recommendedDurationMin": 25,
+    "imageUrl": "https://images.unsplash.com/photo-1784819482955-e6a9523fe80d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QmFyYmVsbCUyMFJvd3xlbnwwfHx8fDE3ODYwNTQ1MTl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "shoulder-press",
+    "name": "Shoulder Press",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 5.5,
+    "description": "Overhead barbell or dumbbell press for the shoulders.",
+    "difficulty": "intermediate",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Shoulders"
+    ],
+    "secondaryMuscles": [
+      "Triceps"
+    ],
+    "equipment": [
+      "Barbell or Dumbbells"
+    ],
+    "recommendedDurationMin": 25,
+    "imageUrl": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U2hvdWxkZXIlMjBQcmVzcyUyMGV4ZXJjaXNlfGVufDB8fHx8MTc4NjA1NDUyMnww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "bicep-curl",
+    "name": "Bicep Curl",
+    "category": "Gym",
+    "icon": "💪",
+    "metValue": 4,
+    "description": "Isolation curl for the biceps.",
+    "difficulty": "beginner",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Biceps"
+    ],
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "equipment": [
+      "Dumbbells"
+    ],
+    "recommendedDurationMin": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QmljZXAlMjBDdXJsfGVufDB8fHx8MTc4NjA1NDUyM3ww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "triceps-pushdown",
+    "name": "Triceps Pushdown",
+    "category": "Gym",
+    "icon": "💪",
+    "metValue": 4,
+    "description": "Cable isolation movement for the triceps.",
+    "difficulty": "beginner",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Triceps"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Cable Machine"
+    ],
+    "recommendedDurationMin": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1532384748853-8f54a8f476e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8VHJpY2VwcyUyMFB1c2hkb3dufGVufDB8fHx8MTc4NjA1NDUyNHww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "leg-press",
+    "name": "Leg Press",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 5,
+    "description": "Machine-based compound lower-body press.",
+    "difficulty": "beginner",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "equipment": [
+      "Leg Press Machine"
+    ],
+    "recommendedDurationMin": 25,
+    "imageUrl": "https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TGVnJTIwUHJlc3N8ZW58MHx8fHwxNzg2MDU0NTI1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "hip-thrust",
+    "name": "Hip Thrust",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 5,
+    "description": "Barbell hip extension targeting the glutes.",
+    "difficulty": "intermediate",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Glutes"
+    ],
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "equipment": [
+      "Barbell",
+      "Bench"
+    ],
+    "recommendedDurationMin": 20,
+    "imageUrl": "https://images.unsplash.com/photo-1635031520206-2bbe2dfa4d68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8SGlwJTIwVGhydXN0fGVufDB8fHx8MTc4NjA1NDUyN3ww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "cable-fly",
+    "name": "Cable Fly",
+    "category": "Gym",
+    "icon": "💪",
+    "metValue": 4,
+    "description": "Cable isolation movement for the chest.",
+    "difficulty": "beginner",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Chest"
+    ],
+    "secondaryMuscles": [
+      "Shoulders"
+    ],
+    "equipment": [
+      "Cable Machine"
+    ],
+    "recommendedDurationMin": 20,
+    "imageUrl": "https://images.unsplash.com/photo-1695199193329-80b0cc659eb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2FibGUlMjBGbHl8ZW58MHx8fHwxNzg2MDU0NTI4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "push-ups",
+    "name": "Push-Ups",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 3.8,
+    "description": "Classic bodyweight chest and triceps press.",
+    "difficulty": "beginner",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Chest"
+    ],
+    "secondaryMuscles": [
+      "Triceps",
+      "Shoulders"
+    ],
+    "equipment": [],
+    "recommendedDurationMin": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1682048682610-20a91f10b29c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UHVzaC1VcHN8ZW58MHx8fHwxNzg2MDU0NTI5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "pull-ups-home",
+    "name": "Pull-Ups",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 8,
+    "description": "Bodyweight vertical pull using a doorway or bar.",
+    "difficulty": "intermediate",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Back"
+    ],
+    "secondaryMuscles": [
+      "Biceps"
+    ],
+    "equipment": [
+      "Pull-Up Bar"
+    ],
+    "recommendedDurationMin": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1677165733273-dcc3724c00e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UHVsbC1VcHN8ZW58MHx8fHwxNzg2MDU0NTMxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "bodyweight-squats",
+    "name": "Bodyweight Squats",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 5,
+    "description": "Bodyweight squat, no equipment needed.",
+    "difficulty": "beginner",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "equipment": [],
+    "recommendedDurationMin": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Qm9keXdlaWdodCUyMFNxdWF0c3xlbnwwfHx8fDE3ODYwNTQ1MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "lunges",
+    "name": "Lunges",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 4,
+    "description": "Alternating single-leg step-forward lunge.",
+    "difficulty": "beginner",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "equipment": [],
+    "recommendedDurationMin": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1743767587847-08c42b31cdec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8THVuZ2VzfGVufDB8fHx8MTc4NjA1NDUzM3ww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "plank",
+    "name": "Plank",
+    "category": "Home Workouts",
+    "icon": "🧘",
+    "metValue": 3,
+    "description": "Isometric core hold in a straight-line position.",
+    "difficulty": "beginner",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Core"
+    ],
+    "secondaryMuscles": [
+      "Shoulders"
+    ],
+    "equipment": [],
+    "recommendedDurationMin": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1626444231642-6bd985bca16a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UGxhbmt8ZW58MHx8fHwxNzg2MDU0NTM0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "sit-ups",
+    "name": "Sit-Ups",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 3.8,
+    "description": "Classic abdominal flexion exercise.",
+    "difficulty": "beginner",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Core"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [],
+    "recommendedDurationMin": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1593308610775-48f0102f1722?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U2l0LVVwc3xlbnwwfHx8fDE3ODYwNTQ1MzV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "mountain-climbers",
+    "name": "Mountain Climbers",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 8,
+    "description": "Fast alternating knee-drive in plank position.",
+    "difficulty": "intermediate",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Core"
+    ],
+    "secondaryMuscles": [
+      "Shoulders",
+      "Legs"
+    ],
+    "equipment": [],
+    "recommendedDurationMin": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1502126324834-38f8e02d7160?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TW91bnRhaW4lMjBDbGltYmVyc3xlbnwwfHx8fDE3ODYwNTQ1MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "burpees",
+    "name": "Burpees",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 8,
+    "description": "Full-body squat-thrust-jump combination movement.",
+    "difficulty": "advanced",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Full Body"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [],
+    "recommendedDurationMin": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1739283180407-21e27d5c0735?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QnVycGVlc3xlbnwwfHx8fDE3ODYwNTQ1Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "jumping-jacks",
+    "name": "Jumping Jacks",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 8,
+    "description": "Classic full-body cardio warm-up movement.",
+    "difficulty": "beginner",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Full Body"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [],
+    "recommendedDurationMin": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1613122707153-070406e9fd27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8SnVtcGluZyUyMEphY2tzfGVufDB8fHx8MTc4NjA1NDUzOXww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "wall-sit",
+    "name": "Wall Sit",
+    "category": "Home Workouts",
+    "icon": "🧘",
+    "metValue": 3,
+    "description": "Isometric quad hold with back against a wall.",
+    "difficulty": "beginner",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Quadriceps"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [],
+    "recommendedDurationMin": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1500916571413-f7836e3d1d41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8V2FsbCUyMFNpdHxlbnwwfHx8fDE3ODYwNTQ1NDB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "glute-bridge",
+    "name": "Glute Bridge",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 3.5,
+    "description": "Bodyweight hip extension lying on the back.",
+    "difficulty": "beginner",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Glutes"
+    ],
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "equipment": [],
+    "recommendedDurationMin": 10
+  },
+  {
+    "id": "superman",
+    "name": "Superman",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 3.5,
+    "description": "Lower-back extension performed lying face-down.",
+    "difficulty": "beginner",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Lower Back"
+    ],
+    "secondaryMuscles": [
+      "Glutes"
+    ],
+    "equipment": [],
+    "recommendedDurationMin": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1611604548018-d56bbd85d681?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U3VwZXJtYW58ZW58MHx8fHwxNzg2MDU0NTQzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "walking",
+    "name": "Walking",
+    "category": "Cardio",
+    "icon": "🚶",
+    "metValue": 3.5,
+    "description": "Moderate-pace walking.",
+    "difficulty": "beginner",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Legs"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [],
+    "recommendedDurationMin": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1487956382158-bb926046304a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8V2Fsa2luZ3xlbnwwfHx8fDE3ODYwNTQ1NDR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "jogging",
+    "name": "Jogging",
+    "category": "Cardio",
+    "icon": "🏃",
+    "metValue": 7,
+    "description": "Light steady-pace running.",
+    "difficulty": "beginner",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Legs"
+    ],
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "equipment": [],
+    "recommendedDurationMin": 25,
+    "imageUrl": "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Sm9nZ2luZ3xlbnwwfHx8fDE3ODYwNTQ1NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "running",
+    "name": "Running",
+    "category": "Cardio",
+    "icon": "🏃",
+    "metValue": 9.8,
+    "description": "Moderate-to-fast pace running.",
+    "difficulty": "intermediate",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Legs"
+    ],
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "equipment": [],
+    "recommendedDurationMin": 25,
+    "imageUrl": "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UnVubmluZ3xlbnwwfHx8fDE3ODYwNTQ1NDd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "cycling",
+    "name": "Cycling",
+    "category": "Cardio",
+    "icon": "🚴",
+    "metValue": 7.5,
+    "description": "Moderate-effort outdoor cycling.",
+    "difficulty": "beginner",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Legs"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Bicycle"
+    ],
+    "recommendedDurationMin": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1452573992436-6d508f200b30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q3ljbGluZ3xlbnwwfHx8fDE3ODYwNTQ1NDh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "stationary-bike",
+    "name": "Stationary Bike",
+    "category": "Cardio",
+    "icon": "🚴",
+    "metValue": 6.8,
+    "description": "Indoor cycling at moderate effort.",
+    "difficulty": "beginner",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Legs"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Stationary Bike"
+    ],
+    "recommendedDurationMin": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1707985287164-c84627ad6eba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U3RhdGlvbmFyeSUyMEJpa2V8ZW58MHx8fHwxNzg2MDU0NTQ5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "rowing",
+    "name": "Rowing",
+    "category": "Cardio",
+    "icon": "🚣",
+    "metValue": 7,
+    "description": "Rowing machine at moderate effort.",
+    "difficulty": "intermediate",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Back",
+      "Legs"
+    ],
+    "secondaryMuscles": [
+      "Arms",
+      "Core"
+    ],
+    "equipment": [
+      "Rowing Machine"
+    ],
+    "recommendedDurationMin": 20,
+    "imageUrl": "https://images.unsplash.com/photo-1697242877038-6213aa0822d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Um93aW5nfGVufDB8fHx8MTc4NjA1NDU1MXww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "swimming",
+    "name": "Swimming",
+    "category": "Cardio",
+    "icon": "🏊",
+    "metValue": 6,
+    "description": "Freestyle swimming at moderate effort.",
+    "difficulty": "intermediate",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Full Body"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Pool"
+    ],
+    "recommendedDurationMin": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1530549387789-4c1017266635?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U3dpbW1pbmd8ZW58MHx8fHwxNzg2MDU0NTUyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "jump-rope",
+    "name": "Jump Rope",
+    "category": "Cardio",
+    "icon": "🤾",
+    "metValue": 11,
+    "description": "Skipping rope at a moderate-fast pace.",
+    "difficulty": "intermediate",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Legs",
+      "Shoulders"
+    ],
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "equipment": [
+      "Jump Rope"
+    ],
+    "recommendedDurationMin": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1514994667787-b48ca37155f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8SnVtcCUyMFJvcGV8ZW58MHx8fHwxNzg2MDU0NTUzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "stair-climber",
+    "name": "Stair Climber",
+    "category": "Cardio",
+    "icon": "🪜",
+    "metValue": 8,
+    "description": "Stair-climbing machine at moderate effort.",
+    "difficulty": "intermediate",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Legs",
+      "Glutes"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Stair Climber Machine"
+    ],
+    "recommendedDurationMin": 20,
+    "imageUrl": "https://images.unsplash.com/photo-1675026482188-8102367ecc16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U3RhaXIlMjBDbGltYmVyfGVufDB8fHx8MTc4NjA1NDU1NHww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "elliptical",
+    "name": "Elliptical",
+    "category": "Cardio",
+    "icon": "🏃",
+    "metValue": 5,
+    "description": "Low-impact elliptical trainer at moderate effort.",
+    "difficulty": "beginner",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Legs"
+    ],
+    "secondaryMuscles": [
+      "Arms"
+    ],
+    "equipment": [
+      "Elliptical Machine"
+    ],
+    "recommendedDurationMin": 25,
+    "imageUrl": "https://images.unsplash.com/photo-1675026482188-8102367ecc16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RWxsaXB0aWNhbHxlbnwwfHx8fDE3ODYwNTQ1NTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "football",
+    "name": "Football",
+    "category": "Sports",
+    "icon": "⚽",
+    "metValue": 7,
+    "description": "Casual to competitive football/soccer play.",
+    "difficulty": "intermediate",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Legs"
+    ],
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "equipment": [
+      "Football"
+    ],
+    "recommendedDurationMin": 45,
+    "imageUrl": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Rm9vdGJhbGx8ZW58MHx8fHwxNzg2MDU0NTU2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "basketball",
+    "name": "Basketball",
+    "category": "Sports",
+    "icon": "🏀",
+    "metValue": 6.5,
+    "description": "Casual to competitive basketball play.",
+    "difficulty": "intermediate",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Legs"
+    ],
+    "secondaryMuscles": [
+      "Shoulders"
+    ],
+    "equipment": [
+      "Basketball"
+    ],
+    "recommendedDurationMin": 40,
+    "imageUrl": "https://images.unsplash.com/photo-1546519638-68e109498ffc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QmFza2V0YmFsbHxlbnwwfHx8fDE3ODYwNTQ1NTd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "volleyball",
+    "name": "Volleyball",
+    "category": "Sports",
+    "icon": "🏐",
+    "metValue": 4,
+    "description": "Casual to competitive volleyball play.",
+    "difficulty": "beginner",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Legs",
+      "Shoulders"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Volleyball"
+    ],
+    "recommendedDurationMin": 40,
+    "imageUrl": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Vm9sbGV5YmFsbHxlbnwwfHx8fDE3ODYwNTQ1NTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "tennis",
+    "name": "Tennis",
+    "category": "Sports",
+    "icon": "🎾",
+    "metValue": 7.3,
+    "description": "Singles tennis at a competitive pace.",
+    "difficulty": "intermediate",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Legs",
+      "Shoulders"
+    ],
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "equipment": [
+      "Racket"
+    ],
+    "recommendedDurationMin": 45,
+    "imageUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8VGVubmlzfGVufDB8fHx8MTc4NjA1NDU1OXww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "boxing",
+    "name": "Boxing",
+    "category": "Sports",
+    "icon": "🥊",
+    "metValue": 9,
+    "description": "Bag work or sparring at moderate-high intensity.",
+    "difficulty": "intermediate",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Full Body"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Gloves"
+    ],
+    "recommendedDurationMin": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Qm94aW5nfGVufDB8fHx8MTc4NjA1NDU2MXww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "kickboxing",
+    "name": "Kickboxing",
+    "category": "Sports",
+    "icon": "🥊",
+    "metValue": 10,
+    "description": "High-intensity striking-based cardio workout.",
+    "difficulty": "advanced",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Full Body"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [],
+    "recommendedDurationMin": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8S2lja2JveGluZ3xlbnwwfHx8fDE3ODYwNTQ1NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "table-tennis",
+    "name": "Table Tennis",
+    "category": "Sports",
+    "icon": "🏓",
+    "metValue": 4,
+    "description": "Casual to competitive table tennis.",
+    "difficulty": "beginner",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Arms"
+    ],
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "equipment": [
+      "Paddle"
+    ],
+    "recommendedDurationMin": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1676827613262-5fba25cee5fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8VGFibGUlMjBUZW5uaXN8ZW58MHx8fHwxNzg2MDU0NTYzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "badminton",
+    "name": "Badminton",
+    "category": "Sports",
+    "icon": "🏸",
+    "metValue": 5.5,
+    "description": "Casual to competitive badminton.",
+    "difficulty": "beginner",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Legs",
+      "Shoulders"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Racket"
+    ],
+    "recommendedDurationMin": 35,
+    "imageUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QmFkbWludG9ufGVufDB8fHx8MTc4NjA1NDU2NHww&ixlib=rb-4.1.0&q=80&w=1080"
+  },
+  {
+    "id": "stretching",
+    "name": "Stretching",
+    "category": "Mobility",
+    "icon": "🧘",
+    "metValue": 2.3,
+    "description": "General static stretching routine.",
+    "difficulty": "beginner",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Full Body"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [],
+    "recommendedDurationMin": 15
+  },
+  {
+    "id": "yoga",
+    "name": "Yoga",
+    "category": "Mobility",
+    "icon": "🧘",
+    "metValue": 3,
+    "description": "Hatha-style yoga flow.",
+    "difficulty": "beginner",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Full Body"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Yoga Mat"
+    ],
+    "recommendedDurationMin": 30
+  },
+  {
+    "id": "pilates",
+    "name": "Pilates",
+    "category": "Mobility",
+    "icon": "🧘",
+    "metValue": 3.8,
+    "description": "Core-focused controlled-movement Pilates session.",
+    "difficulty": "beginner",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Core"
+    ],
+    "secondaryMuscles": [
+      "Full Body"
+    ],
+    "equipment": [
+      "Mat"
+    ],
+    "recommendedDurationMin": 30
+  },
+  {
+    "id": "foam-rolling",
+    "name": "Foam Rolling",
+    "category": "Mobility",
+    "icon": "🧘",
+    "metValue": 2,
+    "description": "Self-myofascial release with a foam roller.",
+    "difficulty": "beginner",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Full Body"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Foam Roller"
+    ],
+    "recommendedDurationMin": 10
+  },
+  {
+    "id": "incline-bench-press",
+    "name": "Incline Bench Press",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 6,
+    "description": "Angled barbell/dumbbell press targeting the upper chest.",
+    "difficulty": "intermediate",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Chest",
+      "Shoulders"
+    ],
+    "secondaryMuscles": [
+      "Triceps"
+    ],
+    "equipment": [
+      "Barbell or Dumbbells",
+      "Incline Bench"
+    ],
+    "recommendedDurationMin": 25
+  },
+  {
+    "id": "front-squat",
+    "name": "Front Squat",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 6,
+    "description": "Barbell squat held across the front of the shoulders.",
+    "difficulty": "advanced",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Quadriceps"
+    ],
+    "secondaryMuscles": [
+      "Core",
+      "Glutes"
+    ],
+    "equipment": [
+      "Barbell",
+      "Squat Rack"
+    ],
+    "recommendedDurationMin": 30
+  },
+  {
+    "id": "romanian-deadlift",
+    "name": "Romanian Deadlift",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 6,
+    "description": "Hip-hinge deadlift variation emphasizing the hamstrings.",
+    "difficulty": "intermediate",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Hamstrings",
+      "Glutes"
+    ],
+    "secondaryMuscles": [
+      "Lower Back"
+    ],
+    "equipment": [
+      "Barbell"
+    ],
+    "recommendedDurationMin": 25
+  },
+  {
+    "id": "leg-extension",
+    "name": "Leg Extension",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 4,
+    "description": "Machine isolation movement for the quadriceps.",
+    "difficulty": "beginner",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Quadriceps"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Leg Extension Machine"
+    ],
+    "recommendedDurationMin": 15
+  },
+  {
+    "id": "hamstring-curl",
+    "name": "Hamstring Curl",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 4,
+    "description": "Machine isolation movement for the hamstrings.",
+    "difficulty": "beginner",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Hamstrings"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Leg Curl Machine"
+    ],
+    "recommendedDurationMin": 15
+  },
+  {
+    "id": "calf-raise",
+    "name": "Calf Raise",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 3.5,
+    "description": "Standing or seated raise targeting the calves.",
+    "difficulty": "beginner",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Calves"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Machine or Bodyweight"
+    ],
+    "recommendedDurationMin": 15
+  },
+  {
+    "id": "cable-row",
+    "name": "Cable Row",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 5,
+    "description": "Seated cable row targeting the mid-back.",
+    "difficulty": "beginner",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Back"
+    ],
+    "secondaryMuscles": [
+      "Biceps"
+    ],
+    "equipment": [
+      "Cable Machine"
+    ],
+    "recommendedDurationMin": 20
+  },
+  {
+    "id": "lateral-raise",
+    "name": "Lateral Raise",
+    "category": "Gym",
+    "icon": "💪",
+    "metValue": 4,
+    "description": "Dumbbell isolation raise for the side deltoids.",
+    "difficulty": "beginner",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Shoulders"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Dumbbells"
+    ],
+    "recommendedDurationMin": 15
+  },
+  {
+    "id": "face-pull",
+    "name": "Face Pull",
+    "category": "Gym",
+    "icon": "💪",
+    "metValue": 4,
+    "description": "Cable pull targeting the rear delts and upper back.",
+    "difficulty": "beginner",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Shoulders",
+      "Back"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Cable Machine"
+    ],
+    "recommendedDurationMin": 15
+  },
+  {
+    "id": "hammer-curl",
+    "name": "Hammer Curl",
+    "category": "Gym",
+    "icon": "💪",
+    "metValue": 4,
+    "description": "Neutral-grip dumbbell curl for biceps and forearms.",
+    "difficulty": "beginner",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Biceps"
+    ],
+    "secondaryMuscles": [
+      "Forearms"
+    ],
+    "equipment": [
+      "Dumbbells"
+    ],
+    "recommendedDurationMin": 15
+  },
+  {
+    "id": "skull-crusher",
+    "name": "Skull Crusher",
+    "category": "Gym",
+    "icon": "💪",
+    "metValue": 4,
+    "description": "Lying triceps extension with barbell or EZ-bar.",
+    "difficulty": "intermediate",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Triceps"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Barbell or EZ-Bar",
+      "Bench"
+    ],
+    "recommendedDurationMin": 15
+  },
+  {
+    "id": "chest-press",
+    "name": "Chest Press",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 5,
+    "description": "Machine-based horizontal press for the chest.",
+    "difficulty": "beginner",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Chest"
+    ],
+    "secondaryMuscles": [
+      "Triceps"
+    ],
+    "equipment": [
+      "Chest Press Machine"
+    ],
+    "recommendedDurationMin": 20
+  },
+  {
+    "id": "pec-deck",
+    "name": "Pec Deck",
+    "category": "Gym",
+    "icon": "💪",
+    "metValue": 4,
+    "description": "Machine fly isolating the chest.",
+    "difficulty": "beginner",
+    "homeOrGym": "gym",
+    "primaryMuscles": [
+      "Chest"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Pec Deck Machine"
+    ],
+    "recommendedDurationMin": 15
+  },
+  {
+    "id": "bulgarian-split-squat",
+    "name": "Bulgarian Split Squat",
+    "category": "Gym",
+    "icon": "🏋️",
+    "metValue": 5,
+    "description": "Rear-foot-elevated single-leg squat.",
+    "difficulty": "advanced",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "secondaryMuscles": [
+      "Hamstrings"
+    ],
+    "equipment": [
+      "Dumbbells",
+      "Bench"
+    ],
+    "recommendedDurationMin": 20
+  },
+  {
+    "id": "knee-push-ups",
+    "name": "Knee Push-Ups",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 3,
+    "description": "Beginner push-up variation performed from the knees.",
+    "difficulty": "beginner",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Chest"
+    ],
+    "secondaryMuscles": [
+      "Triceps"
+    ],
+    "equipment": [],
+    "recommendedDurationMin": 10
+  },
+  {
+    "id": "chin-ups",
+    "name": "Chin-Ups",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 8,
+    "description": "Underhand-grip pull-up variation, more bicep emphasis.",
+    "difficulty": "intermediate",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Back",
+      "Biceps"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "Pull-Up Bar"
+    ],
+    "recommendedDurationMin": 15
+  },
+  {
+    "id": "side-plank",
+    "name": "Side Plank",
+    "category": "Home Workouts",
+    "icon": "🧘",
+    "metValue": 3,
+    "description": "Isometric oblique-focused side hold.",
+    "difficulty": "beginner",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Obliques"
+    ],
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "equipment": [],
+    "recommendedDurationMin": 5
+  },
+  {
+    "id": "crunches",
+    "name": "Crunches",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 3.8,
+    "description": "Short-range abdominal flexion movement.",
+    "difficulty": "beginner",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Core"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [],
+    "recommendedDurationMin": 10
+  },
+  {
+    "id": "high-knees",
+    "name": "High Knees",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 8,
+    "description": "Fast in-place running with high knee drive.",
+    "difficulty": "beginner",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Legs"
+    ],
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "equipment": [],
+    "recommendedDurationMin": 10
+  },
+  {
+    "id": "bicycle-crunch",
+    "name": "Bicycle Crunch",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 4,
+    "description": "Rotational crunch targeting obliques and core.",
+    "difficulty": "beginner",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Core",
+      "Obliques"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [],
+    "recommendedDurationMin": 10
+  },
+  {
+    "id": "bear-crawl",
+    "name": "Bear Crawl",
+    "category": "Home Workouts",
+    "icon": "🤸",
+    "metValue": 7,
+    "description": "Full-body crawling movement on hands and feet.",
+    "difficulty": "intermediate",
+    "homeOrGym": "home",
+    "primaryMuscles": [
+      "Full Body"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [],
+    "recommendedDurationMin": 10
+  },
+  {
+    "id": "fast-walking",
+    "name": "Fast Walking",
+    "category": "Cardio",
+    "icon": "🚶",
+    "metValue": 4.5,
+    "description": "Brisk-pace walking.",
+    "difficulty": "beginner",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Legs"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [],
+    "recommendedDurationMin": 30
+  },
+  {
+    "id": "hiking",
+    "name": "Hiking",
+    "category": "Cardio",
+    "icon": "🥾",
+    "metValue": 6,
+    "description": "Outdoor hiking on varied terrain.",
+    "difficulty": "intermediate",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Legs"
+    ],
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "equipment": [],
+    "recommendedDurationMin": 60
+  },
+  {
+    "id": "sprinting",
+    "name": "Sprinting",
+    "category": "Cardio",
+    "icon": "🏃",
+    "metValue": 12.3,
+    "description": "Maximal-effort short-distance running.",
+    "difficulty": "advanced",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Legs"
+    ],
+    "secondaryMuscles": [
+      "Core"
+    ],
+    "equipment": [],
+    "recommendedDurationMin": 15
+  },
+  {
+    "id": "martial-arts",
+    "name": "Martial Arts",
+    "category": "Sports",
+    "icon": "🥋",
+    "metValue": 10.3,
+    "description": "General martial arts training/sparring.",
+    "difficulty": "advanced",
+    "homeOrGym": "both",
+    "primaryMuscles": [
+      "Full Body"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [],
+    "recommendedDurationMin": 45
+  }
+]

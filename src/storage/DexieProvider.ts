@@ -1,6 +1,6 @@
 import { db } from '@/database/db';
 import { migrateSettings } from '@/database/migrations';
-import type { DailyLog, Food, MealTemplate, Profile, Settings, WeighIn } from '@/types';
+import type { DailyLog, ExerciseDailyLog, Food, MealTemplate, Profile, Settings, WeighIn } from '@/types';
 import { defaultSettings } from '@/types';
 import type { StorageProvider } from './StorageProvider';
 
@@ -111,6 +111,18 @@ export class DexieProvider implements StorageProvider {
     await db.mealTemplates.delete(id);
   }
 
+  async getExerciseDay(profileId: string, date: string): Promise<ExerciseDailyLog | undefined> {
+    return db.exerciseLogs.get([profileId, date]);
+  }
+
+  async getAllExerciseLogs(profileId: string): Promise<ExerciseDailyLog[]> {
+    return db.exerciseLogs.where('profileId').equals(profileId).sortBy('date');
+  }
+
+  async saveExerciseDay(log: ExerciseDailyLog): Promise<void> {
+    await db.exerciseLogs.put(log);
+  }
+
   async getSettings(): Promise<Settings> {
     const raw = await getKV<unknown>(SETTINGS_KEY);
     if (!raw) return defaultSettings();
@@ -122,30 +134,32 @@ export class DexieProvider implements StorageProvider {
   }
 
   async exportAll(): Promise<Record<string, unknown>> {
-    const [profiles, weighIns, dailyLogs, customFoods, mealTemplates, kv] = await Promise.all([
+    const [profiles, weighIns, dailyLogs, customFoods, mealTemplates, kv, exerciseLogs] = await Promise.all([
       db.profiles.toArray(),
       db.weighIns.toArray(),
       db.dailyLogs.toArray(),
       db.customFoods.toArray(),
       db.mealTemplates.toArray(),
       db.kv.toArray(),
+      db.exerciseLogs.toArray(),
     ]);
-    return { exportedAt: new Date().toISOString(), profiles, weighIns, dailyLogs, customFoods, mealTemplates, kv };
+    return { exportedAt: new Date().toISOString(), profiles, weighIns, dailyLogs, customFoods, mealTemplates, kv, exerciseLogs };
   }
 
   async importAll(data: Record<string, unknown>): Promise<void> {
-    await db.transaction('rw', [db.profiles, db.weighIns, db.dailyLogs, db.customFoods, db.mealTemplates, db.kv], async () => {
+    await db.transaction('rw', [db.profiles, db.weighIns, db.dailyLogs, db.customFoods, db.mealTemplates, db.kv, db.exerciseLogs], async () => {
       if (Array.isArray(data.profiles)) await db.profiles.bulkPut(data.profiles as Profile[]);
       if (Array.isArray(data.weighIns)) await db.weighIns.bulkPut(data.weighIns as WeighIn[]);
       if (Array.isArray(data.dailyLogs)) await db.dailyLogs.bulkPut(data.dailyLogs as DailyLog[]);
       if (Array.isArray(data.customFoods)) await db.customFoods.bulkPut(data.customFoods as Food[]);
       if (Array.isArray(data.mealTemplates)) await db.mealTemplates.bulkPut(data.mealTemplates as MealTemplate[]);
       if (Array.isArray(data.kv)) await db.kv.bulkPut(data.kv as { key: string; value: unknown }[]);
+      if (Array.isArray(data.exerciseLogs)) await db.exerciseLogs.bulkPut(data.exerciseLogs as ExerciseDailyLog[]);
     });
   }
 
   async resetAll(): Promise<void> {
-    await db.transaction('rw', [db.profiles, db.weighIns, db.dailyLogs, db.customFoods, db.mealTemplates, db.kv], async () => {
+    await db.transaction('rw', [db.profiles, db.weighIns, db.dailyLogs, db.customFoods, db.mealTemplates, db.kv, db.exerciseLogs], async () => {
       await Promise.all([
         db.profiles.clear(),
         db.weighIns.clear(),
@@ -153,6 +167,7 @@ export class DexieProvider implements StorageProvider {
         db.customFoods.clear(),
         db.mealTemplates.clear(),
         db.kv.clear(),
+        db.exerciseLogs.clear(),
       ]);
     });
   }

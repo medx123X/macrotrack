@@ -4,6 +4,7 @@ import type { Profile } from '@/types';
 import { useSettingsStore } from '@/store/useSettingsStore';
 import { useProfileStore } from '@/store/useProfileStore';
 import { useDayStore } from '@/store/useDayStore';
+import { useExerciseDayStore, exerciseDayTotals } from '@/store/useExerciseDayStore';
 import { Welcome } from '@/components/onboarding/Welcome';
 import { CreateProfileWizard } from '@/components/onboarding/CreateProfileWizard';
 import { PlanReveal } from '@/components/onboarding/PlanReveal';
@@ -12,6 +13,7 @@ import { BottomNav } from '@/components/nav/Nav';
 import type { TabKey } from '@/components/nav/Nav';
 import { DashboardPage } from '@/pages/DashboardPage';
 import { TrackerPage } from '@/pages/TrackerPage';
+import { ExercisePage } from '@/pages/ExercisePage';
 import { AnalyticsPage } from '@/pages/AnalyticsPage';
 import { CalendarPage } from '@/pages/CalendarPage';
 import { ProfilePage } from '@/pages/ProfilePage';
@@ -52,9 +54,21 @@ export default function App() {
 
   const loadSettings = useSettingsStore((s) => s.load);
   const { profile, plan, weighIns, load: loadProfile, createOrUpdateProfile } = useProfileStore();
-  const dayTotals = useDayStore((s) => s.totals);
+  const dayLog = useDayStore((s) => s.log);
+  const dayFoodsById = useDayStore((s) => s.foodsById);
+  const dayTotalsFn = useDayStore((s) => s.totals);
   const loadDay = useDayStore((s) => s.loadDay);
   const loadFoods = useDayStore((s) => s.loadFoods);
+  // Subscribing to `log`/`foodsById` directly (not just the stable `totals`
+  // function reference) is what makes App actually re-render once the day's
+  // data finishes loading after a refresh — see dayTotalsFn() usage below.
+  void dayLog;
+  void dayFoodsById;
+
+  const exerciseLog = useExerciseDayStore((s) => s.log); // subscribe to data, not a function ref — see note above
+  const loadExerciseDay = useExerciseDayStore((s) => s.loadDay);
+  const exerciseTotals = exerciseDayTotals(exerciseLog);
+  const settings = useSettingsStore((s) => s.settings);
 
   useEffect(() => {
     (async () => {
@@ -69,6 +83,7 @@ export default function App() {
     if (stage === 'app' && profile) {
       loadFoods();
       loadDay(profile.id);
+      loadExerciseDay(profile.id);
     }
   }, [stage, profile?.id]);
 
@@ -126,8 +141,19 @@ export default function App() {
             exit={{ opacity: 0, y: -8 }}
             transition={{ duration: 0.2, ease: 'easeOut' }}
           >
-            {tab === 'dashboard' && <DashboardPage profile={profile} plan={plan} weighIns={weighIns} totals={dayTotals()} />}
+            {tab === 'dashboard' && (
+              <DashboardPage
+                profile={profile}
+                plan={plan}
+                weighIns={weighIns}
+                totals={dayTotalsFn()}
+                exerciseCaloriesBurned={exerciseTotals.caloriesBurned}
+                exerciseMinutes={exerciseTotals.minutes}
+                exerciseAffectsGoal={settings.exerciseAffectsGoal}
+              />
+            )}
             {tab === 'tracker' && <TrackerPage profile={profile} plan={plan} />}
+            {tab === 'exercise' && <ExercisePage profile={profile} />}
             {tab === 'analytics' && <AnalyticsPage profile={profile} plan={plan} weighIns={weighIns} />}
             {tab === 'calendar' && <CalendarPage profile={profile} />}
             {tab === 'profile' && <ProfilePage profile={profile} />}

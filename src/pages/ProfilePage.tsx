@@ -127,6 +127,19 @@ export function ProfilePage({ profile }: { profile: Profile }) {
       </Card>
 
       <Card padding="lg" className="mb-4">
+        <h3 className="font-bold text-sm mb-1">Exercise Calories Affect Daily Goal</h3>
+        <p className="text-xs text-[var(--color-on-surface-variant)] mb-3">
+          Your calorie target already accounts for your activity level from onboarding. Leave this
+          Disabled (recommended) to see food and exercise calories separately without double-counting
+          activity. Enable it to add logged exercise calories back into your remaining-calories total.
+        </p>
+        <div className="flex gap-2">
+          <Pill active={settings.exerciseAffectsGoal} onClick={() => update({ exerciseAffectsGoal: true })}>Enabled</Pill>
+          <Pill active={!settings.exerciseAffectsGoal} onClick={() => update({ exerciseAffectsGoal: false })}>Disabled</Pill>
+        </div>
+      </Card>
+
+      <Card padding="lg" className="mb-4">
         <h3 className="font-bold text-sm mb-3">Data</h3>
         <div className="grid gap-2">
           <Button variant="secondary" onClick={exportData}><Download size={14} /> Export Data</Button>
