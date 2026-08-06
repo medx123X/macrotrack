@@ -1,20 +1,26 @@
 [
   {
-    "id": "barbell-row",
-    "name": "Barbell Row",
-    "category": "Gym",
-    "totalResults": 1
-  },
-  {
-    "id": "burpees",
-    "name": "Burpees",
-    "category": "Home Workouts",
-    "totalResults": 2
-  },
-  {
     "id": "glute-bridge",
     "name": "Glute Bridge",
     "category": "Home Workouts",
+    "totalResults": 0
+  },
+  {
+    "id": "front-squat",
+    "name": "Front Squat",
+    "category": "Gym",
+    "totalResults": 0
+  },
+  {
+    "id": "pec-deck",
+    "name": "Pec Deck",
+    "category": "Gym",
+    "totalResults": 0
+  },
+  {
+    "id": "bulgarian-split-squat",
+    "name": "Bulgarian Split Squat",
+    "category": "Gym",
     "totalResults": 0
   }
 ]

@@ -860,7 +860,8 @@
     ],
     "secondaryMuscles": [],
     "equipment": [],
-    "recommendedDurationMin": 15
+    "recommendedDurationMin": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1562771379-eafdca7a02f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U3RyZXRjaGluZ3xlbnwwfHx8fDE3ODYwNTg1ODd8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "yoga",
@@ -878,7 +879,8 @@
     "equipment": [
       "Yoga Mat"
     ],
-    "recommendedDurationMin": 30
+    "recommendedDurationMin": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8WW9nYXxlbnwwfHx8fDE3ODYwNTg1ODl8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "pilates",
@@ -898,7 +900,8 @@
     "equipment": [
       "Mat"
     ],
-    "recommendedDurationMin": 30
+    "recommendedDurationMin": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1747239069226-55382c570116?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8UGlsYXRlc3xlbnwwfHx8fDE3ODYwNTg1OTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "foam-rolling",
@@ -916,7 +919,8 @@
     "equipment": [
       "Foam Roller"
     ],
-    "recommendedDurationMin": 10
+    "recommendedDurationMin": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1591741535585-9c4f52b3f13f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Rm9hbSUyMFJvbGxpbmd8ZW58MHx8fHwxNzg2MDU4NTkxfDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "incline-bench-press",
@@ -938,7 +942,8 @@
       "Barbell or Dumbbells",
       "Incline Bench"
     ],
-    "recommendedDurationMin": 25
+    "recommendedDurationMin": 25,
+    "imageUrl": "https://images.unsplash.com/photo-1690731033723-ad718c6e585a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8SW5jbGluZSUyMEJlbmNoJTIwUHJlc3N8ZW58MHx8fHwxNzg2MDU4NTkyfDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "front-squat",
@@ -981,7 +986,8 @@
     "equipment": [
       "Barbell"
     ],
-    "recommendedDurationMin": 25
+    "recommendedDurationMin": 25,
+    "imageUrl": "https://images.unsplash.com/photo-1534368270820-9de3d8053204?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Um9tYW5pYW4lMjBEZWFkbGlmdHxlbnwwfHx8fDE3ODYwNTg1OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "leg-extension",
@@ -999,7 +1005,8 @@
     "equipment": [
       "Leg Extension Machine"
     ],
-    "recommendedDurationMin": 15
+    "recommendedDurationMin": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1467818488384-3a21f2b79959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TGVnJTIwRXh0ZW5zaW9ufGVufDB8fHx8MTc4NjA1ODU5N3ww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "hamstring-curl",
@@ -1017,7 +1024,8 @@
     "equipment": [
       "Leg Curl Machine"
     ],
-    "recommendedDurationMin": 15
+    "recommendedDurationMin": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8SGFtc3RyaW5nJTIwQ3VybHxlbnwwfHx8fDE3ODYwNTg1OTl8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "calf-raise",
@@ -1035,7 +1043,8 @@
     "equipment": [
       "Machine or Bodyweight"
     ],
-    "recommendedDurationMin": 15
+    "recommendedDurationMin": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1599307848808-fb36c798ee87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2FsZiUyMFJhaXNlfGVufDB8fHx8MTc4NjA1ODYwMHww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "cable-row",
@@ -1055,7 +1064,8 @@
     "equipment": [
       "Cable Machine"
     ],
-    "recommendedDurationMin": 20
+    "recommendedDurationMin": 20,
+    "imageUrl": "https://images.unsplash.com/photo-1663052720743-5d12c8acf8c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2FibGUlMjBSb3d8ZW58MHx8fHwxNzg2MDU4NjAxfDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "lateral-raise",
@@ -1073,7 +1083,8 @@
     "equipment": [
       "Dumbbells"
     ],
-    "recommendedDurationMin": 15
+    "recommendedDurationMin": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1598575522694-d55ada5e48f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TGF0ZXJhbCUyMFJhaXNlfGVufDB8fHx8MTc4NjA1ODYwMnww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "face-pull",
@@ -1092,7 +1103,8 @@
     "equipment": [
       "Cable Machine"
     ],
-    "recommendedDurationMin": 15
+    "recommendedDurationMin": 15,
+    "imageUrl": "https://images.unsplash.com/flagged/photo-1571501166845-f3722a688ea2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RmFjZSUyMFB1bGx8ZW58MHx8fHwxNzg2MDU4NjA0fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "hammer-curl",
@@ -1112,7 +1124,8 @@
     "equipment": [
       "Dumbbells"
     ],
-    "recommendedDurationMin": 15
+    "recommendedDurationMin": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1681040517791-aba993f05b2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8SGFtbWVyJTIwQ3VybHxlbnwwfHx8fDE3ODYwNTg2MDV8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "skull-crusher",
@@ -1131,7 +1144,8 @@
       "Barbell or EZ-Bar",
       "Bench"
     ],
-    "recommendedDurationMin": 15
+    "recommendedDurationMin": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U2t1bGwlMjBDcnVzaGVyJTIwZXhlcmNpc2V8ZW58MHx8fHwxNzg2MDU4NjA4fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "chest-press",
@@ -1151,7 +1165,8 @@
     "equipment": [
       "Chest Press Machine"
     ],
-    "recommendedDurationMin": 20
+    "recommendedDurationMin": 20,
+    "imageUrl": "https://images.unsplash.com/photo-1758520705368-bbd8830dda35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2hlc3QlMjBQcmVzc3xlbnwwfHx8fDE3ODYwNTg2MDl8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "pec-deck",
@@ -1209,7 +1224,8 @@
       "Triceps"
     ],
     "equipment": [],
-    "recommendedDurationMin": 10
+    "recommendedDurationMin": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1609113160023-4e31f3765fd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8S25lZSUyMFB1c2gtVXBzfGVufDB8fHx8MTc4NjA1ODYxNHww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "chin-ups",
@@ -1228,7 +1244,8 @@
     "equipment": [
       "Pull-Up Bar"
     ],
-    "recommendedDurationMin": 15
+    "recommendedDurationMin": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1571998064250-a2c8c11b9043?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q2hpbi1VcHN8ZW58MHx8fHwxNzg2MDU4NjE1fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "side-plank",
@@ -1246,7 +1263,8 @@
       "Core"
     ],
     "equipment": [],
-    "recommendedDurationMin": 5
+    "recommendedDurationMin": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1727712824135-32f2edffd6d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U2lkZSUyMFBsYW5rfGVufDB8fHx8MTc4NjA1ODYxN3ww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "crunches",
@@ -1262,7 +1280,8 @@
     ],
     "secondaryMuscles": [],
     "equipment": [],
-    "recommendedDurationMin": 10
+    "recommendedDurationMin": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1616803824305-a07cfbc8ea60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8Q3J1bmNoZXN8ZW58MHx8fHwxNzg2MDU4NjE4fDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "high-knees",
@@ -1280,7 +1299,8 @@
       "Core"
     ],
     "equipment": [],
-    "recommendedDurationMin": 10
+    "recommendedDurationMin": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1537094082840-dcbbfa99385f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8SGlnaCUyMEtuZWVzfGVufDB8fHx8MTc4NjA1ODYxOXww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "bicycle-crunch",
@@ -1297,7 +1317,8 @@
     ],
     "secondaryMuscles": [],
     "equipment": [],
-    "recommendedDurationMin": 10
+    "recommendedDurationMin": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1607287370610-d6124a24293a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QmljeWNsZSUyMENydW5jaHxlbnwwfHx8fDE3ODYwNTg2MjB8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "bear-crawl",
@@ -1313,7 +1334,8 @@
     ],
     "secondaryMuscles": [],
     "equipment": [],
-    "recommendedDurationMin": 10
+    "recommendedDurationMin": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1621031948966-39ab7b78d9be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8QmVhciUyMENyYXdsfGVufDB8fHx8MTc4NjA1ODYyMnww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "fast-walking",
@@ -1329,7 +1351,8 @@
     ],
     "secondaryMuscles": [],
     "equipment": [],
-    "recommendedDurationMin": 30
+    "recommendedDurationMin": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1487956382158-bb926046304a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8RmFzdCUyMFdhbGtpbmd8ZW58MHx8fHwxNzg2MDU4NjIzfDA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "hiking",
@@ -1347,7 +1370,8 @@
       "Core"
     ],
     "equipment": [],
-    "recommendedDurationMin": 60
+    "recommendedDurationMin": 60,
+    "imageUrl": "https://images.unsplash.com/photo-1551632811-561732d1e306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8SGlraW5nfGVufDB8fHx8MTc4NjA1ODYyNHww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "sprinting",
@@ -1365,7 +1389,8 @@
       "Core"
     ],
     "equipment": [],
-    "recommendedDurationMin": 15
+    "recommendedDurationMin": 15,
+    "imageUrl": "https://images.unsplash.com/photo-1502904550040-7534597429ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8U3ByaW50aW5nfGVufDB8fHx8MTc4NjA1ODYyNXww&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
     "id": "martial-arts",
@@ -1381,6 +1406,7 @@
     ],
     "secondaryMuscles": [],
     "equipment": [],
-    "recommendedDurationMin": 45
+    "recommendedDurationMin": 45,
+    "imageUrl": "https://images.unsplash.com/photo-1656653121475-e33829581294?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDA5NTk1fDB8MXxzZWFyY2h8MXx8TWFydGlhbCUyMEFydHN8ZW58MHx8fHwxNzg2MDU4NjI2fDA&ixlib=rb-4.1.0&q=80&w=1080"
   }
 ]
