@@ -77,19 +77,23 @@ export function AIInsightsList({ logs, foodsById, plan }: { logs: DailyLog[]; fo
   );
 }
 
-export function AchievementsList({ currentStreak, longestStreak, daysLogged, proteinStreak }: { currentStreak: number; longestStreak: number; daysLogged: number; proteinStreak: number }) {
+export function AchievementsList({ longestStreak, daysLogged, proteinStreak }: { longestStreak: number; daysLogged: number; proteinStreak: number }) {
   const achievements = [
-    { label: 'Logging Streak', value: `${currentStreak} days in a row`, pct: Math.min(100, (currentStreak / 7) * 100), color: 'var(--color-primary)' },
     { label: 'Protein Goal Streak', value: `${proteinStreak} days`, pct: Math.min(100, (proteinStreak / 7) * 100), color: 'var(--color-protein)' },
     { label: 'Longest Streak', value: `${longestStreak} days`, pct: Math.min(100, (longestStreak / 30) * 100), color: 'var(--color-tertiary)' },
     { label: 'Total Days Logged', value: `${daysLogged}`, pct: Math.min(100, (daysLogged / 30) * 100), color: 'var(--color-secondary)' },
   ];
   return (
     <Card padding="lg">
-      <h3 className="font-bold text-sm mb-3">Achievements</h3>
+      <h3 className="font-bold text-sm mb-3">Other Achievements</h3>
       <div className="space-y-3">
-        {achievements.map((a) => (
-          <div key={a.label}>
+        {achievements.map((a, i) => (
+          <motion.div
+            key={a.label}
+            initial={{ opacity: 0, x: -8 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.3, delay: i * 0.08, ease: 'easeOut' }}
+          >
             <div className="flex justify-between text-xs mb-1">
               <span className="font-semibold text-[var(--color-on-surface-variant)]">{a.label}</span>
               <span className="font-mono-num font-bold">{a.value}</span>
@@ -103,7 +107,7 @@ export function AchievementsList({ currentStreak, longestStreak, daysLogged, pro
                 transition={{ duration: 0.5, ease: 'easeOut' }}
               />
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </Card>

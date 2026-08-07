@@ -3,6 +3,7 @@ import { Download, TrendingUp } from 'lucide-react';
 import type { NutritionPlan, Profile, WeighIn } from '@/types';
 import { WeeklyCaloriesChart, MacroDonutChart, ProteinConsistencyChart, WeightTrajectoryChart } from '@/components/analytics/AnalyticsCharts';
 import { AIInsightsList, AchievementsList } from '@/components/analytics/InsightsAndAchievements';
+import { StreakBadge } from '@/components/analytics/StreakBadge';
 import { useHistory } from '@/hooks/useHistory';
 import { useDayStore } from '@/store/useDayStore';
 import { Button, EmptyState } from '@/components/ui';
@@ -45,6 +46,10 @@ export function AnalyticsPage({ profile, plan, weighIns }: { profile: Profile; p
         />
       ) : (
         <>
+          <div className="mb-4 max-w-xs mx-auto md:mx-0 md:max-w-none md:w-72">
+            <StreakBadge name={profile.name} streak={streaks.currentStreak} />
+          </div>
+
           <div className="grid md:grid-cols-2 gap-4 mb-4">
             <WeeklyCaloriesChart logs={logs} foodsById={foodsById} />
             <MacroDonutChart totals={totals()} />
@@ -58,7 +63,6 @@ export function AnalyticsPage({ profile, plan, weighIns }: { profile: Profile; p
           <div className="grid md:grid-cols-2 gap-4">
             <AIInsightsList logs={logs} foodsById={foodsById} plan={plan} />
             <AchievementsList
-              currentStreak={streaks.currentStreak}
               longestStreak={streaks.longestStreak}
               daysLogged={streaks.daysLogged}
               proteinStreak={proteinStreak}
