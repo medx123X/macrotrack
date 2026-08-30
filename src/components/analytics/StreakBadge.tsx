@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { HexFlameBadge } from './HexFlameBadge';
+import { BadgeArt } from './BadgeArt';
 import { AchievementUnlockModal } from './AchievementUnlockModal';
 import { tierForStreak, encouragementFor } from './flameTiers';
 
@@ -30,7 +30,7 @@ export function StreakBadge({ name, streak }: { name: string; streak: number }) 
           {streak > 0 ? 'is on a streak' : "hasn't started a streak yet"}
         </div>
 
-        <HexFlameBadge tier={tier} streak={streak} size={110} />
+        <BadgeArt tier={tier} streak={streak} size={140} />
 
         <div className="font-extrabold text-base mt-1 mb-0.5">{streak} Day{streak === 1 ? '' : 's'} Streak</div>
         <div className="text-xs font-semibold mb-2" style={{ color: tier.mid }}>{tier.emoji} {tier.name}</div>

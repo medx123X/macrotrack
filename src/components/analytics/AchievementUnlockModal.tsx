@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence, useMotionValue, useSpring, animate } from 'framer-motion';
 import { X, Sparkles } from 'lucide-react';
-import { HexFlameBadge } from './HexFlameBadge';
+import { BadgeArt } from './BadgeArt';
 import { FLAME_TIERS, tierForStreak, nextTier, encouragementFor } from './flameTiers';
 
-function CountUpNumber({ target, color }: { target: number; color: string }) {
+function CountUpNumber({ target, color, fontSize }: { target: number; color: string; fontSize: number }) {
   const [display, setDisplay] = useState(0);
   useEffect(() => {
     const controls = animate(0, target, {
@@ -15,7 +15,7 @@ function CountUpNumber({ target, color }: { target: number; color: string }) {
     return () => controls.stop();
   }, [target]);
   return (
-    <span className="font-mono-num font-extrabold text-3xl" style={{ color, textShadow: `0 0 14px ${color}` }}>
+    <span className="font-mono-num font-extrabold" style={{ fontSize, color, textShadow: `0 0 14px ${color}` }}>
       {display}
     </span>
   );
@@ -119,10 +119,12 @@ export function AchievementUnlockModal({
             transition={{ delay: 0.25, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="relative z-10 my-2"
           >
-            <HexFlameBadge tier={tier} streak={streak} size={140} showNumber={false} />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <CountUpNumber target={streak} color={tier.core} />
-            </div>
+            <BadgeArt
+              tier={tier}
+              streak={streak}
+              size={180}
+              numberNode={<CountUpNumber target={streak} color={tier.core} fontSize={180 * 0.22} />}
+            />
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="relative z-10">
@@ -162,7 +164,7 @@ export function AchievementUnlockModal({
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1 }} className="flex items-center gap-1.5 mt-5 relative z-10">
             {FLAME_TIERS.map((t) => (
               <div key={t.id} title={`${t.name} Flame — Unlocked at ${t.minDays} Days`}>
-                <HexFlameBadge tier={t} streak={t.minDays} size={34} showNumber={false} locked={t.id > tier.id} animated={t.id <= tier.id} />
+                <BadgeArt tier={t} streak={t.minDays} size={40} showNumber={false} locked={t.id > tier.id} />
               </div>
             ))}
           </motion.div>
