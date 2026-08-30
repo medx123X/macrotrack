@@ -9,6 +9,8 @@ import { Welcome } from '@/components/onboarding/Welcome';
 import { CreateProfileWizard } from '@/components/onboarding/CreateProfileWizard';
 import { PlanReveal } from '@/components/onboarding/PlanReveal';
 import { AppHeader } from '@/components/nav/AppHeader';
+import { AssistantButton } from '@/components/assistant/AssistantButton';
+import { AssistantPanel } from '@/components/assistant/AssistantPanel';
 import { BottomNav } from '@/components/nav/Nav';
 import type { TabKey } from '@/components/nav/Nav';
 import { DashboardPage } from '@/pages/DashboardPage';
@@ -51,6 +53,7 @@ export default function App() {
   const [stage, setStage] = useState<Stage>('loading');
   const [draftProfile, setDraftProfile] = useState<Profile | null>(null);
   const [tab, setTab] = useState<TabKey>('dashboard');
+  const [assistantOpen, setAssistantOpen] = useState(false);
 
   const loadSettings = useSettingsStore((s) => s.load);
   const { profile, plan, weighIns, load: loadProfile, createOrUpdateProfile } = useProfileStore();
@@ -160,6 +163,16 @@ export default function App() {
           </motion.div>
         </AnimatePresence>
         <BottomNav tab={tab} setTab={setTab} />
+
+        <AssistantButton onClick={() => setAssistantOpen(true)} />
+        {assistantOpen && (
+          <AssistantPanel
+            profile={profile}
+            plan={plan}
+            totals={dayTotalsFn()}
+            onClose={() => setAssistantOpen(false)}
+          />
+        )}
       </div>
     </MotionConfig>
   );
