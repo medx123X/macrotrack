@@ -213,7 +213,6 @@ export function AssistantPanel({
             ref={fileInputRef}
             type="file"
             accept="image/*"
-            capture="environment"
             className="hidden"
             onChange={(e) => {
               handleFilePicked(e.target.files?.[0]);
