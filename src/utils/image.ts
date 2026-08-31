@@ -41,3 +41,52 @@ export function fileToResizedDataUrl(file: File, maxDimension = 256, quality = 0
     reader.readAsDataURL(file);
   });
 }
+
+/**
+ * Resizes an image file (preserving aspect ratio, no cropping) and returns
+ * both a data URL for local preview and the raw base64 + mimeType needed to
+ * send it to Gemini's vision API. Used for "attach a photo" in the assistant
+ * (nutrition labels, packaging, plates of food, etc.) — as opposed to
+ * fileToResizedDataUrl above, which square-crops for avatars.
+ */
+export function fileToBase64Image(
+  file: File,
+  maxDimension = 1024,
+  quality = 0.85
+): Promise<{ dataUrl: string; base64: string; mimeType: string }> {
+  return new Promise((resolve, reject) => {
+    if (!file.type.startsWith('image/')) {
+      reject(new Error('Selected file is not an image.'));
+      return;
+    }
+
+    const reader = new FileReader();
+    reader.onerror = () => reject(new Error('Could not read the selected file.'));
+    reader.onload = () => {
+      const img = new Image();
+      img.onerror = () => reject(new Error('Could not decode the selected image.'));
+      img.onload = () => {
+        const scale = Math.min(1, maxDimension / Math.max(img.width, img.height));
+        const destW = Math.round(img.width * scale);
+        const destH = Math.round(img.height * scale);
+
+        const canvas = document.createElement('canvas');
+        canvas.width = destW;
+        canvas.height = destH;
+        const ctx = canvas.getContext('2d');
+        if (!ctx) {
+          reject(new Error('Canvas not supported.'));
+          return;
+        }
+        ctx.drawImage(img, 0, 0, destW, destH);
+
+        const mimeType = 'image/jpeg';
+        const dataUrl = canvas.toDataURL(mimeType, quality);
+        const base64 = dataUrl.split(',')[1] ?? '';
+        resolve({ dataUrl, base64, mimeType });
+      };
+      img.src = reader.result as string;
+    };
+    reader.readAsDataURL(file);
+  });
+}

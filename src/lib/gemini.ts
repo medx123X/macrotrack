@@ -7,6 +7,8 @@
 export interface ChatMessage {
   role: 'user' | 'model';
   text: string;
+  /** Optional photo attached to a user message (nutrition label, packaging, plate of food, etc). */
+  image?: { mimeType: string; base64: string };
 }
 
 export async function askGemini(history: ChatMessage[], systemContext: string): Promise<string> {

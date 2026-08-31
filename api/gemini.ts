@@ -19,6 +19,7 @@ const DEFAULT_MODEL = 'gemini-3.6-flash';
 interface ChatMessage {
   role: 'user' | 'model';
   text: string;
+  image?: { mimeType: string; base64: string };
 }
 
 export default async function handler(req: any, res: any) {
@@ -54,7 +55,17 @@ export default async function handler(req: any, res: any) {
         },
         body: JSON.stringify({
           systemInstruction: systemContext ? { parts: [{ text: systemContext }] } : undefined,
-          contents: history.map((m) => ({ role: m.role, parts: [{ text: m.text }] })),
+          contents: history.map((m) => ({
+            role: m.role,
+            parts: [
+              ...(m.text ? [{ text: m.text }] : []),
+              ...(m.image ? [{ inline_data: { mime_type: m.image.mimeType, data: m.image.base64 } }] : []),
+            ],
+          })),
+          // Lets Gemini search the web when it can't identify a product from the
+          // photo/name alone (e.g. a packaged product's nutrition facts aren't
+          // legible or aren't in view) instead of guessing.
+          tools: [{ google_search: {} }],
         }),
       }
     );

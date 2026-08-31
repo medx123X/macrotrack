@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
-import { X, Send, Sparkles, AlertCircle } from 'lucide-react';
+import { X, Send, Sparkles, AlertCircle, Paperclip, XCircle } from 'lucide-react';
 import type { Profile, NutritionPlan, DailyTotals } from '@/types';
 import { askGemini, type ChatMessage } from '@/lib/gemini';
+import { fileToBase64Image } from '@/utils/image';
 
 function buildSystemContext(profile: Profile, plan: NutritionPlan, totals: DailyTotals): string {
   return `You are a friendly, concise nutrition assistant inside "MacroTrack Egypt", a calorie/macro tracking app.
@@ -10,6 +11,16 @@ You can see the user's current profile and today's logged nutrition below. Use i
 their progress, give food suggestions (the app has strong Egyptian food coverage — ful, koshary, molokhia, etc.
 alongside international foods), or general nutrition guidance. Keep answers short and practical (a few sentences
 unless asked for detail). You are not a doctor — for medical concerns, suggest they consult a professional.
+
+The user can attach a photo. If they do, look at it and help with whatever it is:
+- Nutrition facts panel (e.g. the back of a UK/Egyptian packaged product): read off calories, protein, carbs,
+  fat, and serving size as printed, and note the serving size clearly since that's what the numbers refer to.
+- A packaged product where the label isn't fully visible, or a product's front packaging/logo only: use search
+  to identify the product and its brand-published or typical nutrition facts, and say clearly that these are
+  looked up rather than read off the packaging in front of them.
+- A plate of food, meal, or restaurant dish: give your best estimate of calories and macros based on what's
+  visible, and say clearly that it's an estimate.
+Always state your source (label vs. search vs. visual estimate) so the user knows how reliable the number is.
 
 USER PROFILE
 Name: ${profile.name}
@@ -42,19 +53,41 @@ export function AssistantPanel({
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [pendingImage, setPendingImage] = useState<{ dataUrl: string; base64: string; mimeType: string } | null>(null);
+  const [imageError, setImageError] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: 'smooth' });
   }, [messages, loading]);
 
+  const handleFilePicked = async (file: File | undefined) => {
+    if (!file) return;
+    setImageError(null);
+    try {
+      const img = await fileToBase64Image(file);
+      setPendingImage(img);
+    } catch (err) {
+      setImageError(err instanceof Error ? err.message : 'Could not read that image.');
+    }
+  };
+
   const send = async () => {
     const text = input.trim();
-    if (!text || loading) return;
+    if ((!text && !pendingImage) || loading) return;
     setError(null);
-    const nextHistory: ChatMessage[] = [...messages, { role: 'user', text }];
+    const nextHistory: ChatMessage[] = [
+      ...messages,
+      {
+        role: 'user',
+        text: text || (pendingImage ? 'What can you tell me about this?' : ''),
+        ...(pendingImage ? { image: { mimeType: pendingImage.mimeType, base64: pendingImage.base64 } } : {}),
+      },
+    ];
     setMessages(nextHistory);
     setInput('');
+    setPendingImage(null);
     setLoading(true);
     try {
       const reply = await askGemini(nextHistory, buildSystemContext(profile, plan, totals));
@@ -117,6 +150,13 @@ export function AssistantPanel({
                     : { background: 'var(--color-surface-container-high)', color: 'var(--color-on-surface)' }
                 }
               >
+                {m.image && (
+                  <img
+                    src={`data:${m.image.mimeType};base64,${m.image.base64}`}
+                    alt="Attached"
+                    className="rounded-lg mb-2 max-h-40 w-auto"
+                  />
+                )}
                 {m.text}
               </div>
             </div>
@@ -145,17 +185,58 @@ export function AssistantPanel({
           )}
         </div>
 
+        {imageError && (
+          <div className="mx-3 mb-2 flex items-start gap-2 text-xs rounded-lg p-2.5 shrink-0" style={{ background: 'color-mix(in srgb, var(--color-error) 14%, transparent)', color: 'var(--color-error)' }}>
+            <AlertCircle size={14} className="shrink-0 mt-0.5" />
+            <span>{imageError}</span>
+          </div>
+        )}
+
+        {pendingImage && (
+          <div className="mx-3 mb-2 flex items-center gap-2 shrink-0">
+            <div className="relative">
+              <img src={pendingImage.dataUrl} alt="Attached preview" className="h-14 w-14 object-cover rounded-lg border border-[var(--color-outline-variant)]" />
+              <button
+                onClick={() => setPendingImage(null)}
+                aria-label="Remove attached photo"
+                className="absolute -top-1.5 -right-1.5 cursor-pointer rounded-full bg-[var(--color-surface)]"
+              >
+                <XCircle size={16} />
+              </button>
+            </div>
+            <span className="text-xs text-[var(--color-outline)]">Photo attached — ask about it or just send</span>
+          </div>
+        )}
+
         <div className="p-3 border-t border-[var(--glass-border)] flex items-center gap-2 shrink-0">
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept="image/*"
+            capture="environment"
+            className="hidden"
+            onChange={(e) => {
+              handleFilePicked(e.target.files?.[0]);
+              e.target.value = '';
+            }}
+          />
+          <button
+            onClick={() => fileInputRef.current?.click()}
+            aria-label="Attach photo"
+            className="w-10 h-10 rounded-full flex items-center justify-center shrink-0 cursor-pointer text-[var(--color-outline)] hover:text-[var(--color-on-surface)]"
+          >
+            <Paperclip size={18} />
+          </button>
           <input
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' && send()}
-            placeholder="Ask about your nutrition…"
+            placeholder="Ask about your nutrition, or attach a photo…"
             className="flex-1 bg-[var(--color-surface-container-lowest)] border border-[var(--color-outline-variant)] rounded-full px-4 py-2.5 text-sm outline-none focus:border-[var(--color-primary)]"
           />
           <button
             onClick={send}
-            disabled={loading || !input.trim()}
+            disabled={loading || (!input.trim() && !pendingImage)}
             aria-label="Send"
             className="w-10 h-10 rounded-full flex items-center justify-center shrink-0 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed"
             style={{ background: 'var(--color-primary)', color: 'var(--color-on-primary)' }}
