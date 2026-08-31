@@ -75,7 +75,12 @@ export default async function handler(req: any, res: any) {
         // request to fail with 429 on keys that don't have it enabled.
         // Set GEMINI_ENABLE_SEARCH=true in Vercel env vars once you've
         // confirmed grounding works on your key/tier to turn this back on.
-        ...(process.env.GEMINI_ENABLE_SEARCH === 'true' ? { tools: [{ google_search: {} }] } : {}),
+        // It's also skipped whenever any message carries an image: combining
+        // the grounding tool with inline image data has been observed to
+        // trigger MALFORMED_FUNCTION_CALL on some Gemini models.
+        ...(process.env.GEMINI_ENABLE_SEARCH === 'true' && !history.some((m) => m.image)
+          ? { tools: [{ google_search: {} }] }
+          : {}),
       });
 
       for (let attempt = 1; attempt <= MAX_ATTEMPTS_PER_MODEL; attempt++) {
@@ -151,6 +156,12 @@ export default async function handler(req: any, res: any) {
       }
       if (finishReason === 'MAX_TOKENS') {
         res.status(502).json({ error: 'Gemini ran out of room mid-response. Try asking a more specific question.' });
+        return;
+      }
+      if (finishReason === 'MALFORMED_FUNCTION_CALL') {
+        res.status(502).json({
+          error: 'Gemini had a tool-calling glitch on that request. Please try sending it again.',
+        });
         return;
       }
       res.status(502).json({
