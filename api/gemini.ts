@@ -14,7 +14,7 @@
  * assistant needs `vercel dev`.)
  */
 
-const DEFAULT_MODEL = 'gemini-3.6-flash';
+const DEFAULT_MODEL = 'gemini-flash-latest';
 
 interface ChatMessage {
   role: 'user' | 'model';
