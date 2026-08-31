@@ -67,7 +67,7 @@ export default async function handler(req: any, res: any) {
   // 503 means Gemini's own servers are momentarily overloaded (not our fault,
   // not a quota issue) — these are usually resolved within seconds, so retry
   // a couple of times with backoff before surfacing an error to the user.
-  const MAX_ATTEMPTS = 3;
+  const MAX_ATTEMPTS = 5;
 
   try {
     let upstream: Response | null = null;
@@ -89,7 +89,7 @@ export default async function handler(req: any, res: any) {
       if (upstream.status !== 503 || attempt === MAX_ATTEMPTS) break;
 
       lastBody = await upstream.text().catch(() => '');
-      await sleep(500 * 2 ** (attempt - 1)); // 500ms, 1s, ...
+      await sleep(Math.min(500 * 2 ** (attempt - 1), 2500)); // 500ms, 1s, 2s, 2.5s...
     }
 
     if (!upstream) {
