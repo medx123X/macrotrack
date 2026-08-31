@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { X, Send, Sparkles, AlertCircle } from 'lucide-react';
 import type { Profile, NutritionPlan, DailyTotals } from '@/types';
-import { askGemini, hasGeminiKey, type ChatMessage } from '@/lib/gemini';
+import { askGemini, type ChatMessage } from '@/lib/gemini';
 
 function buildSystemContext(profile: Profile, plan: NutritionPlan, totals: DailyTotals): string {
   return `You are a friendly, concise nutrition assistant inside "MacroTrack Egypt", a calorie/macro tracking app.
@@ -43,7 +43,6 @@ export function AssistantPanel({
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
-  const keyMissing = !hasGeminiKey();
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: 'smooth' });
@@ -102,14 +101,7 @@ export function AssistantPanel({
         </div>
 
         <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-3 space-y-3">
-          {keyMissing && (
-            <div className="flex items-start gap-2 text-xs rounded-lg p-3" style={{ background: 'color-mix(in srgb, var(--color-error) 14%, transparent)', color: 'var(--color-error)' }}>
-              <AlertCircle size={14} className="shrink-0 mt-0.5" />
-              <span>No Gemini API key configured yet. Add <code>VITE_GEMINI_API_KEY</code> to a <code>.env</code> file in the project root and restart the dev server.</span>
-            </div>
-          )}
-
-          {messages.length === 0 && !keyMissing && (
+          {messages.length === 0 && (
             <div className="text-xs text-[var(--color-outline)] text-center py-8">
               Ask me anything about your nutrition — e.g. "What should I eat for dinner to hit my protein goal?"
             </div>
@@ -146,8 +138,9 @@ export function AssistantPanel({
           )}
 
           {error && (
-            <div className="text-xs rounded-lg p-3" style={{ background: 'color-mix(in srgb, var(--color-error) 14%, transparent)', color: 'var(--color-error)' }}>
-              {error}
+            <div className="flex items-start gap-2 text-xs rounded-lg p-3" style={{ background: 'color-mix(in srgb, var(--color-error) 14%, transparent)', color: 'var(--color-error)' }}>
+              <AlertCircle size={14} className="shrink-0 mt-0.5" />
+              <span>{error}</span>
             </div>
           )}
         </div>
@@ -157,13 +150,12 @@ export function AssistantPanel({
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' && send()}
-            placeholder={keyMissing ? 'Add an API key to chat…' : 'Ask about your nutrition…'}
-            disabled={keyMissing}
-            className="flex-1 bg-[var(--color-surface-container-lowest)] border border-[var(--color-outline-variant)] rounded-full px-4 py-2.5 text-sm outline-none focus:border-[var(--color-primary)] disabled:opacity-50"
+            placeholder="Ask about your nutrition…"
+            className="flex-1 bg-[var(--color-surface-container-lowest)] border border-[var(--color-outline-variant)] rounded-full px-4 py-2.5 text-sm outline-none focus:border-[var(--color-primary)]"
           />
           <button
             onClick={send}
-            disabled={keyMissing || loading || !input.trim()}
+            disabled={loading || !input.trim()}
             aria-label="Send"
             className="w-10 h-10 rounded-full flex items-center justify-center shrink-0 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed"
             style={{ background: 'var(--color-primary)', color: 'var(--color-on-primary)' }}
