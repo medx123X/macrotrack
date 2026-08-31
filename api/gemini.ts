@@ -135,7 +135,27 @@ export default async function handler(req: any, res: any) {
     const data = await upstream.json();
     const text = data?.candidates?.[0]?.content?.parts?.map((p: { text?: string }) => p.text ?? '').join('') ?? '';
     if (!text) {
-      res.status(502).json({ error: 'Gemini returned an empty response.' });
+      const finishReason = data?.candidates?.[0]?.finishReason;
+      const blockReason = data?.promptFeedback?.blockReason;
+      if (blockReason) {
+        res.status(502).json({
+          error: `Gemini blocked this request (${blockReason}). Try a different photo or rephrase your question.`,
+        });
+        return;
+      }
+      if (finishReason === 'SAFETY') {
+        res.status(502).json({
+          error: "Gemini flagged this photo/message under its safety filters and wouldn't respond. Try a clearer or different photo.",
+        });
+        return;
+      }
+      if (finishReason === 'MAX_TOKENS') {
+        res.status(502).json({ error: 'Gemini ran out of room mid-response. Try asking a more specific question.' });
+        return;
+      }
+      res.status(502).json({
+        error: `Gemini returned an empty response${finishReason ? ` (reason: ${finishReason})` : ''}.`,
+      });
       return;
     }
 
