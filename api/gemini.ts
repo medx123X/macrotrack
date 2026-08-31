@@ -62,10 +62,13 @@ export default async function handler(req: any, res: any) {
               ...(m.image ? [{ inline_data: { mime_type: m.image.mimeType, data: m.image.base64 } }] : []),
             ],
           })),
-          // Lets Gemini search the web when it can't identify a product from the
-          // photo/name alone (e.g. a packaged product's nutrition facts aren't
-          // legible or aren't in view) instead of guessing.
-          tools: [{ google_search: {} }],
+          // Google Search grounding is OFF by default: it sits behind its own
+          // quota (often requires billing enabled on the key, separate from
+          // normal chat quota), and turning it on unconditionally caused every
+          // request to fail with 429 on keys that don't have it enabled.
+          // Set GEMINI_ENABLE_SEARCH=true in Vercel env vars once you've
+          // confirmed grounding works on your key/tier to turn this back on.
+          ...(process.env.GEMINI_ENABLE_SEARCH === 'true' ? { tools: [{ google_search: {} }] } : {}),
         }),
       }
     );
@@ -77,7 +80,11 @@ export default async function handler(req: any, res: any) {
         return;
       }
       if (upstream.status === 429) {
-        res.status(429).json({ error: "Gemini's rate limit was hit. Try again in a minute." });
+        res.status(429).json({
+          error: body.toLowerCase().includes('search')
+            ? `Gemini rejected the request (grounding/search quota): ${body.slice(0, 200)}`
+            : "Gemini's rate limit was hit. Try again in a minute.",
+        });
         return;
       }
       res.status(upstream.status).json({ error: `Gemini request failed (${upstream.status}). ${body.slice(0, 200)}` });
