@@ -15,7 +15,7 @@
  */
 
 const DEFAULT_MODEL = 'gemini-flash-latest';
-const FALLBACK_MODEL = 'gemini-2.0-flash';
+const FALLBACK_MODEL = 'gemini-3.6-flash';
 
 interface ChatMessage {
   role: 'user' | 'model';
@@ -91,6 +91,11 @@ export default async function handler(req: any, res: any) {
           }
         );
 
+        // 429 = quota exhausted for this specific model (often per-model daily
+        // cap) — retrying the same model won't help, but a different model may
+        // still have quota, so move straight to the next one in modelsToTry.
+        if (upstream.status === 429) continue outer;
+
         if (upstream.status !== 503) break outer;
 
         lastBody = await upstream.text().catch(() => '');
@@ -115,7 +120,7 @@ export default async function handler(req: any, res: any) {
         res.status(429).json({
           error: body.toLowerCase().includes('search')
             ? `Gemini rejected the request (grounding/search quota): ${body.slice(0, 200)}`
-            : "Gemini's rate limit was hit. Try again in a minute.",
+            : "Daily free-tier limit reached on all available models. This resets at midnight Pacific time.",
         });
         return;
       }
