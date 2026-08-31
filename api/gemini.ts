@@ -15,6 +15,7 @@
  */
 
 const DEFAULT_MODEL = 'gemini-flash-latest';
+const FALLBACK_MODEL = 'gemini-2.0-flash';
 
 interface ChatMessage {
   role: 'user' | 'model';
@@ -42,54 +43,61 @@ export default async function handler(req: any, res: any) {
     return;
   }
 
-  const model = process.env.GEMINI_MODEL || DEFAULT_MODEL;
-
-  const requestBody = JSON.stringify({
-    systemInstruction: systemContext ? { parts: [{ text: systemContext }] } : undefined,
-    contents: history.map((m) => ({
-      role: m.role,
-      parts: [
-        ...(m.text ? [{ text: m.text }] : []),
-        ...(m.image ? [{ inline_data: { mime_type: m.image.mimeType, data: m.image.base64 } }] : []),
-      ],
-    })),
-    // Google Search grounding is OFF by default: it sits behind its own
-    // quota (often requires billing enabled on the key, separate from
-    // normal chat quota), and turning it on unconditionally caused every
-    // request to fail with 429 on keys that don't have it enabled.
-    // Set GEMINI_ENABLE_SEARCH=true in Vercel env vars once you've
-    // confirmed grounding works on your key/tier to turn this back on.
-    ...(process.env.GEMINI_ENABLE_SEARCH === 'true' ? { tools: [{ google_search: {} }] } : {}),
-  });
+  const primaryModel = process.env.GEMINI_MODEL || DEFAULT_MODEL;
+  const modelsToTry = [primaryModel, ...(FALLBACK_MODEL !== primaryModel ? [FALLBACK_MODEL] : [])];
 
   const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
   // 503 means Gemini's own servers are momentarily overloaded (not our fault,
-  // not a quota issue) — these are usually resolved within seconds, so retry
-  // a couple of times with backoff before surfacing an error to the user.
-  const MAX_ATTEMPTS = 5;
+  // not a quota issue) — usually resolved within seconds, so retry a couple
+  // of times with backoff. If it's still 503ing after that, it may be a
+  // capacity issue specific to that one model, so try a fallback model too
+  // before giving up.
+  const MAX_ATTEMPTS_PER_MODEL = 3;
 
   try {
     let upstream: Response | null = null;
     let lastBody = '';
 
-    for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
-      upstream = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'x-goog-api-key': apiKey,
-          },
-          body: requestBody,
-        }
-      );
+    outer: for (const model of modelsToTry) {
+      const requestBody = JSON.stringify({
+        systemInstruction: systemContext ? { parts: [{ text: systemContext }] } : undefined,
+        contents: history.map((m) => ({
+          role: m.role,
+          parts: [
+            ...(m.text ? [{ text: m.text }] : []),
+            ...(m.image ? [{ inline_data: { mime_type: m.image.mimeType, data: m.image.base64 } }] : []),
+          ],
+        })),
+        // Google Search grounding is OFF by default: it sits behind its own
+        // quota (often requires billing enabled on the key, separate from
+        // normal chat quota), and turning it on unconditionally caused every
+        // request to fail with 429 on keys that don't have it enabled.
+        // Set GEMINI_ENABLE_SEARCH=true in Vercel env vars once you've
+        // confirmed grounding works on your key/tier to turn this back on.
+        ...(process.env.GEMINI_ENABLE_SEARCH === 'true' ? { tools: [{ google_search: {} }] } : {}),
+      });
 
-      if (upstream.status !== 503 || attempt === MAX_ATTEMPTS) break;
+      for (let attempt = 1; attempt <= MAX_ATTEMPTS_PER_MODEL; attempt++) {
+        upstream = await fetch(
+          `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
+          {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'x-goog-api-key': apiKey,
+            },
+            body: requestBody,
+          }
+        );
 
-      lastBody = await upstream.text().catch(() => '');
-      await sleep(Math.min(500 * 2 ** (attempt - 1), 2500)); // 500ms, 1s, 2s, 2.5s...
+        if (upstream.status !== 503) break outer;
+
+        lastBody = await upstream.text().catch(() => '');
+        await sleep(Math.min(500 * 2 ** (attempt - 1), 2000)); // 500ms, 1s, 2s
+      }
+      // Exhausted retries on this model and it's still 503 — loop continues
+      // to the next model in modelsToTry, if any.
     }
 
     if (!upstream) {
