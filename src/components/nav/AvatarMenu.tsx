@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  User, Trophy, Download, Upload, HelpCircle, Info, Trash2, LogOut, X,
+  User, Trophy, Download, Upload, HelpCircle, ExternalLink, Trash2, LogOut, X,
 } from 'lucide-react';
 import type { Profile } from '@/types';
 import { Avatar, Button } from '@/components/ui';
@@ -16,7 +16,7 @@ interface AvatarMenuProps {
 
 export function AvatarMenu({ profile, setTab }: AvatarMenuProps) {
   const [open, setOpen] = useState(false);
-  const [info, setInfo] = useState<'help' | 'about' | null>(null);
+  const [info, setInfo] = useState<'help' | null>(null);
   const fileInput = useRef<HTMLInputElement>(null);
   const { resetAllData } = useSettingsStore();
 
@@ -60,7 +60,7 @@ export function AvatarMenu({ profile, setTab }: AvatarMenuProps) {
     { icon: Download, label: 'Export Data', onClick: exportData },
     { icon: Upload, label: 'Import Data', onClick: () => fileInput.current?.click() },
     { icon: HelpCircle, label: 'Help & Support', onClick: () => { setInfo('help'); setOpen(false); } },
-    { icon: Info, label: 'About', onClick: () => { setInfo('about'); setOpen(false); } },
+    { icon: ExternalLink, label: 'Contact', onClick: () => { window.open('https://www.linkedin.com/in/mohammed-ahmed-710870421/', '_blank', 'noopener,noreferrer'); close(); } },
     { icon: Trash2, label: 'Reset All Data', onClick: resetData, danger: true },
     { icon: LogOut, label: 'Sign Out', onClick: () => {}, disabled: true },
   ];
@@ -133,17 +133,8 @@ export function AvatarMenu({ profile, setTab }: AvatarMenuProps) {
   );
 }
 
-function InfoModal({ kind, onClose }: { kind: 'help' | 'about'; onClose: () => void }) {
-  const content = kind === 'help'
-    ? {
-        title: 'Help & Support',
-        body: 'MacroTrack Egypt tracks calories and macros using the Mifflin-St Jeor equation, a two-question activity model, and weekly adaptive calorie adjustments based on your real weigh-ins. All your data is stored locally on this device. For issues or feedback, reach out to the developer directly.',
-      }
-    : {
-        title: 'About',
-        body: 'MacroTrack Egypt — calorie and macro tracking built for Egyptian food, with adaptive planning that improves the longer you use it.',
-      };
-
+function InfoModal({ kind, onClose }: { kind: 'help'; onClose: () => void }) {
+  void kind; // only one kind remains; keeping the prop for easy future extension
   return (
     <>
       <motion.div
@@ -162,10 +153,14 @@ function InfoModal({ kind, onClose }: { kind: 'help' | 'about'; onClose: () => v
         className="fixed inset-x-4 bottom-4 md:inset-x-auto md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:w-96 z-50 glass-modal rounded-xl p-5"
       >
         <div className="flex items-center justify-between mb-2">
-          <h3 className="font-bold text-sm">{content.title}</h3>
+          <h3 className="font-bold text-sm">Help & Support</h3>
           <button onClick={onClose} className="cursor-pointer"><X size={18} /></button>
         </div>
-        <p className="text-xs text-[var(--color-on-surface-variant)] leading-relaxed mb-4">{content.body}</p>
+        <p className="text-xs text-[var(--color-on-surface-variant)] leading-relaxed mb-4">
+          MacroTrack Egypt tracks calories and macros using the Mifflin-St Jeor equation, a two-question
+          activity model, and weekly adaptive calorie adjustments based on your real weigh-ins. All your
+          data is stored locally on this device. For issues or feedback, use the Contact option in this menu.
+        </p>
         <Button size="sm" className="w-full" onClick={onClose}>Close</Button>
       </motion.div>
     </>
